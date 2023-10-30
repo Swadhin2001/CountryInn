@@ -124,6 +124,9 @@
   transition: 0.3s !important;
   font-size: 16px !important;
 }
+.our-brands-banner{
+  background-position: bottom center;
+}
 .nav-item{
   padding: 10px 0px 10px 30px !important;
 }
@@ -144,7 +147,7 @@
   height: 265px;
 }
 .custom-carousel-one{
-  width: 719px !important;
+  max-width: 719px !important;
 }
 .custom-carousel{
   width: 514px !important;

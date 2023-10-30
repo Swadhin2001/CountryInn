@@ -259,9 +259,9 @@ function our_brands() {
   return (
     <>
       <Navbar></Navbar>
-      <div style={{ "backgroundImage": `url(${banner_image.src})` }} className='hero-banner' />
+      <div style={{ "backgroundImage": `url(${banner_image.src})` }} className='hero-banner our-brands-banner'  />
       <div className="bg-light pb-4">
-        <div className="section-title text-center pb-4 pt-4 mt-5" >
+        <div className="section-title text-center pb-4 pt-4 mt-5"  >
           <h2 className='our-brands'>Our brands</h2>
         </div>
         <div className="container pb-4">
