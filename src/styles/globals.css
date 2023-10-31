@@ -2,11 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Oswald&display=swap');
 @font-face{
   font-family: 'Trajan';
-  src: url(../fonts/TrajanPro-Regular.woff);
+  src: url('../fonts/TrajanPro-Regular.woff');
 }
 @font-face{
   font-family: 'Brandon';
-  src: url(../fonts/BrandonGrotesque-Light.woff);
+  src: url('../fonts/BrandonGrotesque-Light.woff');
 }
 a:hover{
   color: inherit;
@@ -160,7 +160,7 @@ a:hover{
   width: 354px !important;
 }
 .hero-background{
-  background-image: url(../assets/pre-footer.jpg);
+  background-image: url('../assets/pre-footer.jpg');
   height: 216px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -576,7 +576,7 @@ a:hover{
   right: 25px;
   transform: translateY(-50%);
   transition: all 0.5s ease 0s;
-  background: url(../assets/icons8-macos-maximize-30.png);
+  background: url('../assets/icons8-macos-maximize-30.png');
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -597,7 +597,7 @@ a:hover{
   right: 25px;
   transform: translateY(-50%);
   transition: all 0.5s ease 0s;
-  background: url(../assets/icons8-minus-sign-24.png);
+  background: url('../assets/icons8-minus-sign-24.png');
   background-position: center;
   background-repeat: no-repeat;
 }
