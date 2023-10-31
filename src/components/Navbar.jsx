@@ -7,12 +7,15 @@ import logo from '@/assets/cihr-logo.png'
 
 function Navbar(props) {
     const [opacity, setOpacity] = useState(`${props.opacity}`);
+    const [shadow, setShadow] = useState('');
     const Scroll = () => {
         if (scrollY >= 100) {
             setOpacity("1");
+            setShadow('0px 2px 10px #555');
         }
         else {
             setOpacity(`${props.opacity}`);
+            setShadow("");
         }
     }
 
@@ -21,7 +24,7 @@ function Navbar(props) {
     }
     return (
         <>
-            <div className="navbar navbar-expand-lg bg-body-tertiary sticky-top " style={{ "opacity": `${opacity}` }}>
+            <div className="navbar navbar-expand-lg bg-body-tertiary sticky-top " style={{ "opacity": `${opacity}`, "boxShadow": `${shadow}` }}>
                 <div className="container-fluid container-xl d-flex align-items-center justify-content-lg-between">
                     <Link className="navbar-brand " href="/">
                         <Image src={logo} alt='' className='nav-icon' />

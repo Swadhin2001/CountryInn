@@ -4,8 +4,26 @@
   font-family: 'Trajan';
   src: url(../fonts/TrajanPro-Regular.woff);
 }
+@font-face{
+  font-family: 'Brandon';
+  src: url(../fonts/BrandonGrotesque-Light.woff);
+}
 a:hover{
   color: inherit;
+}
+.footer-h4{
+  font-family: Trajan;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  color: black;
+}
+.footer-p{
+  font-family: Brandon;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  color: #535150;
 }
 .nav-link{
   font-family: Trajan;
@@ -133,6 +151,10 @@ a:hover{
 .footer-link{
   text-decoration: none;
   color: #535150;
+  font-family: Brandon;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
 }
 .footer-div{
   width: 354px !important;
@@ -204,7 +226,11 @@ a:hover{
 .hero-heading{
   position: absolute;
   top: 55%;
-  left: 33%;
+  /* padding-top: 350px; */
+  font-family: Trajan;
+  font-size: 30px;
+  line-height: 45px;
+  font-weight: 400;
 }
 .meeting-and-events-card{
   min-height: 532px;
@@ -344,6 +370,11 @@ a:hover{
 }
 .text-start {
   text-align: left!important;
+  font-size: 20px;
+  font-family: Trajan;
+  font-weight: 500;
+  line-height: 24px;
+  color: white;
 }
 .card-img-top {
   width: 100%;

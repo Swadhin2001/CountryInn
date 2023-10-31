@@ -12,7 +12,7 @@ function Footer(props) {
                     <Image src = {logo} alt = ''></Image>
                 </div>
                 <div className="col-md-4 footer-div">
-                    <h4>QUICK LINKS</h4>
+                    <h4 className='footer-h4'>QUICK LINKS</h4>
                     <div className='d-flex flex-column'>                        
                         <Link href = '/aboutus' className='footer-link'>About Us</Link>
                         <Link href = '/hotel-developement' className='footer-link'>Hotel Developement</Link>
@@ -25,9 +25,9 @@ function Footer(props) {
                     </div>
                 </div>
                 <div className="col-md-4 footer-div">
-                    <h4>CONTACT US</h4>
-                    <p>+91 886 070 7273</p>
-                    <p>reservations@countryinn.in</p>
+                    <h4 className='footer-h4'>CONTACT US</h4>
+                    <p className='footer-p'>+91 886 070 7273</p>
+                    <p className='footer-p'>reservations@countryinn.in</p>
                 </div>
             </div>
         </div>

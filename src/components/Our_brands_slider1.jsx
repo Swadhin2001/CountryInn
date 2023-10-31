@@ -19,7 +19,7 @@ function Our_brands_slider1() {
             <Swiper slidesPerView={1} loop={true} modules={[Autoplay, Pagination]} className="mySwiper mb-5 caro-img" centeredSlides={true} autoplay={{
                 delay: 1500,
                 disableOnInteraction: false
-            }} >
+            }} pagination={true}>
                 <SwiperSlide className="carousel">
                     <Image src={image1} className='d-block w-100 img-fluid caro-img' alt=""></Image>
                     <div className="our_brands_title"> Country Inn Tarika Riverside Resort, Jim Corbett</div>
