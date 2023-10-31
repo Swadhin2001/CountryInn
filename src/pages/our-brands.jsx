@@ -29,7 +29,7 @@ function our_brands() {
           alt=""
         />
       </div>
-      <p>
+       <p className='our-brand-p'>
         Country Inn Hotels &amp; Resorts are mid-segment leisure and business hotels
         that are known for offering refreshing stays, delightful experiences and
         redefining family holidays. <br />
@@ -59,7 +59,7 @@ function our_brands() {
       <div>
         <div>
           {" "}
-          <p> Key Pillars</p>
+           <p className='our-brand-p'> Key Pillars</p>
         </div>
         <ul style={{ listStyleType: "disc" }}>
           <li>Heartfelt and intuitive hospitality</li>
@@ -78,7 +78,7 @@ function our_brands() {
         alt=""
       />
     </div>
-    <p>
+     <p className='our-brand-p'>
       Country Inn Premier Hotels &amp; Resorts are designed to further elevate the
       Country Inn experience with a tasteful amalgamation of modern aesthetic and
       enriching experiences. Located in high-demand markets, Country Inn Premier
@@ -102,7 +102,7 @@ function our_brands() {
     <div>
       <div>
         {" "}
-        <p> Key Pillars</p>
+         <p className='our-brand-p'> Key Pillars</p>
       </div>
       <ul style={{ listStyleType: "disc" }}>
         <li>Heartfelt and intuitive hospitality</li>
@@ -126,7 +126,7 @@ function our_brands() {
         alt=""
       />
     </div>
-    <p>
+     <p className='our-brand-p'>
       Remaining true to the meaning of the brand’s iconic symbol of a pink lotus,
       Country Inn Express Hotels &amp; Resorts represents purity and cleanliness
       at its best. <br />
@@ -145,7 +145,7 @@ function our_brands() {
     <div>
       <div>
         {" "}
-        <p> Key Pillars</p>
+         <p className='our-brand-p'> Key Pillars</p>
       </div>
       <ul style={{ listStyleType: "disc" }}>
         <li>Affordable comfort</li>

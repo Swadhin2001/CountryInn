@@ -22,7 +22,7 @@ function bhimtal() {
 
       <Image_right image = {image2} heading= "PET POLICY" about = {<fragment>
         We will be delighted to have you and your furry friend as our guests. To ensure a comfortable stay for yourself and fellow guests, we will appreciate if you could please take a note of the following guidelines: <br />
-        {/* <ul>
+        <ul>
             <li>
                 The decision of allowing the pets will be on hotel’s discretion and must be approved in advance of your stay. We welcome pets under 30 kgs / 66 lbs. Should your pet weigh more, please raise it to the hotel team in advance for the best solution
             </li>
@@ -35,7 +35,7 @@ function bhimtal() {
             <li>
                 A charge of INR 1,000 plus taxes, will be charged per pet, per night and an advance payment will be collected upon check-in. The charges are towards providing a pet bed and food that is naturally available at the resort.
             </li>
-        </ul> */}
+        </ul>
       </fragment>} />
 
       <Image_left image = {image3} heading= "PET POLICY" about = "Should you require any specific pet food, please let our team know in advance and it shall be arranged, subject to availability, at an additional charge" />

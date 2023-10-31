@@ -69,15 +69,15 @@ function bhimtal() {
           />
 
       <div className='hero-background' style={{"height" : "275px"}}>
-        <h2 className='text-center  mb-3 pt-5'>LET'S DINE</h2>
-        <p className='text-center px-5 mx-5'>Delectable and exquisite. That’s how our guests like to describe their dining experience at Flames. The bold ambience of the restaurant with the walls adorned by some classic paintings and green views make for a perfect spot to enjoy a hearty meal in the hills. The restaurant opens up into an alfresco dining area that brings to life, the true delight of a relaxing holiday.</p>
+        <h2 className='text-center mid-section-heading mb-3 pt-5'>LET'S DINE</h2>
+        <p className='text-center mid-section-about px-5 mx-5'>Delectable and exquisite. That’s how our guests like to describe their dining experience at Flames. The bold ambience of the restaurant with the walls adorned by some classic paintings and green views make for a perfect spot to enjoy a hearty meal in the hills. The restaurant opens up into an alfresco dining area that brings to life, the true delight of a relaxing holiday.</p>
       </div>
 
       <Slider_2 image1 = {slider_image11} image2= {slider_image12} image_3 ={slider_image13} image4 ={slider_image14} image5 ={slider_image15}/>
 
       <div className='hero-background' style={{"height" : "275px"}}>
-        <h2 className='text-center  mb-3 pt-5'>CLASSIC EXPERIENCES</h2>
-        <p className='text-center px-5 mx-5'>Bhimtal is a peaceful and calming destination that is most popular among travellers who prefer less crowded locations. Besides the pristine beauty of this place, people also visit Bhimtal for adventure, to experience scenic nature walks and treks. Many devotees flock to Bhimtal as it nestles some of the most famous temples that have great religious significance. At this peaceful hill station, go boating, water zorbing, and paragliding or simply enjoy the rays of glittering sun beaming over your face and watch the beautiful migratory birds. Our resort team has also curated some on-site experiences that our guests simply fall in love with.</p>
+        <h2 className='text-center mid-section-heading mb-3 pt-5'>CLASSIC EXPERIENCES</h2>
+        <p className='text-center mid-section-about px-5 mx-5'>Bhimtal is a peaceful and calming destination that is most popular among travellers who prefer less crowded locations. Besides the pristine beauty of this place, people also visit Bhimtal for adventure, to experience scenic nature walks and treks. Many devotees flock to Bhimtal as it nestles some of the most famous temples that have great religious significance. At this peaceful hill station, go boating, water zorbing, and paragliding or simply enjoy the rays of glittering sun beaming over your face and watch the beautiful migratory birds. Our resort team has also curated some on-site experiences that our guests simply fall in love with.</p>
       </div>
 
       <Image_left image = {image1} heading= "WEDDINGS" about = "Thinking about your dream wedding in a picture-perfect location? Our resorts provide spaces to suit every occassion in destinations that makes your celebrations unique. Our spacious outdoor venues surrounded with beautiful flora are just apt to celebrate under the stars, by the pool or amidst the hills. From destination weddings to milestone events, our expert team will help you plan every detail and ensure we accommodate all your needs to curate everlasting memories on your special occasions. Explore our banqueting facilities at Bhimtal and Jim Corbett." />
@@ -111,7 +111,7 @@ function bhimtal() {
       </fragment>}/>
       {/* Meeting and Events Section */}
       <div className="my-5">
-        <h4 className="text-center mb-4">MEETINGS & EVENTS</h4>
+        <h4 className="text-center mb-4 meeting-events-heading">MEETINGS & EVENTS</h4>
         <motion.div initial = {{opacity: 0, y: 20}} whileInView={{opacity: 1, y : 0}} 
     transition={{ duration: 1}}>
 

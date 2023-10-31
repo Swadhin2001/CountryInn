@@ -40,8 +40,8 @@ function vrindavan() {
       heading1 ="Nidhivan Rooms" about1 ="Located on the ground floor, Nidhivan Rooms feature modern interiors, wooden flooring, a king-size bed, and all the essential amenities that you require for a good night’s sleep." image2 ={slider_image7} heading2= "Madhuban Rooms" about2 ="Our tastefully designed Madhuban Rooms offer you an escape into a harmonious retreat. Located on the first and second floor, these garden-view rooms feature modern amenities and are ideal for your next weekend getaway." image3 ={slider_image8} heading3 ="Keshav Dham Rooms" about3= "Our thoughtfully designed Keshav Dham Rooms are the perfect choice for families, friends or small groups looking to stay together. These spacious rooms overlooking the manicured garden feature three bedrooms, a living area, and a dining area, and all essential amenities to make your stay comfortable. " image4 ={slider_image9} heading4 = "Nidhivan Rooms" about4 ="Located on the ground floor, Nidhivan Rooms feature modern interiors, wooden flooring, a king-size bed, and all the essential amenities that you require for a good night’s sleep." image5 ={slider_image10} heading5 = "Madhuban Rooms" about5 = "Our tastefully designed Madhuban Rooms offer you an escape into a harmonious retreat. Located on the first and second floor, these garden-view rooms feature modern amenities and are ideal for your next weekend getaway."/>
 
       <div className='hero-background' style={{"height" : "216px"}}>
-        <h2 className='text-center  mb-3 pt-5'>LET'S DINE</h2>
-        <p className='text-center px-5 mx-5'>The food and beverage offerings at Country Inn Resort, Vrindavan offers a multisensory experience, through thoughtfully sourced ingredients, locally inspired cuisine, inviting interiors, and heartfelt hospitality.</p>
+        <h2 className='text-center mid-section-heading mb-3 pt-5'>LET'S DINE</h2>
+        <p className='text-center mid-section-about px-5 mx-5'>The food and beverage offerings at Country Inn Resort, Vrindavan offers a multisensory experience, through thoughtfully sourced ingredients, locally inspired cuisine, inviting interiors, and heartfelt hospitality.</p>
       </div>
 
       <Image_left image = {image1} heading= "THE LOUNGE" about = {<fragment>
@@ -70,7 +70,7 @@ function vrindavan() {
 
       {/* Meeting and Events Section */}
       <div className="my-5">
-        <h4 className="text-center mb-4">MEETINGS & EVENTS</h4>
+        <h4 className="text-center mb-4 meeting-events-heading">MEETINGS & EVENTS</h4>
         <motion.div initial = {{opacity: 0, y: 20}} whileInView={{opacity: 1, y : 0}} 
     transition={{ duration: 1}}>
           <div className="container">

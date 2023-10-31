@@ -21,14 +21,14 @@ function gallery(props) {
     return (
         <div className='my-5 pb-5 slider-1-background'>
             
-            <h2 className='text-center pb-3'>{props.heading}</h2>
+            <h2 className='text-center slider-heading pb-3'>{props.heading}</h2>
             <div className="swiper-button image-swiper-button-next">
         <IoIosArrowForward />
       </div>
       <div className="swiper-button image-swiper-button-prev">
         <IoIosArrowBack />
       </div>
-            <Swiper spaceBetween={60} slidesPerView={'auto'} loop={true} navigation={{
+            <Swiper spaceBetween={100} slidesPerView={2} loop={true} navigation={{
           nextEl: ".image-swiper-button-next",
           prevEl: ".image-swiper-button-prev",
           disabledClass: "swiper-button-disabled"
@@ -37,7 +37,7 @@ function gallery(props) {
                     onMouseEnter={() => (setHover1(true))}
                     onMouseLeave={() => (setHover1(false))}
                 >
-                    <Image src={props.image1} alt='' className='carousel-image' ></Image>
+                    <Image src={props.image1} alt='' className='img-fluid GB-image ' ></Image>
                     <div>
                             {hover1 ?
                                 (
@@ -53,7 +53,7 @@ function gallery(props) {
                     onMouseEnter={() => (setHover2(true))}
                     onMouseLeave={() => (setHover2(false))}
                 >
-                    <Image src={props.image2} alt='' className='carousel-image'></Image>
+                    <Image src={props.image2} alt='' className='img-fluid GB-image'></Image>
                     <div>
                             {hover2 ?
                                 (
@@ -69,7 +69,7 @@ function gallery(props) {
                     onMouseEnter={() => (setHover3(true))}
                     onMouseLeave={() => (setHover3(false))}
                 >
-                    <Image src={props.image3} alt='' className='carousel-image'></Image>
+                    <Image src={props.image3} alt='' className='img-fluid GB-image'></Image>
                     <div>
                             {hover3 ?
                                 (
@@ -85,7 +85,7 @@ function gallery(props) {
                     onMouseEnter={() => (setHover4(true))}
                     onMouseLeave={() => (setHover4(false))}
                 >
-                    <Image src={props.image4} alt='' className='carousel-image'></Image>
+                    <Image src={props.image4} alt='' className='img-fluid GB-image'></Image>
                     <div>
                             {hover4 ?
                                 (
@@ -101,7 +101,7 @@ function gallery(props) {
                     onMouseEnter={() => (setHover5(true))}
                     onMouseLeave={() => (setHover5(false))}
                 >
-                    <Image src={props.image5} alt='' className='carousel-image'></Image>
+                    <Image src={props.image5} alt='' className='img-fluid GB-image'></Image>
                     <div>
                             {hover5 ?
                                 (
@@ -117,7 +117,7 @@ function gallery(props) {
                     onMouseEnter={() => (setHover1(true))}
                     onMouseLeave={() => (setHover1(false))}
                 >
-                    <Image src={props.image1} alt='' className='carousel-image' ></Image>
+                    <Image src={props.image1} alt='' className='img-fluid GB-image' ></Image>
                     <div>
                             {hover1 ?
                                 (
@@ -133,7 +133,7 @@ function gallery(props) {
                     onMouseEnter={() => (setHover2(true))}
                     onMouseLeave={() => (setHover2(false))}
                 >
-                    <Image src={props.image2} alt='' className='carousel-image'></Image>
+                    <Image src={props.image2} alt='' className='img-fluid GB-image'></Image>
                     <div>
                             {hover2 ?
                                 (
@@ -149,7 +149,7 @@ function gallery(props) {
                     onMouseEnter={() => (setHover3(true))}
                     onMouseLeave={() => (setHover3(false))}
                 >
-                    <Image src={props.image3} alt='' className='carousel-image'></Image>
+                    <Image src={props.image3} alt='' className='img-fluid GB-image'></Image>
                     <div>
                             {hover3 ?
                                 (
@@ -165,7 +165,7 @@ function gallery(props) {
                     onMouseEnter={() => (setHover4(true))}
                     onMouseLeave={() => (setHover4(false))}
                 >
-                    <Image src={props.image4} alt='' className='carousel-image'></Image>
+                    <Image src={props.image4} alt='' className='img-fluid GB-image'></Image>
                     <div>
                             {hover4 ?
                                 (
@@ -181,7 +181,7 @@ function gallery(props) {
                     onMouseEnter={() => (setHover5(true))}
                     onMouseLeave={() => (setHover5(false))}
                 >
-                    <Image src={props.image5} alt='' className='carousel-image'></Image>
+                    <Image src={props.image5} alt='' className='img-fluid GB-image'></Image>
                     <div>
                             {hover5 ?
                                 (

@@ -12,8 +12,8 @@ function Mussoorie_card(props) {
                     <div className="card">
                         <Image className= "card-img-top mussoorie-card-img" src= {props.image1} alt="Card image cap"/>
                         <div className="card-body">
-                            <h5 className="card-title">{props.heading1}</h5>
-                            <div className="card-text">{props.about1}</div>
+                            <h5 className="card-heading">{props.heading1}</h5>
+                            <div className="card-about">{props.about1}</div>
                         </div>
                     </div>
                 </div>
@@ -21,8 +21,8 @@ function Mussoorie_card(props) {
                     <div className="card">
                         <Image className= "card-img-top mussoorie-card-img" src= {props.image2} alt="Card image cap"/>
                         <div className="card-body">
-                            <h5 className="card-title">{props.heading2}</h5>
-                            <div className="card-text">{props.about2}</div>
+                            <h5 className="card-heading">{props.heading2}</h5>
+                            <div className="card-about">{props.about2}</div>
                         </div>
                     </div>
                 </div>

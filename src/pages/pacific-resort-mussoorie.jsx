@@ -49,15 +49,15 @@ function mussoorie() {
       <Slider_4 heading= "STAY & REJUVENATE" image1 = {slider_image6} image2 = {slider_image7} image3 = {slider_image8} heading1 = "Pacific Mountain View Suite" about1= "The elegant Pacific Mountain View Suite. offers breath-taking views of the surrounding valley and spectacular hill scenery in the backdrop. The spacious living room with sofa and a dining area is ideal to witness fresh mornings and dreamy sunsets. The suite provides a serene and comfortable retreat for guests seeking a relaxing, upscale experience in the lap of nature" image4 = {slider_image9}  image5 = {slider_image10} image6 = {slider_image11} heading2 = "CLUB PREMIER ROOMS WITH BALCONY" about2 ="Indulge in the breathtaking beauty of Mussoorie with our meticulously designed Club Premier Rooms with Balcony and enjoy an elevated experience with club benefits. These rooms feature a seating area, work desk, LED TV, wooden closet and spacious interiors. With Club Premier Rooms, you will get an exclusive access to the ‘Club Premier’ benefits like welcome drink on arrival, early check-in and late check-out, buffet breakfast and dinner, daily hi-tea and much more, to enhance your stay experience.  " image7 = {slider_image12} image8 = {slider_image13} image9 = {slider_image14}  heading3 = "MOUNTAIN VIEW ROOMS" about3 = "These exquisitely designed rooms offer scenic views of the surrounding mountains. The rooms are comfortably designed with modern interiors, wooden flooring, a working desk, a seating area, LED TV, and a wooden closet to offer an unforgettable experience for guests seeking a peaceful retreat in the mountains." image10 = {slider_image15} image11 = {slider_image16} image12 = {slider_image17} heading4 = "PACIFIC ROOMS" about4 = "Thoughtfully designed with comfort in mind, Pacific Rooms feature tasteful interiors with wooden flooring, a working desk, a seating area, LED TV, and modern amenities for a comfortable stay. These rooms are an ideal abode to rest after a busy day of exploration."/> 
 
       <div className='hero-background' style={{"height" : "238px"}}>
-        <h2 className='text-center  mb-3 pt-5'>LET'S DINE</h2>
-        <p className='text-center px-5 mx-5'>Indulge in a delectable assortment of dishes inspired by both local and international cuisine at our multi-cuisine restaurant Sky High. A carefully selected menu featuring delicacies prepared using the freshest ingredients ensures an appetizing dining experience in a minimalistic and welcoming ambience.</p>
+        <h2 className='text-center mid-section-heading mb-3 pt-5'>LET'S DINE</h2>
+        <p className='text-center mid-section-about px-5 mx-5'>Indulge in a delectable assortment of dishes inspired by both local and international cuisine at our multi-cuisine restaurant Sky High. A carefully selected menu featuring delicacies prepared using the freshest ingredients ensures an appetizing dining experience in a minimalistic and welcoming ambience.</p>
       </div>
 
       <Slider_2 image1 = {slider_image18} image2 = {slider_image19} image3 = {slider_image20} image4 = {slider_image21} image5 = {slider_image22}/>
 
 
       <div className="my-5 pt-4">
-        <h4 className="text-center mb-4">MEETINGS & EVENTS</h4>
+        <h4 className="text-center mb-4 meeting-events-heading">MEETINGS & EVENTS</h4>
         <Mussoorie_card image1 ={card_image1} heading1="BALLROOM" about1 = {<fragment>
           <div>
           This venue is ideal for guests seeking a combination of the indoor and outdoor venue. An indoor

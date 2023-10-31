@@ -18,7 +18,7 @@ function Slider_one(props) {
       <div className="swiper-button image-swiper-button-prev-autoslide">
         <IoIosArrowBack />
       </div>
-            <Swiper spaceBetween={60} slidesPerView={'auto'} loop={true} navigation={{
+            <Swiper spaceBetween={80} slidesPerView={2} loop={true} navigation={{
           nextEl: ".image-swiper-button-next-autoslide",
           prevEl: ".image-swiper-button-prev-autoslide",
           disabledClass: "swiper-button-disabled"
@@ -30,16 +30,16 @@ function Slider_one(props) {
                                 slidesPerView={1} loop={true} modules={[Autoplay, Pagination]} centeredSlides={true} autoplay={{
                                     delay: 2000,
                                     disableOnInteraction: false
-                                }} 
+                                }}
                                 className="mySwiper">
                                 <SwiperSlide>
-                                    <Image src={props.image1} alt='' className='carousel-image' ></Image>
+                                    <Image src={props.image1} alt='' className='img-fluid GB-image' ></Image>
                                 </SwiperSlide>
                                 <SwiperSlide>
-                                    <Image src={props.image2} alt='' className='carousel-image' ></Image>
+                                    <Image src={props.image2} alt='' className='img-fluid GB-image' ></Image>
                                 </SwiperSlide>
                                 <SwiperSlide>
-                                    <Image src={props.image3} alt='' className='carousel-image' ></Image>
+                                    <Image src={props.image3} alt='' className='img-fluid GB-image' ></Image>
                                 </SwiperSlide>
                             </Swiper>
                             <div className=" my-4">
@@ -61,13 +61,13 @@ function Slider_one(props) {
                                 }} 
                                 className="mySwiper">
                                 <SwiperSlide>
-                                    <Image src={props.image4} alt='' className='carousel-image' ></Image>
+                                    <Image src={props.image4} alt='' className='img-fluid GB-image' ></Image>
                                 </SwiperSlide>
                                 <SwiperSlide>
-                                    <Image src={props.image5} alt='' className='carousel-image' ></Image>
+                                    <Image src={props.image5} alt='' className='img-fluid GB-image' ></Image>
                                 </SwiperSlide>
                                 <SwiperSlide>
-                                    <Image src={props.image6} alt='' className='carousel-image' ></Image>
+                                    <Image src={props.image6} alt='' className='img-fluid GB-image' ></Image>
                                 </SwiperSlide>
                             </Swiper>
                             <div className=" my-4">
@@ -89,13 +89,13 @@ function Slider_one(props) {
                                 }} 
                                 className="mySwiper">
                                 <SwiperSlide>
-                                    <Image src={props.image7} alt='' className='carousel-image' ></Image>
+                                    <Image src={props.image7} alt='' className='img-fluid GB-image' ></Image>
                                 </SwiperSlide>
                                 <SwiperSlide>
-                                    <Image src={props.image8} alt='' className='carousel-image' ></Image>
+                                    <Image src={props.image8} alt='' className='img-fluid GB-image' ></Image>
                                 </SwiperSlide>
                                 <SwiperSlide>
-                                    <Image src={props.image9} alt='' className='carousel-image' ></Image>
+                                    <Image src={props.image9} alt='' className='img-fluid GB-image' ></Image>
                                 </SwiperSlide>
                             </Swiper>
                             <div className=" my-4">
@@ -117,19 +117,19 @@ function Slider_one(props) {
                                 }} 
                                 className="mySwiper">
                                 <SwiperSlide>
-                                    <Image src={props.image10} alt='' className='carousel-image' ></Image>
+                                    <Image src={props.image10} alt='' className='img-fluid GB-image' ></Image>
                                 </SwiperSlide>
                                 <SwiperSlide>
-                                    <Image src={props.image11} alt='' className='carousel-image' ></Image>
+                                    <Image src={props.image11} alt='' className='img-fluid GB-image' ></Image>
                                 </SwiperSlide>
                                 <SwiperSlide>
-                                    <Image src={props.image12} alt='' className='carousel-image' ></Image>
+                                    <Image src={props.image12} alt='' className='img-fluid GB-image' ></Image>
                                 </SwiperSlide>
                             </Swiper>
                             <div className=" my-4">
                                 <Fragment>
                                     <h4 className='p-3 carousel-heading'>{isActive ? `${props.heading4}` : ' '}</h4>
-                                    <div className='px-3 carousel-heading'>{isActive ? `${props.about4}` : ' '} </div>
+                                    <div className='px-3 carousel-about'>{isActive ? `${props.about4}` : ' '} </div>
                                 </Fragment>
                             </div>
                         </div>

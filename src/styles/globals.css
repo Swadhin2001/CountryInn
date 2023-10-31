@@ -11,6 +11,69 @@
 a:hover{
   color: inherit;
 }
+.dropdown-item{
+  font-family: Trajan;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #333333;
+}
+.our_brands_title{
+  font-family: 'EB Garamond', serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  color: white;    
+}
+.our-brand-p{
+  font-family: 'EB Garamond', serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  color: #212529;  
+}
+.policy-heading{
+  font-family: Trajan;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 45px;
+  color: #333333;
+}
+.policy-h4{
+  font-family: 'EB Garamond', serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+  color: #212529;
+}
+.policy-p{
+  font-family: 'EB Garamond', serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  color: #212529;
+}
+.card-heading{
+  font-family: Trajan;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #212529;
+}
+.card-about{
+  font-family: 'EB Garamond', serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  color: #212529;
+}
+.meeting-events-heading{
+  font-family: Trajan;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 45px;
+  color: #333333;
+}
 .footer-h4{
   font-family: Trajan;
   font-size: 16px;
@@ -165,20 +228,20 @@ a:hover{
   background-repeat: no-repeat;
   background-size: cover;
 }
-.carousel-image, .carousel-image-one{
-  height: 454px;
-  opacity: 0.5;
-  width: 680px !important;
+.GB-image{
+  aspect-ratio: 655/436;
+}
+.GB-image, .carousel-image-one{
+  opacity: 0.8;
   transition: all 0.5s ease-in-out;
 }
-.swiper-slide-active .carousel-image{
+.swiper-slide-active .GB-image{
   opacity: 1;
-  height: 470px;
   transform: scale(1.1);
 }
 .swiper-slide-active .carousel-image-one{
   opacity: 1;
-  height: 460px;
+  /* height: 460px; */
   transform: scale(1.1);
 }
 .hero-banner{
@@ -233,15 +296,13 @@ a:hover{
   font-weight: 400;
 }
 .meeting-and-events-card{
-  min-height: 532px;
-  width: 356px;
+  min-height: 550px;
+  /* width: 356px; */
 }
 .meeting-image{
   height: 265px;
 }
-.custom-carousel-one{
-  max-width: 719px !important;
-}
+
 .custom-carousel{
   width: 514px !important;
 }
@@ -400,25 +461,25 @@ a:hover{
 }
 .image-swiper-button-next {
   position: absolute;
-  left: 76.5%;
+  left: 76%;
   top: 46%;
   z-index: 99;
 }
 .image-swiper-button-prev {
   position: absolute;
-  left: 16%;
+  left: 20%;
   top: 46%;
   z-index: 99;
 }
 .image-swiper-button-next-autoslide {
   position: absolute;
-  left: 76%;
+  left: 74%;
   top: 46%;
   z-index: 99;
 }
 .image-swiper-button-prev-autoslide {
   position: absolute;
-  left: 18%;
+  left: 21%;
   top: 46%;
   z-index: 99;
 }

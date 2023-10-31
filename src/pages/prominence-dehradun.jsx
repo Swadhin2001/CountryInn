@@ -66,7 +66,7 @@ function prominence_dehradun() {
 
       {/* Meeting and Events Section */}
       <div className="my-5">
-        <h4 className="text-center mb-4">MEETINGS & EVENTS</h4>
+        <h4 className="text-center mb-4 meeting-events-heading">MEETINGS & EVENTS</h4>
             <motion.div initial = {{opacity: 0, y: 20}} whileInView={{opacity: 1, y : 0}} 
         transition={{ duration: 1}}>
 

@@ -23,25 +23,25 @@ function Slider_one(props) {
       <div className="swiper-button image-swiper-button-prev">
                 <ArrowBackIosOutlinedIcon className='swiper-button'/>
       </div>
-            <Swiper spaceBetween={60} slidesPerView={'auto'} loop={true} navigation={{
+            <Swiper spaceBetween={110} slidesPerView={2} loop={true} navigation={{
           nextEl: ".image-swiper-button-next",
           prevEl: ".image-swiper-button-prev",
           disabledClass: "swiper-button-disabled"
         }} modules={[Navigation]} className="mySwiper mb-5" centeredSlides={true} >
                 <SwiperSlide className='carousel  custom-carousel-one' >
-                    <Image src={props.image1} alt='' className='carousel-image' ></Image>
+                    <Image src={props.image1} alt='' className='img-fluid GB-image' ></Image>
                 </SwiperSlide>
                 <SwiperSlide className='carousel  custom-carousel-one'>
-                    <Image src={props.image2} alt='' className='carousel-image'></Image>
+                    <Image src={props.image2} alt='' className='img-fluid GB-image'></Image>
                 </SwiperSlide>
                 <SwiperSlide className='carousel  custom-carousel-one'>
-                    <Image src={props.image3} alt='' className='carousel-image'></Image>
+                    <Image src={props.image3} alt='' className='img-fluid GB-image'></Image>
                 </SwiperSlide>
                 <SwiperSlide className='carousel  custom-carousel-one'>
-                    <Image src={props.image4} alt='' className='carousel-image'></Image>
+                    <Image src={props.image4} alt='' className='img-fluid GB-image'></Image>
                 </SwiperSlide>
                 <SwiperSlide className='carousel  custom-carousel-one'>
-                    <Image src={props.image5} alt='' className='carousel-image'></Image>
+                    <Image src={props.image5} alt='' className='img-fluid GB-image'></Image>
                 </SwiperSlide>
             </Swiper>
         </div>

@@ -41,7 +41,7 @@ function tarika_goa() {
       </fragment>}/>
 
       <div className='hero-background' style={{"height" : "167px"}}>
-        <h2 className='text-center  py-5 my-5'>LET'S DINE</h2>        
+        <h2 className='text-center mid-section-heading py-5 my-5'>LET'S DINE</h2>        
       </div>
       <Image_left image = {image1} heading="Mélange" about = "With a warm welcoming ambiance, this intimate space is the perfect spot to enjoy international flavors and local favorites. This is your one-stop destination to feast on a flavorful breakfast made using the freshest ingredients."/>
       <Image_right image = {image2} heading = "VARCA HIGH – POOLSIDE BAR" about = "Unwind by our poolside bar serving your favorite drinks and small plates. Simply a perfect venue for those lazy mornings and relaxed evenings."/>
@@ -49,7 +49,7 @@ function tarika_goa() {
 
       {/* Meeting and Events Section */}
       <div className="my-5">
-        <h4 className="text-center mb-4">MEETINGS & EVENTS</h4>
+        <h4 className="text-center mb-4 meeting-events-heading">MEETINGS & EVENTS</h4>
         <motion.div initial = {{opacity: 0, y: 20}} whileInView={{opacity: 1, y : 0}} 
     transition={{ duration: 1}}>
           <div className="container">

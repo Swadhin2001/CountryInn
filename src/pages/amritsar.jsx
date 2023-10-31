@@ -41,15 +41,15 @@ function amritsar() {
       <Slider_3 heading = "STAY & REJUVENATE" image1 ={slider_image6} heading1 ="HERITAGE SUITE" about1 ="Elegantly designed with wooden floor and modern interiors, the Heritage Suite offers a spacious accommodation with a separate living area.  It is your perfect abode to unwind and relax after a long day of exploration in the city of Amritsar" image2 ={slider_image7} heading2="DELUXE ROOM" about2 ="Offering a sense of space, our immaculately appointed Deluxe Rooms feature a king-size bed, a built-in closet, and three fixture bathroom to offer enhanced comfort" image3 ={slider_image8} heading3 = "SUPERIOR ROOM" about3 ="Unwind and stay at ease in our Superior Rooms. With modern interiors and a private workstation, these well-appointed rooms are perfect for a relaxing and fulfilling stay" image4 ={slider_image9} heading4 ="STANDARD ROOM" about4 ="With our Standard Rooms, you will get comforting interiors and all the basic amenities that you require for a good night's sleep" image5 ={slider_image10} heading5 ="DELUXE ROOM" about5 ="Offering a sense of space, our immaculately appointed Deluxe Rooms feature a king-size bed, a built-in closet, and three fixture bathroom to offer enhanced comfort"></Slider_3>
 
       <div className='hero-background' style={{"height" : "245px"}}>
-        <h2 className='text-center  mb-3 pt-5'>LET'S DINE - HERITAGE</h2>
-        <p className='text-center px-5 mx-5'>Rich cultural influence, unique regional flavors, and diversity are at the heart of our all-day diner, Heritage. Guests can indulge in a medley of flavors - from local favourites like Amritsari Kulcha, and Mutton Rogan Josh to a selection of Continental, Oriental and Italian delicacies. The fare at the Heritage, promises to delight every palate from breakfast through dinner.</p>
+        <h2 className='text-center mid-section-heading mb-3 pt-5'>LET'S DINE - HERITAGE</h2>
+        <p className='text-center mid-section-about px-5 mx-5'>Rich cultural influence, unique regional flavors, and diversity are at the heart of our all-day diner, Heritage. Guests can indulge in a medley of flavors - from local favourites like Amritsari Kulcha, and Mutton Rogan Josh to a selection of Continental, Oriental and Italian delicacies. The fare at the Heritage, promises to delight every palate from breakfast through dinner.</p>
       </div>
 
       <Slider_2 image1 = {slider_image11} image2 = {slider_image12} image3 = {slider_image13} image4 = {slider_image14} image5 = {slider_image15}/>
 
       <div className='hero-background' style={{"height" : "220px"}}>
-        <h2 className='text-center  mb-3 pt-5'>CLASSIC EXPERIENCES</h2>
-        <p className='text-center px-5 mx-5'>Amritsar is a beautiful amalgamation of folklore, culture, history, and food. Whether you indulge in the spiritual journey at Golden Temple, witness the emotions at Wagah border or relish the delectable cuisine, you will experience true essence of the rich history and culture that this city has to offer.</p>
+        <h2 className='text-center mid-section-heading mb-3 pt-5'>CLASSIC EXPERIENCES</h2>
+        <p className='text-center mid-section-about px-5 mx-5'>Amritsar is a beautiful amalgamation of folklore, culture, history, and food. Whether you indulge in the spiritual journey at Golden Temple, witness the emotions at Wagah border or relish the delectable cuisine, you will experience true essence of the rich history and culture that this city has to offer.</p>
       </div>
 
       <Image_left image = {image1} heading= "ROOFTOP DINING" about = "Indulge in a romantic dinner with your loved one at Country Inn Hall of Heritage, Amritsar. The confluence of a romantic setting under the stars, incredible food prepared by our expert chefs, and our warm service is what makes this dining experience a treasured memory." />
@@ -58,7 +58,7 @@ function amritsar() {
 
       {/* Meeting and Events Section */}
       <div className="my-5">
-        <h4 className="text-center mb-4">MEETINGS & EVENTS</h4>
+        <h4 className="text-center mb-4 meeting-events-heading">MEETINGS & EVENTS</h4>
         <motion.div initial = {{opacity: 0, y: 20}} whileInView={{opacity: 1, y : 0}} 
     transition={{ duration: 1}}>
 
