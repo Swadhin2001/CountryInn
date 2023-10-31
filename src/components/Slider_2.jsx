@@ -15,34 +15,34 @@ function Slider_two(props) {
 
             <Swiper spaceBetween={0} slidesPerView={3} loop={true} navigation={true} modules={[Navigation]} className="mySwiper" slidesPerGroup={1} centeredSlides={true}>
                 <SwiperSlide className='carousel custom-carousel' >
-                    <Image src={props.image1} alt='' className='carousel-image-two' ></Image>
+                    <Image src={props.image1} alt='' className='img-fluid' ></Image>
                 </SwiperSlide>
                 <SwiperSlide className='carousel custom-carousel'>
-                    <Image src={props.image2} alt='' className=' carousel-image-two'></Image>
+                    <Image src={props.image2} alt='' className=' img-fluid'></Image>
                 </SwiperSlide>
                 <SwiperSlide className='carousel custom-carousel'>
-                    <Image src={props.image3} alt='' className=' carousel-image-two'></Image>
+                    <Image src={props.image3} alt='' className=' img-fluid'></Image>
                 </SwiperSlide>
                 <SwiperSlide className='carousel custom-carousel'>
-                    <Image src={props.image4} alt='' className=' carousel-image-two'></Image>
+                    <Image src={props.image4} alt='' className=' img-fluid'></Image>
                 </SwiperSlide>
                 <SwiperSlide className='carousel custom-carousel'>
-                    <Image src={props.image5} alt='' className=' carousel-image-two'></Image>
+                    <Image src={props.image5} alt='' className=' img-fluid'></Image>
                 </SwiperSlide>
                 <SwiperSlide className='carousel custom-carousel'>
-                    <Image src={props.image1} alt='' className=' carousel-image-two'></Image>
+                    <Image src={props.image1} alt='' className=' img-fluid'></Image>
                 </SwiperSlide>
                 <SwiperSlide className='carousel custom-carousel'>
-                    <Image src={props.image2} alt='' className=' carousel-image-two'></Image>
+                    <Image src={props.image2} alt='' className=' img-fluid'></Image>
                 </SwiperSlide>
                 <SwiperSlide className='carousel custom-carousel'>
-                    <Image src={props.image3} alt='' className=' carousel-image-two'></Image>
+                    <Image src={props.image3} alt='' className=' img-fluid'></Image>
                 </SwiperSlide>
                 <SwiperSlide className='carousel custom-carousel'>
-                    <Image src={props.image4} alt='' className=' carousel-image-two'></Image>
+                    <Image src={props.image4} alt='' className=' img-fluid'></Image>
                 </SwiperSlide>
                 <SwiperSlide className='carousel custom-carousel'>
-                    <Image src={props.image5} alt='' className=' carousel-image-two'></Image>
+                    <Image src={props.image5} alt='' className=' img-fluid'></Image>
                 </SwiperSlide>
             </Swiper>
             </motion.div>

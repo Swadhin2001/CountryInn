@@ -24,7 +24,7 @@ function Navbar(props) {
     }
     return (
         <>
-            <div className="navbar navbar-expand-lg bg-body-tertiary sticky-top " style={{ "opacity": `${opacity}`, "boxShadow": `${shadow}` }}>
+            <nav className="navbar navbar-expand-lg bg-body-tertiary sticky-top " style={{ "opacity": `${opacity}`, "boxShadow": `${shadow}` }}>
                 <div className="container-fluid container-xl d-flex align-items-center justify-content-lg-between">
                     <Link className="navbar-brand " href="/">
                         <Image src={logo} alt='' className='nav-icon' />
@@ -75,7 +75,7 @@ function Navbar(props) {
                     </nav>
 
                 </div>
-            </div>
+            </nav>
         </>
     )
 }

@@ -1,5 +1,5 @@
-import React, { useEffect,  useRef } from 'react'
-import { Swiper, SwiperSlide} from 'swiper/react';
+import React, { useEffect, useRef } from 'react'
+import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import { Navigation } from 'swiper/modules';
 import 'swiper/css/pagination';
@@ -13,21 +13,21 @@ import { register } from "swiper/element/bundle";
 register();
 
 function Slider_one(props) {
-  
+
     return (
         <div className='my-5 pb-5 slider-1-background'>
             <h2 className='text-center pb-3 slider-heading'>{props.heading}</h2>
             <div className="swiper-button image-swiper-button-next">
-                <ArrowForwardIosOutlinedIcon className='swiper-button'/>
-      </div>
-      <div className="swiper-button image-swiper-button-prev">
-                <ArrowBackIosOutlinedIcon className='swiper-button'/>
-      </div>
+                <ArrowForwardIosOutlinedIcon className='swiper-button' />
+            </div>
+            <div className="swiper-button image-swiper-button-prev">
+                <ArrowBackIosOutlinedIcon className='swiper-button' />
+            </div>
             <Swiper spaceBetween={110} slidesPerView={2} loop={true} navigation={{
-          nextEl: ".image-swiper-button-next",
-          prevEl: ".image-swiper-button-prev",
-          disabledClass: "swiper-button-disabled"
-        }} modules={[Navigation]} className="mySwiper mb-5" centeredSlides={true} >
+                nextEl: ".image-swiper-button-next",
+                prevEl: ".image-swiper-button-prev",
+                disabledClass: "swiper-button-disabled"
+            }} modules={[Navigation]} className="mySwiper mb-5" centeredSlides={true} >
                 <SwiperSlide className='carousel  custom-carousel-one' >
                     <Image src={props.image1} alt='' className='img-fluid GB-image' ></Image>
                 </SwiperSlide>

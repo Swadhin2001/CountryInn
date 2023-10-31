@@ -11,6 +11,11 @@
 a:hover{
   color: inherit;
 }
+.form-heading{
+  line-height: 24px;
+  font-size: 16px;
+  font-weight: 600;
+}
 .dropdown-item{
   font-family: Trajan;
   font-size: 16px;
@@ -201,7 +206,7 @@ a:hover{
 .custom-dropdown{
   width: 250px;
   height : 45px;
-  background: white;
+  background: white;  
 }
 .date-form{
   height: 43px;
@@ -236,6 +241,7 @@ a:hover{
   transition: all 0.5s ease-in-out;
 }
 .swiper-slide-active .GB-image{
+  aspect-ratio: 665/446;
   opacity: 1;
   transform: scale(1.1);
 }
@@ -304,7 +310,7 @@ a:hover{
 }
 
 .custom-carousel{
-  width: 514px !important;
+  min-width: 514px !important;
 }
 .slider-1-background{
   background: #e0d3cb52;
@@ -661,4 +667,45 @@ a:hover{
   background: url('../assets/icons8-minus-sign-24.png');
   background-position: center;
   background-repeat: no-repeat;
+}
+.booking-widget {
+  display: flex;
+  background: #eee;
+  padding: 20px;
+  align-items: end;
+  flex-direction: row;
+}
+.booking-widget .form-group {
+  display: flex;
+  flex: 1 1 100%;
+  max-width: 250px;
+  margin: 0 10px 10px 0;
+  position: relative;
+}
+.booking-widget .inner-addon.right-addon {
+  flex: 1 1 100%;
+  max-width: 250px;
+}
+.booking-widget .book_btn {
+  flex: 1 1 50%;
+  background: #b62638;
+  border-radius: 0;
+  height: 45px;
+}
+.form-control {
+  display: block;
+  width: 100%;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: .25rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
