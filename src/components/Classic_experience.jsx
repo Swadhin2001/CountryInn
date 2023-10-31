@@ -29,7 +29,7 @@ function Slider_two(props) {
                                 (
                                     <div className="overlay-middle">
                                         <div className="overlay-text">
-                                            <p>Dining is about spending a joyful time with your loved ones, while you indulge in your comfort food, prepared with two important ingredients – freshest produce and warmth</p>
+                                            <p className='overlay-about'>Dining is about spending a joyful time with your loved ones, while you indulge in your comfort food, prepared with two important ingredients – freshest produce and warmth</p>
                                             <br />
                                             <br />
                                             <div className="me-auto d-flex flex-column">
@@ -55,7 +55,7 @@ function Slider_two(props) {
                                 (
                                     <div className="overlay-middle">
                                         <div className="overlay-text">
-                                            <p>Dining is about spending a joyful time with your loved ones, while you indulge in your comfort food, prepared with two important ingredients – freshest produce and warmth</p>
+                                            <p className='overlay-about'>Dining is about spending a joyful time with your loved ones, while you indulge in your comfort food, prepared with two important ingredients – freshest produce and warmth</p>
                                             <br />
                                             <br />
                                             <div className="me-auto d-flex flex-column">
@@ -79,7 +79,7 @@ function Slider_two(props) {
                                 (
                                     <div className="overlay-middle">
                                         <div className="overlay-text">
-                                            <p>Dining is about spending a joyful time with your loved ones, while you indulge in your comfort food, prepared with two important ingredients – freshest produce and warmth</p>
+                                            <p className='overlay-about'>Dining is about spending a joyful time with your loved ones, while you indulge in your comfort food, prepared with two important ingredients – freshest produce and warmth</p>
                                             <br />
                                             <br />
                                             <div className="me-auto d-flex flex-column">
@@ -105,7 +105,7 @@ function Slider_two(props) {
                                 (
                                     <div className="overlay-middle">
                                         <div className="overlay-text">
-                                            <p>Dining is about spending a joyful time with your loved ones, while you indulge in your comfort food, prepared with two important ingredients – freshest produce and warmth</p>
+                                            <p className='overlay-about'>Dining is about spending a joyful time with your loved ones, while you indulge in your comfort food, prepared with two important ingredients – freshest produce and warmth</p>
                                             <br />
                                             <br />
                                             <div className="me-auto d-flex flex-column">
@@ -129,7 +129,7 @@ function Slider_two(props) {
                                 (
                                     <div className="overlay-middle">
                                         <div className="overlay-text">
-                                            <p>Dining is about spending a joyful time with your loved ones, while you indulge in your comfort food, prepared with two important ingredients – freshest produce and warmth</p>
+                                            <p className='overlay-about'>Dining is about spending a joyful time with your loved ones, while you indulge in your comfort food, prepared with two important ingredients – freshest produce and warmth</p>
                                             <br />
                                             <br />
                                             <div className="me-auto d-flex flex-column">
@@ -155,7 +155,7 @@ function Slider_two(props) {
                                 (
                                     <div className="overlay-middle">
                                         <div className="overlay-text">
-                                            <p>Dining is about spending a joyful time with your loved ones, while you indulge in your comfort food, prepared with two important ingredients – freshest produce and warmth</p>
+                                            <p className='overlay-about'>Dining is about spending a joyful time with your loved ones, while you indulge in your comfort food, prepared with two important ingredients – freshest produce and warmth</p>
                                             <br />
                                             <br />
                                             <div className="me-auto d-flex flex-column">
@@ -179,7 +179,7 @@ function Slider_two(props) {
                                 (
                                     <div className="overlay-middle">
                                         <div className="overlay-text">
-                                            <p>Dining is about spending a joyful time with your loved ones, while you indulge in your comfort food, prepared with two important ingredients – freshest produce and warmth</p>
+                                            <p className='overlay-about'>Dining is about spending a joyful time with your loved ones, while you indulge in your comfort food, prepared with two important ingredients – freshest produce and warmth</p>
                                             <br />
                                             <br />
                                             <div className="me-auto d-flex flex-column">
@@ -205,7 +205,7 @@ function Slider_two(props) {
                                 (
                                     <div className="overlay-middle">
                                         <div className="overlay-text">
-                                            <p>Dining is about spending a joyful time with your loved ones, while you indulge in your comfort food, prepared with two important ingredients – freshest produce and warmth</p>
+                                            <p className='overlay-about'>Dining is about spending a joyful time with your loved ones, while you indulge in your comfort food, prepared with two important ingredients – freshest produce and warmth</p>
                                             <br />
                                             <br />
                                             <div className="me-auto d-flex flex-column">

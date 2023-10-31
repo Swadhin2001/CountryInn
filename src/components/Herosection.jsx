@@ -11,8 +11,8 @@ function Herosection(props) {
           <Form></Form>
           <div className='d-flex justify-content-center hero-padding'>          
             <div className='container-1140'>
-              <h1 className='text-center pb-3'>{props.heading}</h1>
-              <div className='text-center'>{props.about}</div>
+              <h1 className='text-center pb-3 section-header'>{props.heading}</h1>
+              <div className='text-center section-about'>{props.about}</div>
             </div>
         </div>
     </>

@@ -11,7 +11,7 @@ function Slider_one(props) {
 
     return (
         <div className='mt-5 pt-5 slider-1-background'>
-            <h2 className='text-center'>{props.heading}</h2>
+            <h2 className='text-center slider-heading'>{props.heading}</h2>
             <div className="swiper-button image-swiper-button-next-autoslide">
         <IoIosArrowForward />
       </div>
@@ -44,8 +44,8 @@ function Slider_one(props) {
                             </Swiper>
                             <div className=" my-4">
                                 <Fragment>
-                                    <h4 className='p-3'>{isActive ? `${props.heading1}` : ' '}</h4>
-                                    <div className='px-3'>{isActive ? `${props.about1}` : ' '} </div>
+                                    <h4 className='p-3 carousel-heading'>{isActive ? `${props.heading1}` : ' '}</h4>
+                                    <div className='px-3 carousel-about'>{isActive ? `${props.about1}` : ' '} </div>
                                 </Fragment>
                             </div>
                         </div>
@@ -72,8 +72,8 @@ function Slider_one(props) {
                             </Swiper>
                             <div className=" my-4">
                                 <Fragment>
-                                    <h4 className='p-3'>{isActive ? `${props.heading2}` : ' '}</h4>
-                                    <div className='px-3'>{isActive ? `${props.about2}` : ' '} </div>
+                                    <h4 className='p-3 carousel-heading'>{isActive ? `${props.heading2}` : ' '}</h4>
+                                    <div className='px-3 carousel-about'>{isActive ? `${props.about2}` : ' '} </div>
                                 </Fragment>
                             </div>
                         </div>
@@ -100,8 +100,8 @@ function Slider_one(props) {
                             </Swiper>
                             <div className=" my-4">
                                 <Fragment>
-                                    <h4 className='p-3'>{isActive ? `${props.heading3}` : ' '}</h4>
-                                    <div className='px-3'>{isActive ? `${props.about3}` : ' '} </div>
+                                    <h4 className='p-3 carousel-heading'>{isActive ? `${props.heading3}` : ' '}</h4>
+                                    <div className='px-3 carousel-about'>{isActive ? `${props.about3}` : ' '} </div>
                                 </Fragment>
                             </div>
                         </div>
@@ -128,8 +128,8 @@ function Slider_one(props) {
                             </Swiper>
                             <div className=" my-4">
                                 <Fragment>
-                                    <h4 className='p-3'>{isActive ? `${props.heading4}` : ' '}</h4>
-                                    <div className='px-3'>{isActive ? `${props.about4}` : ' '} </div>
+                                    <h4 className='p-3 carousel-heading'>{isActive ? `${props.heading4}` : ' '}</h4>
+                                    <div className='px-3 carousel-heading'>{isActive ? `${props.about4}` : ' '} </div>
                                 </Fragment>
                             </div>
                         </div>

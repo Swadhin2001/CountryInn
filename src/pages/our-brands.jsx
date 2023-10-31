@@ -155,21 +155,21 @@ function our_brands() {
     </div>
   </div>
   )
-  const btnjsxdiv1 = (<div className='border-bottom'>
+  const btnjsxdiv1 = (<div className='our-brands-btn'>
     <Image
-      className="lazyload mb-3 w-25 text-center mx-auto country_brand_img"
+      className="lazyload mb-0 w-25 text-center mx-auto country_brand_img"
       src={logo_image1} alt="" />
   </div>)
 
-  const btnjsxdiv2 = (<div className='border-bottom'>
+  const btnjsxdiv2 = (<div className='our-brands-btn'>
     <Image
-      className="lazyload mb-3 w-25 text-center mx-auto country_brand_img"
+      className="lazyload mb-0 w-25 text-center mx-auto country_brand_img"
       src={logo_image2} alt=""/>
   </div>)
 
-  const btnjsxdiv3 = (<div className='border-bottom'>
+  const btnjsxdiv3 = (<div className='our-brands-btn'>
     <Image
-      className="lazyload mb-3 w-25 text-center mx-auto country_brand_img"
+      className="lazyload mb-0 w-25 text-center mx-auto country_brand_img"
       src={logo_image3} alt="" />
   </div>)
 
@@ -179,8 +179,8 @@ function our_brands() {
   const [innerjsx2, setInnerJsx2] = useState(null);
   const [innerjsx3, setInnerJsx3] = useState(null);
   const [btnjsx1, setBtnJsx1] = useState(btnjsxdiv1);
-  const [btnjsx2, setBtnJsx2] = useState(<div>Country Inn Premier</div>);
-  const [btnjsx3, setBtnJsx3] = useState(<div>Country Inn Express</div>);
+  const [btnjsx2, setBtnJsx2] = useState(<div className='our-brands-btn'>Country Inn Premier</div>);
+  const [btnjsx3, setBtnJsx3] = useState(<div className='our-brands-btn'>Country Inn Express</div>);
   const [title1, setTitle1] = useState ("pannel-title-collapsed");
   const [title2, setTitle2] = useState ("pannel-title");
   const [title3, setTitle3] = useState ("pannel-title");
@@ -195,16 +195,16 @@ function our_brands() {
       setTitle2 ("pannel-title");
       setTitle3 ("pannel-title");
       setInnerJsx2(null);
-      setBtnJsx2(<div>Country Inn Premier</div>)
+      setBtnJsx2(<div className='our-brands-btn'>Country Inn Premier</div>)
       setInnerJsx3(null);
-      setBtnJsx3(<div>Country Inn Express</div>)
+      setBtnJsx3(<div className='our-brands-btn'>Country Inn Express</div>)
     }
     else {
       setInnerJsx1(null);
       setTitle1 ("pannel-title");
       setBtnJsx1(
         <div className="d-flex">
-            <div className="d-flex">Country Inn Hotels & Resorts 
+            <div className="d-flex our-brands-btn">Country Inn Hotels & Resorts 
           </div>
         </div>
       )
@@ -219,14 +219,14 @@ function our_brands() {
       setTitle1 ("pannel-title");
       setTitle3 ("pannel-title");
       setInnerJsx1(null);
-      setBtnJsx1(<div>Country Inn Hotels & Resorts</div>)
+      setBtnJsx1(<div className='our-brands-btn'>Country Inn Hotels & Resorts</div>)
       setInnerJsx3(null);
-      setBtnJsx3(<div>Country Inn Express</div>)
+      setBtnJsx3(<div className='our-brands-btn'>Country Inn Express</div>)
       setJsx(jsx2);
     }
     else {
       setInnerJsx2(null);
-      setBtnJsx2(<div>Country Inn Premier</div>)
+      setBtnJsx2(<div className='our-brands-btn'>Country Inn Premier</div>)
       setJsx(jsx1);
       setTitle2 ("pannel-title");
     }
@@ -242,14 +242,14 @@ function our_brands() {
       setTitle2 ("pannel-title");
       setJsx(jsx3);
       setInnerJsx2(null);
-      setBtnJsx2(<div>Country Inn Premier</div>)
+      setBtnJsx2(<div className='our-brands-btn'>Country Inn Premier</div>)
       setInnerJsx1(null);
-      setBtnJsx1(<div>Country Inn Hotels & Resorts</div>)
+      setBtnJsx1(<div className='our-brands-btn'>Country Inn Hotels & Resorts</div>)
     }
     else {
       setInnerJsx3(null);
       setTitle3 ("pannel-title");
-      setBtnJsx3(<div>Country Inn Express</div>)
+      setBtnJsx3(<div className='our-brands-btn'>Country Inn Express</div>)
       setJsx(jsx1);
     }
 
@@ -273,18 +273,18 @@ function our_brands() {
               <div className="row">
                 <div className="col-md-12 position-relative">   
                   <div className="pannel-group"> 
-                      <div onClick={click1} className='our-brands-about mb-0'> <div className = "pannel-heading"> <div className={`${title1}`}> {btnjsx1}
+                      <div onClick={click1} className='our-brands-about mb-0'> <div className = "pannel-heading border-bottom"> <div className={`${title1}`}> {btnjsx1}
                         </div></div></div>
                         <div onClick={click1} className='our-brands-about pt-0'>
                         {innerjsx1}
                         </div>
-                    <div onClick={click2} className='our-brands-about' > <div className = "pannel-heading"> <div className={`${title2}`}> {btnjsx2}
+                    <div onClick={click2} className='our-brands-about mb-0' > <div className = "pannel-heading border-bottom"> <div className={`${title2}`}> {btnjsx2}
                       </div> </div></div>
                         <div onClick={click1} className='our-brands-about pt-0'>
                         {innerjsx2}
                         </div>
 
-                    <div onClick={click3} className='our-brands-about' > <div className = "pannel-heading"> <div className={`${title3}`}>
+                    <div onClick={click3} className='our-brands-about mb-0' > <div className = "pannel-heading border-bottom"> <div className={`${title3}`}>
                     {btnjsx3} </div> </div></div>
                         <div onClick={click1} className='our-brands-about pt-0'>
                         {innerjsx3}

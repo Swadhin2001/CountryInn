@@ -16,7 +16,7 @@ function Slider_one(props) {
   
     return (
         <div className='my-5 pb-5 slider-1-background'>
-            <h2 className='text-center pb-3'>{props.heading}</h2>
+            <h2 className='text-center pb-3 slider-heading'>{props.heading}</h2>
             <div className="swiper-button image-swiper-button-next">
                 <ArrowForwardIosOutlinedIcon className='swiper-button'/>
       </div>

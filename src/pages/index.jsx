@@ -52,8 +52,8 @@ export default function Home() {
 
       <div className='hero-background d-flex justify-content-center'>
         <div className="container-1140">
-          <h2 className='text-center  mb-3 pt-5'>CLASSIC EXPERIENCES</h2>
-          <p className='text-center mb-0'>Relive your passion for the experiences you love, and let your spirit soar to adventures yet unwritten. We offer unique experiences in pioneering serene destinations to make the most of your stays. Be adventurous in the great outdoors, admire breath-taking views, indulge in local cuisine prepared with farm-fresh ingredients or explore the wildlife in their natural habitat.</p>
+          <h2 className='text-center mid-section-heading mb-3 pt-5'>CLASSIC EXPERIENCES</h2>
+          <p className='text-center mid-section-about mb-0'>Relive your passion for the experiences you love, and let your spirit soar to adventures yet unwritten. We offer unique experiences in pioneering serene destinations to make the most of your stays. Be adventurous in the great outdoors, admire breath-taking views, indulge in local cuisine prepared with farm-fresh ingredients or explore the wildlife in their natural habitat.</p>
         </div>
       </div>
       <Classic_experience image1 ={slider_image6} image2 ={slider_image7} image3 ={slider_image8} image4 ={slider_image9}/>
@@ -61,8 +61,8 @@ export default function Home() {
 
       <div className='hero-background d-flex justify-content-center'>
         <div className="container-1140">
-          <h2 className='text-center  mb-3 pt-5'>CELEBRATIONS & EVENTS</h2>
-          <p className='text-center mb-0'>Whether you envision a celebration that's traditional or trend-setting, festive or formal, intimate or grand-scale, in the ballroom, gardens or by the pool, our resorts featuring a variety of indoor and outdoor settings and a team of experts will give you unlimited options to plan your perfect event.</p>          
+          <h2 className='text-center mid-section-heading mb-3 pt-5'>CELEBRATIONS & EVENTS</h2>
+          <p className='text-center mid-section-about mb-0'>Whether you envision a celebration that's traditional or trend-setting, festive or formal, intimate or grand-scale, in the ballroom, gardens or by the pool, our resorts featuring a variety of indoor and outdoor settings and a team of experts will give you unlimited options to plan your perfect event.</p>          
         </div>
       </div>
       <Image_left image = {image1} heading= "WEDDINGS" about = {<fragment>
