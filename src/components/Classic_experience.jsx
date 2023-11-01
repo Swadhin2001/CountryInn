@@ -18,7 +18,7 @@ function Slider_two(props) {
             <motion.div initial = {{opacity: 0, y: 20}} whileInView={{opacity: 1, y : 0}} 
     transition={{ duration: 1}}>
 
-                <Swiper spaceBetween={0} slidesPerView={3} loop={true} navigation={true} modules={[Navigation]} className="mySwiper" slidesPerGroup={1} centeredSlides={true}>
+                <Swiper spaceBetween={0} slidesPerView={4} loop={true} navigation={true} modules={[Navigation]} className="mySwiper" slidesPerGroup={1} centeredSlides={true}>
                     <SwiperSlide className='carousel custom-carousel'
                         onMouseEnter={() => (setHover1(true))}
                         onMouseLeave={() => (setHover1(false))}

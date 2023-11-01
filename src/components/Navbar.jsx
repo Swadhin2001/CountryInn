@@ -62,7 +62,7 @@ function Navbar(props) {
                                     <a className="nav-link" href="#">EVENTS</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="#">GALLERY</a>
+                                    <a className="nav-link" href="/gallery">GALLERY</a>
                                 </li>
                                 <li className="nav-item">
                                     <a className="nav-link" href="/our-brands">OUR BRANDS</a>

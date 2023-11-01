@@ -9,7 +9,7 @@
   src: url('../fonts/BrandonGrotesque-Light.woff');
 }
 a:hover{
-  color: inherit;
+  color: #d9ba85 !important; 
 }
 .swiper-pagination-bullet{
   border: 1px solid white;
