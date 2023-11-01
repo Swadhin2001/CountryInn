@@ -26,7 +26,7 @@ function Footer(props) {
                 </div>
                 <div className="col-md-4 footer-div">
                     <h4 className='footer-h4'>CONTACT US</h4>
-                    <p className='footer-p'>+91 886 070 7273</p>
+                    <p className='footer-p m-0 p-0'>+91 886 070 7273</p>
                     <p className='footer-p'>reservations@countryinn.in</p>
                 </div>
             </div>
