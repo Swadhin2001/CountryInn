@@ -26,7 +26,8 @@ function Slider_one(props) {
                     nextEl: ".image-swiper-button-next",
                     prevEl: ".image-swiper-button-prev",
                     disabledClass: "swiper-button-disabled"
-                }} modules={[Navigation]} className="mySwiper mb-5" centeredSlides={true} >
+                }} modules={[Navigation]} className="mySwiper mb-5" centeredSlides={true} 
+                >
                     <SwiperSlide className='carousel   ' >
                         {({ isActive }) => (
                             <div className='custom-carousel-one'>

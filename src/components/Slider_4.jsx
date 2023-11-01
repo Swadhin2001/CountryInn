@@ -22,7 +22,7 @@ function Slider_one(props) {
           nextEl: ".image-swiper-button-next-autoslide",
           prevEl: ".image-swiper-button-prev-autoslide",
           disabledClass: "swiper-button-disabled"
-        }} modules={[Navigation]} className="mySwiper mb-5" centeredSlides={true} >
+        }} modules={[Navigation, Pagination]} className="mySwiper mb-5" centeredSlides={true} >
                 <SwiperSlide className='carousel  custom-carousel-one' >
                     {({ isActive }) => (
                         <div>
@@ -30,7 +30,16 @@ function Slider_one(props) {
                                 slidesPerView={1} loop={true} modules={[Autoplay, Pagination]} centeredSlides={true} autoplay={{
                                     delay: 2000,
                                     disableOnInteraction: false
-                                }}
+                                }} pagination={true}
+                                style={{
+                                    "--swiper-pagination-color": "white",
+                                    "--swiper-pagination-bullet-inactive-color": "#999999",
+                                    "--swiper-pagination-bullet-inactive-opacity": "1",
+                                    "--swiper-pagination-bullet-size": "10px",
+                                    "--swiper-pagination-bullet-horizontal-gap": "5px",
+                                    "--swiper-pagination-bullet-width":" 30px",
+                                    "--swiper-pagination-bullet-height": "3px"
+                                  }}
                                 className="mySwiper">
                                 <SwiperSlide>
                                     <Image src={props.image1} alt='' className='img-fluid GB-image' ></Image>
@@ -58,7 +67,16 @@ function Slider_one(props) {
                             <Swiper slidesPerView={1} loop={true} modules={[Autoplay, Pagination]} centeredSlides={true} autoplay={{
                                     delay: 2000,
                                     disableOnInteraction: false
-                                }} 
+                                }} pagination={true}
+                                style={{
+                                    "--swiper-pagination-color": "white",
+                                    "--swiper-pagination-bullet-inactive-color": "#999999",
+                                    "--swiper-pagination-bullet-inactive-opacity": "1",
+                                    "--swiper-pagination-bullet-size": "10px",
+                                    "--swiper-pagination-bullet-horizontal-gap": "5px",
+                                    "--swiper-pagination-bullet-width":" 30px",
+                                    "--swiper-pagination-bullet-height": "3px"
+                                  }}
                                 className="mySwiper">
                                 <SwiperSlide>
                                     <Image src={props.image4} alt='' className='img-fluid GB-image' ></Image>
@@ -86,7 +104,16 @@ function Slider_one(props) {
                             <Swiper slidesPerView={1} loop={true} modules={[Autoplay, Pagination]} centeredSlides={true} autoplay={{
                                     delay: 2000,
                                     disableOnInteraction: false
-                                }} 
+                                }} pagination={true}
+                                style={{
+                                    "--swiper-pagination-color": "white",
+                                    "--swiper-pagination-bullet-inactive-color": "#999999",
+                                    "--swiper-pagination-bullet-inactive-opacity": "1",
+                                    "--swiper-pagination-bullet-size": "10px",
+                                    "--swiper-pagination-bullet-horizontal-gap": "5px",
+                                    "--swiper-pagination-bullet-width":" 30px",
+                                    "--swiper-pagination-bullet-height": "3px"
+                                  }}
                                 className="mySwiper">
                                 <SwiperSlide>
                                     <Image src={props.image7} alt='' className='img-fluid GB-image' ></Image>
@@ -114,7 +141,16 @@ function Slider_one(props) {
                             <Swiper slidesPerView={1} loop={true} modules={[Autoplay, Pagination]} centeredSlides={true} autoplay={{
                                     delay: 2000,
                                     disableOnInteraction: false
-                                }} 
+                                }} pagination={true}
+                                style={{
+                                    "--swiper-pagination-color": "white",
+                                    "--swiper-pagination-bullet-inactive-color": "#999999",
+                                    "--swiper-pagination-bullet-inactive-opacity": "1",
+                                    "--swiper-pagination-bullet-size": "10px",
+                                    "--swiper-pagination-bullet-horizontal-gap": "5px",
+                                    "--swiper-pagination-bullet-width":" 30px",
+                                    "--swiper-pagination-bullet-height": "3px"
+                                  }}
                                 className="mySwiper">
                                 <SwiperSlide>
                                     <Image src={props.image10} alt='' className='img-fluid GB-image' ></Image>

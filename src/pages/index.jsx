@@ -27,6 +27,7 @@ import slider_image12 from '@/assets/get-away1.jpg'
 import slider_image13 from '@/assets/jimcorbettbanner2.jpg'
 import slider_image14 from '@/assets/lobby.jpg'
 import slider_image15 from '@/assets/hero-banner.jpg'
+import { Fragment } from "react";
 
 
 const inter = Inter({ subsets: ["latin"] });
@@ -40,15 +41,21 @@ export default function Home() {
 
       <Slider_3 heading = "OUR GETAWAYS" 
       
-      image1 = {slider_image11} heading1 = "COUNTRY INN NATURE RESORT, BHIMTAL" about1 = "Country Inn Nature Resort, Bhimtal is a melting pot of sublime nature and earthen treasures. It is a haven for those seeking a break from the hustle and bustle of the city to experience a slow, serene life"
+      image1 = {slider_image11} heading1 = "COUNTRY INN NATURE RESORT, BHIMTAL" 
+      about1 = "Country Inn Nature Resort, Bhimtal is a melting pot of sublime nature and earthen treasures. It is a haven for those seeking a break from the hustle and bustle of the city to experience a slow, serene life"
 
-      image2 = {slider_image12} heading2 = "COUNTRY INN TARIKA RIVERSIDE RESORT, JIM CORBETT" about2 = "Set in natural surroundings of the forest, only 250 metres away from the pristine Kosi River and Himalayas framing the backdrop, this is an ideal base to explore the rich diversity of Jim Corbett" 
+      image2 = {slider_image12} heading2 = "COUNTRY INN TARIKA RIVERSIDE RESORT, JIM CORBETT" 
+      about2 = "Set in natural surroundings of the forest, only 250 metres away from the pristine Kosi River and Himalayas framing the backdrop, this is an ideal base to explore the rich diversity of Jim Corbett" 
 
-      image3 = {slider_image13} heading3 = "COUNTRY INN RESORT, JIM CORBETT" about3 = "A tranquil getaway designed purely for the wildlife enthusiasts and nature lovers. Find yourself engulfed in natural surroundings as you indulge in the pleasure of responding to all your natural stimuli " 
+      image3 = {slider_image13} heading3 = "COUNTRY INN RESORT, JIM CORBETT" 
+      about3 = "A tranquil getaway designed purely for the wildlife enthusiasts and nature lovers. Find yourself engulfed in natural surroundings as you indulge in the pleasure of responding to all your natural stimuli " 
 
       image4 = {slider_image14} heading4 = "COUNTRY INN HALL OF HERITAGE, AMRITSAR" about4 ="Located only 800 meters away from the holy shrine, the stunning Golden Temple, Country Inn Hall of Heritage, Amritsar welcomes you to the city draped in rich history, culture, and traditions " 
 
-      image5 = {slider_image15} heading5 = "COUNTRY INN TARIKA GOA, VARCA BEACH" about5 ="Located at a leisurely walk from the pristine white sand Varca Beach, Country Inn Tarika Goa, Varca Beach offers a tranquil escape from the hustle and bustle of city life. This quaint retreat offers 48 well-designed cottages, multiple food and beverage offerings, a pillar-less ballroom for social and corporate gatherings and a stunning outdoor swimming pool to unwind and rejuvenate."/>
+      image5 = {slider_image15} heading5 = "COUNTRY INN TARIKA GOA, VARCA BEACH" 
+      about5 ="Located at a leisurely walk from the pristine white sand Varca Beach, Country Inn Tarika Goa, Varca Beach offers a tranquil escape from the hustle and bustle of city life. This quaint retreat offers 48 well-designed cottages, multiple food and beverage offerings, a pillar-less ballroom for social and corporate gatherings and a stunning outdoor swimming pool to unwind and rejuvenate."
+
+      />
 
       <div className='hero-background d-flex justify-content-center'>
         <div className="container-1140">
