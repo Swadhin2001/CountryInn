@@ -9,6 +9,7 @@ import image3 from '@/assets/ma-game.jpg'
 import Image_left from '@/components/Image_left'
 import Image_right from '@/components/Image_right'
 import Footer from '@/components/Footer'
+import Small_slider from '@/components/Small_slider'
 import slider_image1 from '@/assets/chail-g-1.jpg'
 import slider_image2 from '@/assets/chail-g-2.jpg'
 import slider_image3 from '@/assets/chail-g-3.jpg'
@@ -26,6 +27,11 @@ import slider_image14 from '@/assets/pacific-room-3.jpg'
 import slider_image15 from '@/assets/psm-1.jpg'
 import slider_image16 from '@/assets/psm-2.jpg'
 import slider_image17 from '@/assets/psm-3.jpg'
+import slider_image18 from '@/assets/chail-Foodshot-3.jpg'
+import slider_image19 from '@/assets/mapple-skyhigh-1.jpg'
+import slider_image20 from '@/assets/chail-Foodshot-4.jpg'
+import slider_image21 from '@/assets/chail-Foodshot-2.jpg'
+import slider_image22 from '@/assets/mapple-skyhigh-2.jpg'
 import Gallery from '@/components/Gallery'
 
 function maple() {
@@ -39,6 +45,10 @@ function maple() {
       <div className='hero-background' style={{"height" : "270px"}}>
         <h2 className='text-center mid-section-heading mb-3 pt-5'>LET'S DINE</h2>
         <p className='text-center mid-section-about px-5 mx-5'>Savour a thoughtfully curated menu at Sky High, our multi-cuisine all-day dining restaurant offering mesmerizing views of the surrounding hills and delectable cuisine. With picturesque settings and a warm welcoming ambiance, Sky High is the perfect spot to relish local and international delicacies made using the freshest produce. The alfresco area of the restaurant offers an indulgent experience under a stunning canopy of stars along with a mesmerizing panoramic view of the mountains and the lush forests.</p>
+      </div>
+      <Small_slider image1 ={slider_image18} image2 ={slider_image19} image3 ={slider_image20} image4 ={slider_image21} image5 ={slider_image22} ></Small_slider>
+      <div className='hero-background' style={{"height" : "156px"}}>
+        <h2 className='text-center mid-section-heading mb-3 pt-5'>CLASSIC EXPERIENCES</h2>
       </div>
 
       <Image_left image = {image1} heading= "Dining under the stars" about = "Picture yourself under the starry night sky, amidst the hills with your partner, as the cool breeze brushes against your skin while you savor long conversations and a one-of-a-kind menu crafted by our expert chefs. At Country Inn Maple Resort, Chail, you can feel closer than ever to your loved one while indulging in this extraordinary experience." />

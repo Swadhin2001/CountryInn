@@ -6,6 +6,7 @@ import Meeting_and_events_card from '@/components/Meeting_and_events_card'
 import banner_image from '@/assets/Facade_Deharadun-banner.jpg'
 import Footer from '@/components/Footer'
 import Image from 'next/image'
+import Small_slider from '@/components/Small_slider' 
 import logo_image from '@/assets/Dehradun-transparent-logo-new.png'
 import Image_right from '@/components/Image_right'
 import Image_left from '@/components/Image_left'
@@ -37,6 +38,11 @@ import slider_image14 from '@/assets/pacific-room-3.jpg'
 import slider_image15 from '@/assets/psm-1.jpg'
 import slider_image16 from '@/assets/psm-2.jpg'
 import slider_image17 from '@/assets/psm-3.jpg'
+import slider_image18 from '@/assets/D-Restaurant-4.jpg'
+import slider_image19 from '@/assets/D-Restaurant-2.jpg'
+import slider_image20 from '@/assets/D-Restaurant-5.jpg'
+import slider_image21 from '@/assets/D-Restaurant-3.jpg'
+import slider_image22 from '@/assets/D-Restaurant-6.jpg'
 
 function prominence_dehradun() {
   return (
@@ -51,7 +57,7 @@ function prominence_dehradun() {
 
       <Slider_4 heading= "STAY & REJUVENATE" image1 = {slider_image6} image2 = {slider_image7} image3 = {slider_image8} heading1 = "Pacific Mountain View Suite" about1= "The elegant Pacific Mountain View Suite. offers breath-taking views of the surrounding valley and spectacular hill scenery in the backdrop. The spacious living room with sofa and a dining area is ideal to witness fresh mornings and dreamy sunsets. The suite provides a serene and comfortable retreat for guests seeking a relaxing, upscale experience in the lap of nature" image4 = {slider_image9}  image5 = {slider_image10} image6 = {slider_image11} heading2 = "CLUB PREMIER ROOMS WITH BALCONY" about2 ="Indulge in the breathtaking beauty of Mussoorie with our meticulously designed Club Premier Rooms with Balcony and enjoy an elevated experience with club benefits. These rooms feature a seating area, work desk, LED TV, wooden closet and spacious interiors. With Club Premier Rooms, you will get an exclusive access to the ‘Club Premier’ benefits like welcome drink on arrival, early check-in and late check-out, buffet breakfast and dinner, daily hi-tea and much more, to enhance your stay experience.  " image7 = {slider_image12} image8 = {slider_image13} image9 = {slider_image14}  heading3 = "MOUNTAIN VIEW ROOMS" about3 = "These exquisitely designed rooms offer scenic views of the surrounding mountains. The rooms are comfortably designed with modern interiors, wooden flooring, a working desk, a seating area, LED TV, and a wooden closet to offer an unforgettable experience for guests seeking a peaceful retreat in the mountains." image10 = {slider_image15} image11 = {slider_image16} image12 = {slider_image17} heading4 = "PACIFIC ROOMS" about4 = "Thoughtfully designed with comfort in mind, Pacific Rooms feature tasteful interiors with wooden flooring, a working desk, a seating area, LED TV, and modern amenities for a comfortable stay. These rooms are an ideal abode to rest after a busy day of exploration."/> 
 
-
+      <Small_slider image1 ={slider_image18} image2 ={slider_image19} image3 ={slider_image20} image4 ={slider_image21} image5 ={slider_image22}/>
       <Image_left image = {image1} heading = {<fragment>
         <Image src= {heading_logo1} alt = "" className='heading-logo'/>
       </fragment>} about = "Unlike the conventional way of dining in a single restaurant, we have curated two different dining scenes at the same venue to match your mood and give you more reasons to keep visiting your favorite dining spot. Thoughtfully designed menu curated by our celebrated chefs, served in an inviting space with elegant aesthetics and soothing colors create a casual and laid-back vibe for a dining experience that leads to never-ending conversations and new connections. This fresh charming diner is sure to become your favorite dining spot in Dehradun where you would want to keep returning. After all, this is ‘where the heart lies’!"/>
