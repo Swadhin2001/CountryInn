@@ -10,7 +10,6 @@
 }
 a:hover{
   color: #d9ba85 !important; 
-<<<<<<< HEAD
 }
 .contact-mail-heading{
   font-family: Brandon;
@@ -30,8 +29,6 @@ a:hover{
   font-weight: 500;
   line-height: 34px;
   color: #212529;
-=======
->>>>>>> a91d2d0648f304f709f5d89cbbfbd764b281baa7
 }
 .swiper-pagination-bullet{
   border: 1px solid white;
