@@ -421,11 +421,9 @@ a:hover{
   max-width: 70%;
   height: auto;
 }
-.footer-top-padding{
-}
 .section-title {
   padding-bottom: 20px;
-  font-family: 'Trajan', sans-serif;
+  font-family: Trajan;
 }
 .GB-overlay {
   position: absolute;
