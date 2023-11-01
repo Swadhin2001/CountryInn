@@ -4,7 +4,7 @@ import Image from 'next/image'
 function Image_right(props) {
   return (
     <div className='container-fluid p-0'>
-        <div className="row mb-5">
+        <div className="row mb-5 row-odd">
         <div className="col-md-5 my-auto ">
         <div className='image-about-left my-3'>
             <h4 className='pb-3 body-image-h4-left image-heading' >{props.heading}</h4>

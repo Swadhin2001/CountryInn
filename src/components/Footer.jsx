@@ -7,7 +7,7 @@ function Footer(props) {
   return (
     <div className='d-flex justify-content-center pt-5 pb-5 mb-3'>
         <div className="container-1140">
-            <div className="row">
+            <div className="row footer-padding">
                 <div className="col-md-4 footer-div">
                     <Image src = {logo} alt = ''></Image>
                 </div>

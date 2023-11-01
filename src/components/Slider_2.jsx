@@ -11,9 +11,19 @@ function Slider_two(props) {
     return (
         <div className=' slider-1-background m-0 p-0'>
             <motion.div initial = {{opacity: 0, y: 20}} whileInView={{opacity: 1, y : 0}} 
-    transition={{ duration: 1}}>
+    transition={{ duration: 1}}
+    >
 
-            <Swiper spaceBetween={0} slidesPerView={4} loop={true} navigation={true} modules={[Navigation]} className="mySwiper" slidesPerGroup={1} centeredSlides={true}>
+            <Swiper spaceBetween={0} slidesPerView={4} loop={true} navigation={true} modules={[Navigation]} className="mySwiper" slidesPerGroup={1} centeredSlides={true} breakpoints={{
+        600: {
+          slidesPerView: 1,
+          spaceBetween: 0,
+        },
+        1024: {
+          slidesPerView: 4,
+          spaceBetween: 0,
+        },
+      }}>
                 <SwiperSlide className='carousel custom-carousel' >
                     <Image src={props.image1} alt='' className='img-fluid' ></Image>
                 </SwiperSlide>

@@ -704,7 +704,7 @@ a:hover{
   background-position: center;
   background-repeat: no-repeat;
 }
-.booking-widget {
+/* .booking-widget {
   display: flex;
   background: #eee;
   padding: 20px;
@@ -744,4 +744,35 @@ a:hover{
   appearance: none;
   border-radius: .25rem;
   transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+} */
+@media only screen and (max-width: 600px) {
+  .hero-banner{
+    height: 65vh;
+  }
+  .form-section{
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    /* height: 400px; */
+  }
+  .booking-widget{
+    padding: 20px;
+  }
+  .hero-background{
+    height: auto !important;
+    padding: 30px !important;
+  }
+  .row-odd {
+    flex-direction: column-reverse;
+  }
+  .footer-padding{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+  }
+  .footer-div{
+    width: auto !important;
+    padding: 20px;
+  }
 }

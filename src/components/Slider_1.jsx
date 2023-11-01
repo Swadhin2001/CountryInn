@@ -27,20 +27,31 @@ function Slider_one(props) {
                 nextEl: ".image-swiper-button-next",
                 prevEl: ".image-swiper-button-prev",
                 disabledClass: "swiper-button-disabled"
-            }} modules={[Navigation]} className="mySwiper mb-5" centeredSlides={true} >
-                <SwiperSlide className='carousel  custom-carousel-one' >
+            }} modules={[Navigation]} className="mySwiper mb-5" centeredSlides={true}
+                breakpoints={{
+                    640: {
+                    slidesPerView: 1,
+                    spaceBetween: 0,
+                    },
+                    1024: {
+                    slidesPerView: 2,
+                    spaceBetween: 110,
+                    },
+                }} 
+            >
+                <SwiperSlide className='carousel   ' >
                     <Image src={props.image1} alt='' className='img-fluid GB-image' ></Image>
                 </SwiperSlide>
-                <SwiperSlide className='carousel  custom-carousel-one'>
+                <SwiperSlide className='carousel   '>
                     <Image src={props.image2} alt='' className='img-fluid GB-image'></Image>
                 </SwiperSlide>
-                <SwiperSlide className='carousel  custom-carousel-one'>
+                <SwiperSlide className='carousel   '>
                     <Image src={props.image3} alt='' className='img-fluid GB-image'></Image>
                 </SwiperSlide>
-                <SwiperSlide className='carousel  custom-carousel-one'>
+                <SwiperSlide className='carousel   '>
                     <Image src={props.image4} alt='' className='img-fluid GB-image'></Image>
                 </SwiperSlide>
-                <SwiperSlide className='carousel  custom-carousel-one'>
+                <SwiperSlide className='carousel   '>
                     <Image src={props.image5} alt='' className='img-fluid GB-image'></Image>
                 </SwiperSlide>
             </Swiper>
