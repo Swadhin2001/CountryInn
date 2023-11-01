@@ -9,7 +9,26 @@
   src: url('../fonts/BrandonGrotesque-Light.woff');
 }
 a:hover{
-  color: inherit;
+  color: #d9ba85 !important; 
+}
+.contact-mail-heading{
+  font-family: Brandon;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 38px;
+}
+.contact-p{
+  font-family: Brandon;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+}
+.contact-us-heading{
+  font-family: Trajan;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 34px;
+  color: #212529;
 }
 .swiper-pagination-bullet{
   border: 1px solid white;
@@ -532,9 +551,22 @@ a:hover{
     margin: 0 0 12px 35px;
     position: relative;
 }
+.contact-about{
+  font-family: Brandon;
+  font-size:20px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.color-dgrey{
+  color: #535150 !important;
+}
 .our-brands{
   padding-top: 70px;
   padding-bottom: 40px;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 45px;
+  color : #333333;
 } 
 .custom-carousel-image{
   width: 722px !important;
