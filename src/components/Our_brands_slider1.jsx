@@ -25,7 +25,7 @@ function Our_brands_slider1() {
                 "--swiper-pagination-bullet-inactive-opacity": "1",
                 "--swiper-pagination-bullet-size": "10px",
                 "--swiper-pagination-bottom": "40px",
-                "--swiper-pagination-bullet-horizontal-gap": "2px"
+                "--swiper-pagination-bullet-horizontal-gap": "3px"
               }}>
                 <SwiperSlide className="carousel">
                     <Image src={image1} className='d-block w-100 img-fluid caro-img' alt=""></Image>

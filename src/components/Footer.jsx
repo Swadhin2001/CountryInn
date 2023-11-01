@@ -5,7 +5,7 @@ import logo from '@/assets/cihr-logo.png'
 
 function Footer(props) {
   return (
-    <div className='d-flex justify-content-center pb-5 mb-3'>
+    <div className='d-flex justify-content-center pt-5 pb-5 mb-3'>
         <div className="container-1140">
             <div className="row">
                 <div className="col-md-4 footer-div">
@@ -26,7 +26,7 @@ function Footer(props) {
                 </div>
                 <div className="col-md-4 footer-div">
                     <h4 className='footer-h4'>CONTACT US</h4>
-                    <p className='footer-p m-0 p-0'>+91 886 070 7273</p>
+                    <p className='footer-p m-0'>+91 886 070 7273</p>
                     <p className='footer-p'>reservations@countryinn.in</p>
                 </div>
             </div>

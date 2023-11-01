@@ -11,6 +11,9 @@
 a:hover{
   color: inherit;
 }
+.swiper-pagination-bullet{
+  border: 1px solid white;
+}
 .form-heading{
   line-height: 24px;
   font-size: 16px;
@@ -417,6 +420,8 @@ a:hover{
 .tarika-goa-header-image{
   max-width: 70%;
   height: auto;
+}
+.footer-top-padding{
 }
 .section-title {
   padding-bottom: 20px;
