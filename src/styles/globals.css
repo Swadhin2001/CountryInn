@@ -40,7 +40,9 @@
 a:hover {
   color: #d9ba85 !important;
 }
-
+a{
+  --webkit-tap-highlight-color: transparent;
+}
 .contact-mail-heading {
   font-family: Brandon;
   font-weight: 700;
