@@ -35,7 +35,7 @@ const inter = Inter({ subsets: ["latin"] });
 export default function Home() {
   return (
     <>
-      <Navbar opacity='1'></Navbar>
+      <Navbar opacity='1'/>
 
       <Herosection image = {banner_image} backgroundPosition ="bottom center" heading = "YOUR LEISURE ESCAPES" about = "Revive your love for travel and immerse yourself in the ultimate experience. Country Inn Hotels & Resorts are strategically located in destinations that are best suited for adventure, discovery, and at the places that inspire soul. Each resort display lush green nature in its unique backdrop and is set in natural junction flanked by great Himalayan Mountains, alongside tranquil lakes, in the midst of virgin forests or bordering wildlife sanctuaries to offer friendly experiences and for redefining family holidays."/>
 

@@ -1,13 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Oswald&display=swap');
-@font-face{
+
+@font-face {
   font-family: 'Trajan';
   src: url('../fonts/TrajanPro-Regular.woff');
 }
-@font-face{
+
+@font-face {
   font-family: 'Brandon';
   src: url('../fonts/BrandonGrotesque-Light.woff');
 }
+
 .slick-next {
   position: absolute;
   top: 50%;
@@ -18,6 +21,7 @@
   border: none;
   background-repeat: no-repeat;
 }
+
 .slick-prev {
   position: absolute;
   top: 50%;
@@ -28,209 +32,230 @@
   border: none;
   background-repeat: no-repeat;
 }
-a:hover{
-  color: #d9ba85 !important; 
+
+a:hover {
+  color: #d9ba85 !important;
 }
-.contact-mail-heading{
+
+.contact-mail-heading {
   font-family: Brandon;
   font-weight: 700;
   font-size: 25px;
   line-height: 38px;
 }
-.contact-p{
+
+.contact-p {
   font-family: Brandon;
   font-weight: 400;
   font-size: 20px;
   line-height: 30px;
 }
-.contact-us-heading{
+
+.contact-us-heading {
   font-family: Trajan;
   font-size: 28px;
   font-weight: 500;
   line-height: 34px;
   color: #212529;
 }
-.swiper-pagination-bullet{
+
+.swiper-pagination-bullet {
   border: 1px solid white;
 }
-.form-heading{
+
+.form-heading {
   line-height: 24px;
   font-size: 16px;
   font-weight: 600;
 }
-.dropdown-item{
-  font-family: Trajan;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 24px;
-  color: #333333;
-}
-.our_brands_title{
+
+.our_brands_title {
   font-family: 'EB Garamond', serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 21px;
-  color: white;    
+  color: white;
 }
-.our-brand-p{
+
+.our-brand-p {
   font-family: 'EB Garamond', serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 27px;
-  color: #212529;  
+  color: #212529;
 }
-.policy-heading{
+
+.policy-heading {
   font-family: Trajan;
   font-size: 30px;
   font-weight: 400;
   line-height: 45px;
   color: #333333;
 }
-.policy-h4{
+
+.policy-h4 {
   font-family: 'EB Garamond', serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 27px;
   color: #212529;
 }
-.policy-p{
+
+.policy-p {
   font-family: 'EB Garamond', serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 27px;
   color: #212529;
 }
-.card-heading{
+
+.card-heading {
   font-family: Trajan;
   font-size: 20px;
   font-weight: 500;
   line-height: 24px;
   color: #212529;
 }
-.card-about{
+
+.card-about {
   font-family: 'EB Garamond', serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 27px;
   color: #212529;
 }
-.meeting-events-heading{
+
+.meeting-events-heading {
   font-family: Trajan;
   font-size: 30px;
   font-weight: 400;
   line-height: 45px;
   color: #333333;
 }
-.footer-h4{
+
+.footer-h4 {
   font-family: Trajan;
   font-size: 16px;
   font-weight: 500;
   line-height: 19px;
   color: black;
 }
-.footer-p{
+
+.footer-p {
   font-family: Brandon;
   font-size: 18px;
   font-weight: 400;
   line-height: 27px;
   color: #535150;
 }
-.nav-link{
-  font-family: Trajan;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 24px;
-  color: #333333;
-}
-.slider-heading{
+
+.slider-heading {
   font-family: Trajan;
   font-size: 30px;
   font-weight: 400;
   line-height: 45px;
   color: #333333;
 }
-.section-header{
+
+.section-header {
   font-family: Trajan;
   font-size: 30px;
   font-weight: 400;
   line-height: 45px;
   color: #333333;
 }
-.section-about{
+
+.section-about {
   font-family: 'EB Garamond', serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 27px;
   color: #212529;
 }
-.carousel-heading{
+
+.carousel-heading {
   font-family: Trajan;
   font-size: 16px;
   line-height: 19px;
   font-weight: 500;
 }
-.carousel-about{
+
+.carousel-about {
   font-family: 'EB Garamond', serif;
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
 }
-.mid-section-heading{
+
+.mid-section-heading {
   font-family: Trajan;
   font-size: 32px;
   line-height: 38px;
   font-weight: 500;
 }
-.mid-section-about{
+
+.mid-section-about {
   font-family: 'EB Garamond', serif;
   font-size: 18px;
   line-height: 27px;
   font-weight: 400;
 }
-.image-heading{
+
+.image-heading {
   font-family: Trajan;
   font-size: 20px;
   line-height: 24px;
-  font-weight: 500;  
+  font-weight: 500;
   color: #212529;
 }
-.image-about{
+
+.image-about {
   font-family: 'EB Garamond', serif;
   font-size: 18px;
   line-height: 27px;
-  font-weight: 400;  
+  font-weight: 400;
   color: #212529;
 }
-.container-1140{
+
+.container-1140 {
   max-width: 1140px;
 }
-.custom-container-1140{
+
+.custom-container-1140 {
   max-width: 1140px;
   height: 125px;
 }
-.container-1200{
+
+.container-1200 {
   max-width: 1200px;
 }
-.container-fluid{
+
+/* .container-fluid {
   overflow-x: hidden;
-}
-.container-1300{
+} */
+
+.container-1300 {
   max-width: 1300px;
 }
-.body-image-right, .body-image-left{
+
+.body-image-right,
+.body-image-left {
   height: 515px;
   width: 777px !important;
   background-position: center;
 }
-.image-about-right{
+
+/* .image-about-right {
   padding-left: 12px;
-  padding-right: 24px; 
+  padding-right: 24px;
 }
-.image-about-left{
+
+.image-about-left {
   padding-right: 12px;
-  padding-left: 24px; 
-}
-.book-now-btn{
+  padding-left: 24px;
+} */
+
+.book-now-btn {
   background: #b62638 !important;
   color: white !important;
   outline: none !important;
@@ -238,27 +263,27 @@ a:hover{
   width: 111px;
   margin-top: 25px;
 }
-.form-section{
+
+.form-section {
   background-color: #eee;
   height: 125px;
 }
-.form-border{
+
+.form-border {
   border: 1px solid #c8c8c8;
 }
-.custom-dropdown{
-  width: 250px;
-  height : 45px;
-  background: white;  
-}
-.date-form{
+
+.date-form {
   height: 43px;
   width: 221px;
 }
-.hero-padding{
-  padding-top: 80px; 
+
+.hero-padding {
+  padding-top: 80px;
   padding-bottom: 60px;
 }
-.footer-link{
+
+.footer-link {
   text-decoration: none;
   color: #535150;
   font-family: Brandon;
@@ -266,33 +291,41 @@ a:hover{
   font-size: 14px;
   line-height: 21px;
 }
-.footer-div{
+
+.footer-div {
   width: 354px !important;
 }
-.hero-background{
+
+.hero-background {
   background-image: url('../assets/pre-footer.jpg');
   height: 216px;
   background-repeat: no-repeat;
   background-size: cover;
 }
-.GB-image{
+
+.GB-image {
   aspect-ratio: 655/436;
 }
-.GB-image, .carousel-image-one{
+
+.GB-image,
+.carousel-image-one {
   opacity: 0.8;
   transition: all 0.5s ease-in-out;
 }
-.swiper-slide-active .GB-image{
+
+.swiper-slide-active .GB-image {
   aspect-ratio: 665/446;
   opacity: 1;
   transform: scale(1.1);
 }
-.swiper-slide-active .carousel-image-one{
+
+.swiper-slide-active .carousel-image-one {
   opacity: 1;
   /* height: 460px; */
   transform: scale(1.1);
 }
-.hero-banner{
+
+.hero-banner {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
@@ -301,8 +334,30 @@ a:hover{
   position: relative;
   margin-top: -112px;
 }
+
+.our-brands-banner {
+  background-position: bottom center;
+}
+
+/* Navbar CSS */
+
+.dropdown-item{
+  font-family: Trajan;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #333333;
+}
+.nav-link{
+  font-family: Trajan;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #333333;
+}
 .navbar{
   height: 110px;
+  max-height: 500px;
 }
 .nav-icon{
   font-size: 28px;
@@ -324,9 +379,6 @@ a:hover{
   transition: 0.3s !important;
   font-size: 16px !important;
 }
-.our-brands-banner{
-  background-position: bottom center;
-}
 .nav-item{
   padding: 10px 0px 10px 30px !important;
 }
@@ -334,7 +386,54 @@ a:hover{
   margin: 0px !important;
   padding: 0px !important;
 }
-.hero-heading{
+.dropdown-menu{
+  margin: 0;
+  padding: 10px 0 !important;
+  background: #fff;
+  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+  transition: 0.3s;
+  border-radius: 4px;
+}
+.ul-animation::after {
+content: "";
+position: absolute;
+width: 50%;
+transform: scaleX(0);
+height: 2px;
+bottom: 0;
+left: 10px;
+background-color: #cda45e;
+transform-origin: bottom center;
+transition: transform 0.25s ease-out;
+}
+.ul-animation:hover:after {
+transform: scaleX(1);
+transform-origin: bottom center;
+}
+.dropdown-menu li{
+position: relative;
+}
+.dropdown-menu li a:hover{
+color:#cda45e;
+}
+.navbar .dropdown ul {
+margin: 0;
+padding: 10px 0;
+background: #fff;
+box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+transition: 0.3s;
+border-radius: 4px;
+}
+.custom-dropdown{
+  width: 250px;
+  height : 45px;
+  background: white;  
+}
+
+
+/* Nav CSS ends */
+
+.hero-heading {
   position: absolute;
   top: 55%;
   /* padding-top: 350px; */
@@ -343,35 +442,42 @@ a:hover{
   line-height: 45px;
   font-weight: 400;
 }
-.meeting-and-events-card{
+
+.meeting-and-events-card {
   min-height: 550px;
   /* width: 356px; */
 }
-.meeting-image{
+
+.meeting-image {
   height: 265px;
 }
 
-.custom-carousel{
+.custom-carousel {
   min-width: 514px !important;
 }
-.slider-1-background{
+
+.slider-1-background {
   background: #e0d3cb52;
   padding: 60px 0px;
   position: relative;
 }
-.carousel-image-two{
+
+.carousel-image-two {
   height: 660px;
   width: 514px;
   margin: 0px;
 }
-.upcoming-hotel-image{
+
+.upcoming-hotel-image {
   height: 195px;
   width: 350px;
 }
+
 .swiper-data {
   left: -37px;
   position: relative;
 }
+
 .slider-btn {
   position: absolute;
   top: 90%;
@@ -387,6 +493,7 @@ a:hover{
   font-weight: bold;
   text-decoration: none;
 }
+
 .overlay-middle {
   transition: 2s ease;
   opacity: 0.7;
@@ -400,6 +507,7 @@ a:hover{
   display: flex;
   align-items: center;
 }
+
 .overlay-text {
   font-family: 'EB Garamond', serif;
   display: flex;
@@ -411,13 +519,15 @@ a:hover{
   font-size: 18px;
   line-height: 27px;
 }
-.overlay-about{
+
+.overlay-about {
   font-family: 'EB Garamond', serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 27px;
   color: white;
 }
+
 .hotel-links {
   color: white;
   font-family: "Open Sans", sans-serif;
@@ -426,6 +536,7 @@ a:hover{
   line-height: 18px;
   text-decoration: none;
 }
+
 .btn-ind {
   color: #cda45e;
   font-family: 'Oswald', sans-serif;
@@ -436,9 +547,11 @@ a:hover{
   font-weight: 400;
   line-height: 18px;
 }
+
 .text-end {
-  text-align: right!important;
+  text-align: right !important;
 }
+
 .info.banner {
   background: white;
   text-align: center;
@@ -446,24 +559,29 @@ a:hover{
   padding-bottom: 30px;
   box-shadow: 0px 0px 40px #00000029;
 }
-.hero-banner1{
+
+.hero-banner1 {
   min-height: 670px;
   position: relative;
   background-repeat: no-repeat;
   background-size: cover;
-} 
-.bannercss{
-  position: absolute;
-  top:40%;
 }
-.tarika-goa-header-image{
+
+.bannercss {
+  position: absolute;
+  top: 40%;
+}
+
+.tarika-goa-header-image {
   max-width: 70%;
   height: auto;
 }
+
 .section-title {
   padding-bottom: 20px;
   font-family: Trajan;
 }
+
 .GB-overlay {
   position: absolute;
   left: 3%;
@@ -474,32 +592,41 @@ a:hover{
   font-size: 50px;
   padding: 20px 10px;
 }
+
 .GB-overlay .text-start {
   text-shadow: 0px 2px 11px #000;
 }
+
 .text-start {
-  text-align: left!important;
+  text-align: left !important;
   font-size: 20px;
   font-family: Trajan;
   font-weight: 500;
   line-height: 24px;
   color: white;
 }
+
 .card-img-top {
   width: 100%;
   border-top-left-radius: calc(.25rem - 1px);
   border-top-right-radius: calc(.25rem - 1px);
 }
-.mussoorie-card-img{
+
+.mussoorie-card-img {
   height: 402px;
 }
-.heading-logo{
-  margin-top:-20px;
+
+.heading-logo {
+  margin-top: -20px;
   width: 100%;
-  height:200px;
-  object-fit:contain;
+  height: 200px;
+  object-fit: contain;
 }
-.image-swiper-button-next,.image-swiper-button-prev,.image-swiper-button-next-autoslide,.image-swiper-button-prev-autoslide {
+
+.image-swiper-button-next,
+.image-swiper-button-prev,
+.image-swiper-button-next-autoslide,
+.image-swiper-button-prev-autoslide {
   width: 20px;
   height: 20px;
   background-size: 20px 20px;
@@ -507,40 +634,47 @@ a:hover{
   margin: 0;
   padding: 0;
 }
+
 .image-swiper-button-next {
   position: absolute;
   left: 76%;
   top: 46%;
   z-index: 99;
 }
+
 .image-swiper-button-prev {
   position: absolute;
   left: 20%;
   top: 46%;
   z-index: 99;
 }
+
 .image-swiper-button-next-autoslide {
   position: absolute;
   left: 74%;
   top: 46%;
   z-index: 99;
 }
+
 .image-swiper-button-prev-autoslide {
   position: absolute;
   left: 21%;
   top: 46%;
   z-index: 99;
 }
-.swiper-button{
+
+.swiper-button {
   font-size: 60px !important;
   color: gray;
 }
+
 .panel-body {
   padding: 15px;
   font-size: 14px;
   line-height: 21px;
   font-weight: 400;
 }
+
 .caro-img {
   border-radius: 20px;
   object-fit: none;
@@ -548,52 +682,62 @@ a:hover{
   border-top-left-radius: 0;
   object-fit: cover;
 }
+
 .country_brand_img {
   margin-bottom: 0 !important;
   min-height: 60px;
   max-height: 60px;
 }
-.our-brands-btn{
+
+.our-brands-btn {
   padding: 10px 55px 10px 15px;
 }
-.our-brands-about{
-    border: none;
-    border-radius: 0;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
-    margin: 0 0 12px 35px;
-    position: relative;
-    background-color: #ffffff;
+
+.our-brands-about {
+  border: none;
+  border-radius: 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+  margin: 0 0 12px 35px;
+  position: relative;
+  background-color: #ffffff;
 }
-.our-brands-about-heading{
-    border: none;
-    border-radius: 0;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
-    margin: 0 0 12px 35px;
-    position: relative;
+
+.our-brands-about-heading {
+  border: none;
+  border-radius: 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+  margin: 0 0 12px 35px;
+  position: relative;
 }
-.contact-about{
+
+.contact-about {
   font-family: Brandon;
-  font-size:20px;
+  font-size: 20px;
   font-weight: 400;
   line-height: 30px;
 }
-.color-dgrey{
+
+.color-dgrey {
   color: #535150 !important;
 }
-.our-brands{
+
+.our-brands {
   padding-top: 70px;
   padding-bottom: 40px;
   font-weight: 400;
   font-size: 30px;
   line-height: 45px;
-  color : #333333;
-} 
-.custom-carousel-image{
+  color: #333333;
+}
+
+.custom-carousel-image {
   width: 722px !important;
 }
+
 .color-dgrey {
   color: #535150 !important;
 }
+
 .our_brands_title {
   margin-top: -39px;
   padding-top: 0px;
@@ -602,47 +746,7 @@ a:hover{
   height: 40px;
   font-size: 14px;
 }
-.dropdown-menu{
-    /* position: absolute;
-    left: 14px; */
-    /* top: calc(100% + 30px); */
-    margin: 0;
-    padding: 10px 0 !important;
-    background: #fff;
-    box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
-    transition: 0.3s;
-    border-radius: 4px;
-}
-.ul-animation::after {
-  content: "";
-  position: absolute;
-  width: 50%;
-  transform: scaleX(0);
-  height: 2px;
-  bottom: 0;
-  left: 10px;
-  background-color: #cda45e;
-  transform-origin: bottom center;
-  transition: transform 0.25s ease-out;
-}
-.ul-animation:hover:after {
-  transform: scaleX(1);
-  transform-origin: bottom center;
-}
-.dropdown-menu li{
-  position: relative;
-}
-.dropdown-menu li a:hover{
-  color:#cda45e;
-}
-.navbar .dropdown ul {
-  margin: 0;
-  padding: 10px 0;
-  background: #fff;
-  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
-  transition: 0.3s;
-  border-radius: 4px;
-}
+
 .pannel-group:before {
   content: "";
   width: 1px;
@@ -653,6 +757,7 @@ a:hover{
   left: 17px;
   bottom: 20px;
 }
+
 .pannel-heading {
   text-transform: uppercase;
   display: block;
@@ -664,12 +769,14 @@ a:hover{
   margin: 0;
   position: relative;
 }
-.our-brands-btn{
+
+.our-brands-btn {
   font-family: Trajan;
   font-size: 16px;
   font-weight: 600;
   line-height: 19px;
 }
+
 .pannel-heading::before {
   content: "";
   width: 15px;
@@ -682,6 +789,7 @@ a:hover{
   left: -37px;
   transform: translateY(-50%);
 }
+
 .pannel-title::before {
   content: "";
   font-family: "Font Awesome 5 Free";
@@ -703,7 +811,8 @@ a:hover{
   background-position: center;
   background-repeat: no-repeat;
 }
-.pannel-title-collapsed::before{
+
+.pannel-title-collapsed::before {
   content: "";
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
@@ -724,6 +833,7 @@ a:hover{
   background-position: center;
   background-repeat: no-repeat;
 }
+
 /* .booking-widget {
   display: flex;
   background: #eee;
@@ -766,32 +876,38 @@ a:hover{
   transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 } */
 @media only screen and (max-width: 600px) {
-  .hero-banner{
+  .hero-banner {
     height: 65vh;
   }
-  .form-section{
+
+  .form-section {
     width: 100%;
     height: auto;
     padding: 20px;
     /* height: 400px; */
   }
-  .booking-widget{
+
+  .booking-widget {
     padding: 20px;
   }
-  .hero-background{
+
+  .hero-background {
     height: auto !important;
     padding: 30px !important;
   }
+
   .row-odd {
     flex-direction: column-reverse;
   }
-  .footer-padding{
+
+  .footer-padding {
     display: flex;
     flex-direction: column;
     justify-content: center;
     /* align-items: center; */
   }
-  .footer-div{
+
+  .footer-div {
     width: auto !important;
     padding: 20px;
   }
