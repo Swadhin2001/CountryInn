@@ -14,8 +14,10 @@ function bhimtal() {
       <div style={{"backgroundImage" : `url(${banner_image.src})`}} className='hero-banner'/>
 
       <div className='hero-background' style={{"height" : "218px"}}>
-        <h2 className='text-center  mb-3 pt-5'>IF YOU ARE A PET OWNER, YOU ARE AT THE RIGHT PLACE</h2>
-        <p className='text-center px-5 mx-5'>We understand the attachment & bonding a pet brings to our lives and we know that it is traumatic for the animal to be left behind while the rest of the family travels. We therefore took the bold step to open up our doors to your pets & have been welcoming pets at our resorts since the past 05 years & more..</p>
+        <div className="container">
+          <h2 className='text-center  mb-3 pt-5'>IF YOU ARE A PET OWNER, YOU ARE AT THE RIGHT PLACE</h2>
+          <p className='text-center'>We understand the attachment & bonding a pet brings to our lives and we know that it is traumatic for the animal to be left behind while the rest of the family travels. We therefore took the bold step to open up our doors to your pets & have been welcoming pets at our resorts since the past 05 years & more..</p>
+        </div>
       </div>
 
       <Image_left image = {image1} heading= "PETS AT COUNTRY INN HOTELS & RESORTS" about = "During these years we are proud to have hosted many wonderful beings and feel glad we could make a difference to many families who value the feeling of 'being together'. While we are very passionate about animals, we cannot assume the same about all our guests & hence we request you to please read the Pets Policy carefully & adhere to the same at all times when your pet is in our premises. It will help us make your stay a wonderful experience." />
