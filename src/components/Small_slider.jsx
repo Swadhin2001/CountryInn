@@ -5,6 +5,8 @@ import { Navigation } from 'swiper/modules';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import Image from "next/image";
+import button_next from '@/assets/right-arrow.svg'
+import button_prev from '@/assets/left-arrow.svg'
 
 function Slider_two(props) {
 
@@ -12,8 +14,17 @@ function Slider_two(props) {
         <div className=' slider-1-background m-0 p-0'>
             <motion.div initial = {{opacity: 0, y: 20}} whileInView={{opacity: 1, y : 0}} 
     transition={{ duration: 1}}>
-
-            <Swiper spaceBetween={0} slidesPerView={4} loop={true} navigation={true} modules={[Navigation]} className="mySwiper" slidesPerGroup={1} centeredSlides={true}>
+         <div className="swiper-button slick-next">
+                <Image src = {button_next} alt= ""/>
+            </div>
+            <div className="swiper-button slick-prev">
+                <Image src = {button_prev} alt= ""/>                
+            </div>
+            <Swiper spaceBetween={0} slidesPerView={4} loop={true} modules={[Navigation]} className="mySwiper" slidesPerGroup={1} centeredSlides={true} navigation={{
+        nextEl: ".slick-next",
+        prevEl: ".slick-prev",
+        disabledClass: "swiper-button-disabled"
+    }}>
                 <SwiperSlide className='carousel custom-carousel' >
                     <Image src={props.image1} alt='' className='img-fluid' ></Image>
                 </SwiperSlide>

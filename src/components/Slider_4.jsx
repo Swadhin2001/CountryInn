@@ -8,7 +8,6 @@ import Image from "next/image";
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 
 function Slider_one(props) {
-
     return (
         <div className='mt-5 pt-5 slider-1-background'>
             <h2 className='text-center slider-heading'>{props.heading}</h2>
@@ -30,7 +29,7 @@ function Slider_one(props) {
                                 slidesPerView={1} loop={true} modules={[Autoplay, Pagination]} centeredSlides={true} autoplay={{
                                     delay: 2000,
                                     disableOnInteraction: false
-                                }} pagination={true}
+                                }} pagination={{clickable: true}}
                                 style={{
                                     "--swiper-pagination-color": "white",
                                     "--swiper-pagination-bullet-inactive-color": "#999999",
@@ -67,7 +66,7 @@ function Slider_one(props) {
                             <Swiper slidesPerView={1} loop={true} modules={[Autoplay, Pagination]} centeredSlides={true} autoplay={{
                                     delay: 2000,
                                     disableOnInteraction: false
-                                }} pagination={true}
+                                }} pagination={{clickable: true}}
                                 style={{
                                     "--swiper-pagination-color": "white",
                                     "--swiper-pagination-bullet-inactive-color": "#999999",
@@ -104,7 +103,7 @@ function Slider_one(props) {
                             <Swiper slidesPerView={1} loop={true} modules={[Autoplay, Pagination]} centeredSlides={true} autoplay={{
                                     delay: 2000,
                                     disableOnInteraction: false
-                                }} pagination={true}
+                                }} pagination={{clickable: true}}
                                 style={{
                                     "--swiper-pagination-color": "white",
                                     "--swiper-pagination-bullet-inactive-color": "#999999",
@@ -141,7 +140,7 @@ function Slider_one(props) {
                             <Swiper slidesPerView={1} loop={true} modules={[Autoplay, Pagination]} centeredSlides={true} autoplay={{
                                     delay: 2000,
                                     disableOnInteraction: false
-                                }} pagination={true}
+                                }} pagination={{clickable: true}}
                                 style={{
                                     "--swiper-pagination-color": "white",
                                     "--swiper-pagination-bullet-inactive-color": "#999999",

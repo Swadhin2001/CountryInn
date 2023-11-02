@@ -8,6 +8,26 @@
   font-family: 'Brandon';
   src: url('../fonts/BrandonGrotesque-Light.woff');
 }
+.slick-next {
+  position: absolute;
+  top: 50%;
+  right: 10%;
+  z-index: 999;
+  background: transparent;
+  color: transparent;
+  border: none;
+  background-repeat: no-repeat;
+}
+.slick-prev {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  z-index: 999;
+  background: transparent;
+  color: transparent;
+  border: none;
+  background-repeat: no-repeat;
+}
 a:hover{
   color: #d9ba85 !important; 
 }

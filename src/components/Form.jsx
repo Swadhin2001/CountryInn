@@ -38,7 +38,7 @@ function Form() {
     return (
         <div className='my-5 d-flex justify-content-center'>
             <div className="custom-container-1140 form-section align-item-center d-flex">
-                <div className="row align-items-center g-0 booking-widget">
+                <div className="row align-items-center g-0  booking-widget">
                     <div className="col-md-auto ms-3 me-3">
                         <p className='m-0 form-heading'>Select Your Gateway</p>
                         <div className="dropdown form-border custom-dropdown">

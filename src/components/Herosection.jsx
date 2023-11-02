@@ -10,7 +10,7 @@ function Herosection(props) {
       </div>
       <Form></Form>
       <div className='d-flex justify-content-center hero-padding'>
-        <div className='container-1140'>
+        <div className='container'>
           <h1 className='text-center pb-3 section-header'>{props.heading}</h1>
           <div className='text-center section-about'>{props.about}</div>
         </div>
