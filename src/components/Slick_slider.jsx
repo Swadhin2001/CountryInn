@@ -22,17 +22,14 @@ function Slider_two(props) {
                     <Image src={button_prev} alt="" />
                 </div>
 
-                <Swiper  loop={true} modules={[Navigation]} className="mySwiper"  breakpoints={{
+                <Swiper spaceBetween={0} slidesPerView={4} loop={true} modules={[Navigation]} className="mySwiper" slidesPerGroup={1} centeredSlides={true} breakpoints={{
                     600: {
                         slidesPerView: 1,
                         spaceBetween: 0,
-                        slidesPerGroup: 1
                     },
                     1024: {
                         slidesPerView: 4,
-                        centeredSlides: true,
                         spaceBetween: 0,
-                        slidesPerGroup: 2
                     },
                 }} navigation={{
                     nextEl: ".slick-next",
@@ -40,34 +37,34 @@ function Slider_two(props) {
                     disabledClass: "swiper-button-disabled"
                 }}>
                     <SwiperSlide className='carousel custom-carousel' >
-                        <Image src={props.image1} alt='' className='img-fluid' ></Image>
+                        <Image src={props.image1} alt='' className='img-fluid vrindavan-slick-slider' ></Image>
                     </SwiperSlide>
                     <SwiperSlide className='carousel custom-carousel'>
-                        <Image src={props.image2} alt='' className=' img-fluid'></Image>
+                        <Image src={props.image2} alt='' className=' img-fluid vrindavan-slick-slider'></Image>
                     </SwiperSlide>
                     <SwiperSlide className='carousel custom-carousel'>
-                        <Image src={props.image3} alt='' className=' img-fluid'></Image>
+                        <Image src={props.image3} alt='' className=' img-fluid vrindavan-slick-slider'></Image>
                     </SwiperSlide>
                     <SwiperSlide className='carousel custom-carousel'>
-                        <Image src={props.image4} alt='' className=' img-fluid'></Image>
+                        <Image src={props.image4} alt='' className=' img-fluid vrindavan-slick-slider'></Image>
                     </SwiperSlide>
                     <SwiperSlide className='carousel custom-carousel'>
-                        <Image src={props.image5} alt='' className=' img-fluid'></Image>
+                        <Image src={props.image5} alt='' className=' img-fluid vrindavan-slick-slider'></Image>
                     </SwiperSlide>
                     <SwiperSlide className='carousel custom-carousel'>
-                        <Image src={props.image1} alt='' className=' img-fluid'></Image>
+                        <Image src={props.image1} alt='' className=' img-fluid vrindavan-slick-slider'></Image>
                     </SwiperSlide>
                     <SwiperSlide className='carousel custom-carousel'>
-                        <Image src={props.image2} alt='' className=' img-fluid'></Image>
+                        <Image src={props.image2} alt='' className=' img-fluid vrindavan-slick-slider'></Image>
                     </SwiperSlide>
                     <SwiperSlide className='carousel custom-carousel'>
-                        <Image src={props.image3} alt='' className=' img-fluid'></Image>
+                        <Image src={props.image3} alt='' className=' img-fluid vrindavan-slick-slider'></Image>
                     </SwiperSlide>
                     <SwiperSlide className='carousel custom-carousel'>
-                        <Image src={props.image4} alt='' className=' img-fluid'></Image>
+                        <Image src={props.image4} alt='' className=' img-fluid vrindavan-slick-slider'></Image>
                     </SwiperSlide>
                     <SwiperSlide className='carousel custom-carousel'>
-                        <Image src={props.image5} alt='' className=' img-fluid'></Image>
+                        <Image src={props.image5} alt='' className=' img-fluid vrindavan-slick-slider'></Image>
                     </SwiperSlide>
                 </Swiper>
             </motion.div>

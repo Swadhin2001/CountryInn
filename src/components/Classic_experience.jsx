@@ -25,7 +25,7 @@ function Slider_two(props) {
                 <div className="swiper-button slick-prev">
                     <Image src={button_prev} alt="" />
                 </div>
-                <Swiper spaceBetween={0} slidesPerView={4} loop={true}  modules={[Navigation]} className="mySwiper" slidesPerGroup={1} centeredSlides={true} breakpoints={{
+                <Swiper  loop={true}  modules={[Navigation]} className="mySwiper" slidesPerGroup={1} centeredSlides={true} breakpoints={{
         600: {
           slidesPerView: 1,
           spaceBetween: 0,
@@ -43,7 +43,7 @@ function Slider_two(props) {
                         onMouseEnter={() => (setHover1(true))}
                         onMouseLeave={() => (setHover1(false))}
                     >
-                        <Image src= {props.image1} className='carousel-image-two' alt= ""/>
+                        <Image src= {props.image1} className=' img-fluid' alt= ""/>
                         <div>
                             {hover1 ?
                                 (
@@ -69,7 +69,7 @@ function Slider_two(props) {
                         onMouseEnter={() => (setHover2(true))}
                         onMouseLeave={() => (setHover2(false))}
                     >   
-                        <Image src= {props.image2} className='carousel-image-two' alt= ""/>
+                        <Image src= {props.image2} className=' img-fluid' alt= ""/>
                         <div>
                             {hover2 ?
                                 (
@@ -93,7 +93,7 @@ function Slider_two(props) {
                         onMouseEnter={() => (setHover3(true))}
                         onMouseLeave={() => (setHover3(false))}
                     >   
-                        <Image src= {props.image3} className='carousel-image-two' alt= ""/>
+                        <Image src= {props.image3} className=' img-fluid' alt= ""/>
                         <div >
                             {hover3 ?
                                 (
@@ -119,7 +119,7 @@ function Slider_two(props) {
                         onMouseEnter={() => (setHover4(true))}
                         onMouseLeave={() => (setHover4(false))}
                     >
-                        <Image src= {props.image4} className='carousel-image-two' alt= ""/>
+                        <Image src= {props.image4} className=' img-fluid' alt= ""/>
                         <div >
                             {hover4 ?
                                 (
@@ -143,7 +143,7 @@ function Slider_two(props) {
                         onMouseEnter={() => (setHover1(true))}
                         onMouseLeave={() => (setHover1(false))}
                     >
-                        <Image src= {props.image1} className='carousel-image-two' alt= ""/>
+                        <Image src= {props.image1} className=' img-fluid' alt= ""/>
                         <div>
                             {hover1 ?
                                 (
@@ -169,7 +169,7 @@ function Slider_two(props) {
                         onMouseEnter={() => (setHover2(true))}
                         onMouseLeave={() => (setHover2(false))}
                     >   
-                        <Image src= {props.image2} className='carousel-image-two' alt= ""/>
+                        <Image src= {props.image2} className=' img-fluid' alt= ""/>
                         <div>
                             {hover2 ?
                                 (
@@ -193,7 +193,7 @@ function Slider_two(props) {
                         onMouseEnter={() => (setHover3(true))}
                         onMouseLeave={() => (setHover3(false))}
                     >   
-                        <Image src= {props.image3} className='carousel-image-two' alt= ""/>
+                        <Image src= {props.image3} className=' img-fluid' alt= ""/>
                         <div >
                             {hover3 ?
                                 (
@@ -219,7 +219,7 @@ function Slider_two(props) {
                         onMouseEnter={() => (setHover4(true))}
                         onMouseLeave={() => (setHover4(false))}
                     >
-                        <Image src= {props.image4} className='carousel-image-two' alt= ""/>
+                        <Image src= {props.image4} className=' img-fluid' alt= ""/>
                         <div >
                             {hover4 ?
                                 (

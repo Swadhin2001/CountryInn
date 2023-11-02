@@ -2,7 +2,7 @@ import Herosection from '@/components/Herosection'
 import Navbar from '@/components/Navbar'
 import React from 'react'
 import { motion } from 'framer'
-import Slider_2 from '@/components/Slider_2'
+import Vrindavan_slider from '@/components/Slick_slider'
 import banner_image from '@/assets/lawn-VRINDAVAN.jpg'
 import image1 from '@/assets/lounge.jpg'
 import image2 from '@/assets/panner.jpg'
@@ -66,7 +66,7 @@ function vrindavan() {
         </p>
       </fragment>} />
 
-      <Slider_2 image1 = {slider_image11} image2 = {slider_image12} image3 = {slider_image13} image4 = {slider_image14} image5 = {slider_image15}/>
+      <Vrindavan_slider image1 = {slider_image11} image2 = {slider_image12} image3 = {slider_image13} image4 = {slider_image14} image5 = {slider_image15}/>
 
       {/* Meeting and Events Section */}
       <div className="my-5">

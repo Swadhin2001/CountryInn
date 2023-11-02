@@ -22,13 +22,13 @@ function Slider_one(props) {
             <div className="swiper-button image-swiper-button-prev">
                 <ArrowBackIosOutlinedIcon className='swiper-button' />
             </div>
-            <Swiper spaceBetween={110} slidesPerView={2} loop={true} navigation={{
+            <Swiper  loop={true} navigation={{
                 nextEl: ".image-swiper-button-next",
                 prevEl: ".image-swiper-button-prev",
                 disabledClass: "swiper-button-disabled"
             }} modules={[Navigation]} className="mySwiper mb-5" centeredSlides={true}
                 breakpoints={{
-                    640: {
+                    600: {
                     slidesPerView: 1,
                     spaceBetween: 0,
                     },

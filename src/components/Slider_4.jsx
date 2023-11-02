@@ -17,11 +17,21 @@ function Slider_one(props) {
       <div className="swiper-button image-swiper-button-prev-autoslide">
         <IoIosArrowBack />
       </div>
-            <Swiper spaceBetween={80} slidesPerView={2} loop={true} navigation={{
+            <Swiper  loop={true} navigation={{
           nextEl: ".image-swiper-button-next-autoslide",
           prevEl: ".image-swiper-button-prev-autoslide",
           disabledClass: "swiper-button-disabled"
-        }} modules={[Navigation, Pagination]} className="mySwiper mb-5" centeredSlides={true} >
+        }} modules={[Navigation, Pagination]} className="mySwiper mb-5" centeredSlides={true} 
+        breakpoints={{
+            600: {
+            slidesPerView: 1,
+            spaceBetween: 0,
+            },
+            1024: {
+            slidesPerView: 2,
+            spaceBetween: 80,
+            },
+        }} >
                 <SwiperSlide className='carousel  custom-carousel-one' >
                     {({ isActive }) => (
                         <div>

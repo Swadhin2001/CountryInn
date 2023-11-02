@@ -22,11 +22,21 @@ function Slider_one(props) {
             <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 1 }}>
 
-                <Swiper spaceBetween={110} slidesPerView={2} loop={true} navigation={{
+                <Swiper  loop={true} navigation={{
                     nextEl: ".image-swiper-button-next",
                     prevEl: ".image-swiper-button-prev",
                     disabledClass: "swiper-button-disabled"
                 }} modules={[Navigation]} className="mySwiper mb-5" centeredSlides={true} 
+                breakpoints={{
+                    600: {
+                    slidesPerView: 1,
+                    spaceBetween: 0,
+                    },
+                    1024: {
+                    slidesPerView: 2,
+                    spaceBetween: 110,
+                    },
+                }} 
                 >
                     <SwiperSlide className='carousel   ' >
                         {({ isActive }) => (

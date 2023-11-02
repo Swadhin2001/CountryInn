@@ -10,7 +10,11 @@
   font-family: 'Brandon';
   src: url('../fonts/BrandonGrotesque-Light.woff');
 }
-
+.vrindavan-slick-slider{
+  height: 711px !important; 
+  width: 100% !important;
+  object-fit: cover !important;
+}
 .slick-next {
   position: absolute;
   top: 50%;
@@ -341,6 +345,20 @@ a:hover {
 
 /* Navbar CSS */
 
+
+/* .mobile-nav-toggle {
+  content: "\f479";
+  font-family: bootstrap-icons !important;
+  font-style: normal;
+  font-weight: normal !important;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  position: absolute;
+  z-index: 999;
+  vertical-align: -.125em;
+} */
+
 .dropdown-item{
   font-family: Trajan;
   font-size: 16px;
@@ -462,11 +480,11 @@ border-radius: 4px;
   position: relative;
 }
 
-.carousel-image-two {
+/* .carousel-image-two {
   height: 660px;
   width: 514px;
   margin: 0px;
-}
+} */
 
 .upcoming-hotel-image {
   height: 195px;
@@ -731,7 +749,7 @@ border-radius: 4px;
 }
 
 .custom-carousel-image {
-  width: 722px !important;
+  min-width: 722px !important;
 }
 
 .color-dgrey {
@@ -877,16 +895,42 @@ border-radius: 4px;
 } */
 @media only screen and (max-width: 600px) {
   .hero-banner {
-    height: 65vh;
+    height: 70vh;
   }
-
   .form-section {
     width: 100%;
     height: auto;
     padding: 20px;
     /* height: 400px; */
   }
+  /* Navbar CSS */
 
+  .navbar-mobile  {
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.9);
+    transition: 0.3s;
+    z-index: 999;
+  }
+  /* .navbar-toggler::before {
+    content: "\f479";
+    font-family: bootstrap-icons !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    position: absolute;
+    z-index: 999;
+    vertical-align: -.125em;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  } */
+  /* Navbar CSS ends */
   .booking-widget {
     padding: 20px;
   }
@@ -910,5 +954,69 @@ border-radius: 4px;
   .footer-div {
     width: auto !important;
     padding: 20px;
+  }
+  .swiper-data {
+    left: 0px;
+    position: relative;
+  }
+  .custom-carousel {
+    min-width: auto !important;
+  }
+  .image-swiper-button-next-autoslide{
+
+  }
+  .image-swiper-button-next{
+    left: 85%;
+    /* top: 46%; */
+  }
+  .image-swiper-button-prev{
+    left: 0%;
+    /* top: 30%; */
+  }
+  .image-swiper-button-prev-autoslide{
+
+  }
+  .mid-section-about{
+    padding: 10px !important;
+    margin: 0px !important;
+  }
+  .navbar-nav-mobile {
+    display: block;
+    position: absolute;
+    top: 55px;
+    right: 15px;
+    bottom: 15px;
+    left: 15px;
+    padding: 10px 0;
+    border-radius: 6px;
+    background-color: #fff;
+    overflow-y: auto;
+    transition: 0.3s;
+  }
+  .navbar-mobile  {
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.9);
+    transition: 0.3s;
+    z-index: 999;
+  }
+  .mobile-nav-toggle {
+    position: absolute;
+    top: 15px;
+    z-index: 99;
+    right: 15px;
+  }
+  .dropdown-item{
+    font-family: Trajan;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 15px;
+  }
+  .dropdown-menu .show{
+    padding: 10px;
   }
 }
