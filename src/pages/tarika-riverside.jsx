@@ -57,23 +57,29 @@ function bhimtal() {
       <Slider_3 heading = "STAY & REJUVENATE" 
       image1 ={slider_image6} heading1 = "JIM'S COTTAGE" about1 = "For a relaxing and serene stay experience in a cottage setting, choose to stay at our selection of Jim’s Cottages. Adorned with the artistic cane furniture, Jim’s Cottages are an ideal choice for your leisurely stay." image2 ={slider_image7} heading2 = "COTTAGE WITH PRIVATE GARDEN" about2 ="These cottages with a private garden are an ideal setting for stress-free holidays. Whether lounging during the day or having a private dinner in the garden, this cottage is our guest’s favourite for its private sit-out area and spacious accommodation" image3 ={slider_image8}   heading3 ="COTTAGE WITH TERRACE" about3 = "The combination of style, space and unfiltered view of the pool from a private terrace make these cottages the most desirable accommodation for a restful stay in Jim Corbett" image4 ={slider_image9} heading4 = "COTTAGE WITH PLUNGE POOL" about4 = "After a day of exploration, all you need is to dip in a plunge pool and relax in your private space for hours. These cottages are beautifully furnished with cane furniture that adds a rustic yet comfortable touch to your stay" image5 ={slider_image10} heading5 = "POOL VIEW ROOM" about5 = "Whether travelling on business or leisure you would want a room that offers plenty of style and comfort. In celebration of your trip, get into a pool of relaxation with a Pool View Room " ></Slider_3>
 
-      <div className='hero-background' style={{"height" : "244px"}}>
-        <h2 className='text-center mid-section-heading mb-3 pt-5'>THE KEBAB FACTORY</h2>
-        <p className='text-center mid-section-about px-5 mx-5'>With animal face sculptures on the walls, welcoming ambience and warm lighting, the restaurant has floor to ceiling windows that offer views of the outdoor green pathway and the lawns. At The Kebab Factory, guests can relish an unlimited fare of some of the most scrumptious kebabs like Galuati and Shikampuri kebabs, along with Indian curries, biryanis, the best of seasonal vegetables and desserts.</p>
+      <div className='hero-background d-flex justify-content-center' style={{"height" : "244px"}}>
+        <div className="container">
+          <h2 className='text-center mid-section-heading mb-3 pt-5'>THE KEBAB FACTORY</h2>
+          <p className='text-center mid-section-about'>With animal face sculptures on the walls, welcoming ambience and warm lighting, the restaurant has floor to ceiling windows that offer views of the outdoor green pathway and the lawns. At The Kebab Factory, guests can relish an unlimited fare of some of the most scrumptious kebabs like Galuati and Shikampuri kebabs, along with Indian curries, biryanis, the best of seasonal vegetables and desserts.</p>
+        </div>
       </div>
 
       <Slider_2 image1 = {slider_image11} image2 = {slider_image12} image3 = {slider_image13} image4 = {slider_image14} image5 = {slider_image15}/>
 
-      <div className='hero-background' style={{"height" : "217px"}}>
-        <h2 className='text-center mid-section-heading mb-3 pt-5'>THE COURTYARD</h2>
-        <p className='text-center mid-section-about px-5 mx-5'>Bright and lively ‘The Courtyard’ is the perfect option for those looking for multi-cuisine options at any time of the day. The natural light entering from the roof, expansive menu offerings and comfortable seating arrangement makes it an ideal venue for laid back lunches or day time quick bites.</p>
+      <div className='hero-background d-flex justify-content-center' style={{"height" : "217px"}}>
+        <div className="container">
+          <h2 className='text-center mid-section-heading mb-3 pt-5'>THE COURTYARD</h2>
+          <p className='text-center mid-section-about '>Bright and lively ‘The Courtyard’ is the perfect option for those looking for multi-cuisine options at any time of the day. The natural light entering from the roof, expansive menu offerings and comfortable seating arrangement makes it an ideal venue for laid back lunches or day time quick bites.</p>
+        </div>
       </div>
 
       <Slider_2 image1 = {slider_image16} image2 = {slider_image17} image3 = {slider_image18} image4 = {slider_image19} image5 = {slider_image20}/>
 
       <div className='hero-background' style={{"height" : "275px"}}>
-        <h2 className='text-center mid-section-heading mb-3 pt-5'>COUNTRY INN TARIKA RIVERSIDE RESORT, JIM CORBETT</h2>
-        <p className='text-center mid-section-about px-5 mx-5'>Set in the natural surroundings of the forest, only 250 metres away from the pristine Kosi River and Himalayas framing the backdrop, Country Inn Tarika Riverside Resort, Jim Corbett is an ideal base to explore the rich diversity of Jim Corbett. With inspirational architecture and landscaped gardens, the resort features an outdoor swimming pool, game arcade, a unique bonfire area and two dining outlets including ‘The Courtyard’, a multi-cuisine restaurant and ‘The Kebab Factory’, an Indian specialty restaurant to relish an unlimited feast of some celebrated kebabs and curries of India.</p>
+        <div className="container">
+          <h2 className='text-center mid-section-heading mb-3 pt-5'>COUNTRY INN TARIKA RIVERSIDE RESORT, JIM CORBETT</h2>
+          <p className='text-center mid-section-about'>Set in the natural surroundings of the forest, only 250 metres away from the pristine Kosi River and Himalayas framing the backdrop, Country Inn Tarika Riverside Resort, Jim Corbett is an ideal base to explore the rich diversity of Jim Corbett. With inspirational architecture and landscaped gardens, the resort features an outdoor swimming pool, game arcade, a unique bonfire area and two dining outlets including ‘The Courtyard’, a multi-cuisine restaurant and ‘The Kebab Factory’, an Indian specialty restaurant to relish an unlimited feast of some celebrated kebabs and curries of India.</p>
+        </div>
       </div>
 
       <Image_left image = {image1} heading= "THE JUNGLE WALKTHROUGH" about = "Swing into the jungle as soon as you reach Country Inn Tarika Riverside Resort, Jim Corbett. We welcome the little ones (and adults) by giving a jungle experience on-site. With playful lion and elephant waiting to welcome you, and picture-perfect jungle setting right at the entrance, you will forget the travel fatigue and indulge in creating photographic memories with your loved ones." />

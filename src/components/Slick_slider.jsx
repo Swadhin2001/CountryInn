@@ -22,7 +22,7 @@ function Slider_two(props) {
                     <Image src={button_prev} alt="" />
                 </div>
 
-                <Swiper spaceBetween={0} slidesPerView={4} loop={true} modules={[Navigation]} className="mySwiper" slidesPerGroup={1} centeredSlides={true} breakpoints={{
+                <Swiper  loop={true} modules={[Navigation]} className="mySwiper" slidesPerGroup={1} centeredSlides={true} breakpoints={{
                     600: {
                         slidesPerView: 1,
                         spaceBetween: 0,

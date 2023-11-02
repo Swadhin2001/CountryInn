@@ -21,11 +21,11 @@ function our_brands() {
   const jsx3 = (<Image src={image2} className='d-block w-100 img-fluid caro-img' alt="" />)
 
   const innerjsxdiv1 = (
-    <div id="panelOne" className="panel-body">
-      <div className="accordion_mobile_content_img">
+    <div id="panelOne" className="panel-body panel-body-mobile">
+      <div className="">
         <Image
           src={logo_image1}
-          className="lazyload"
+          className="lazyload accordion_mobile_content_img"
           alt=""
         />
       </div>
@@ -74,7 +74,7 @@ function our_brands() {
     <div className="accordion_mobile_content_img">
       <Image
         src={logo_image2}
-        className="lazyload"
+        className="lazyload accordion_mobile_content_img"
         alt=""
       />
     </div>
@@ -122,7 +122,7 @@ function our_brands() {
     <div className="accordion_mobile_content_img">
       <Image
         src={logo_image3}
-        className="lazyload"
+        className="lazyload accordion_mobile_content_img"
         alt=""
       />
     </div>

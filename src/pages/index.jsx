@@ -58,7 +58,7 @@ export default function Home() {
       />
 
       <div className='hero-background d-flex justify-content-center'>
-        <div className="container-1140">
+        <div className="container">
           <h2 className='text-center mid-section-heading mb-3 pt-5'>CLASSIC EXPERIENCES</h2>
           <p className='text-center mid-section-about mb-0'>Relive your passion for the experiences you love, and let your spirit soar to adventures yet unwritten. We offer unique experiences in pioneering serene destinations to make the most of your stays. Be adventurous in the great outdoors, admire breath-taking views, indulge in local cuisine prepared with farm-fresh ingredients or explore the wildlife in their natural habitat.</p>
         </div>
@@ -67,7 +67,7 @@ export default function Home() {
       
 
       <div className='hero-background d-flex justify-content-center'>
-        <div className="container-1140">
+        <div className="container">
           <h2 className='text-center mid-section-heading mb-3 pt-5'>CELEBRATIONS & EVENTS</h2>
           <p className='text-center mid-section-about mb-0'>Whether you envision a celebration that's traditional or trend-setting, festive or formal, intimate or grand-scale, in the ballroom, gardens or by the pool, our resorts featuring a variety of indoor and outdoor settings and a team of experts will give you unlimited options to plan your perfect event.</p>          
         </div>

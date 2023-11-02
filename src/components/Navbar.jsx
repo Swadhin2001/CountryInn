@@ -27,6 +27,7 @@ function Navbar(props) {
     }
     const click_btn =()=>{
       setNav_mobile ('navbar-mobile');
+      setOpacity ("1");
       setBtn (
         <i className='mobile-nav-toggle' onClick={close_btn}>
           <CloseIcon/>

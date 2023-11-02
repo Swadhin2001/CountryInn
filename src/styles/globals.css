@@ -963,7 +963,7 @@ border-radius: 4px;
     min-width: auto !important;
   }
   .image-swiper-button-next-autoslide{
-
+    left: 85%;
   }
   .image-swiper-button-next{
     left: 85%;
@@ -974,11 +974,13 @@ border-radius: 4px;
     /* top: 30%; */
   }
   .image-swiper-button-prev-autoslide{
-
+    left: 0%;
   }
-  .mid-section-about{
-    padding: 10px !important;
-    margin: 0px !important;
+  .panel-body-mobile{
+    overflow-x: hidden;
+  }
+  .accordion_mobile_content_img{
+    width: auto;
   }
   .navbar-nav-mobile {
     display: block;
@@ -1018,5 +1020,30 @@ border-radius: 4px;
   }
   .dropdown-menu .show{
     padding: 10px;
+  }
+  .hero-heading{
+    font-family: Trajan;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+  }
+  .section-header, .slider-heading, .meeting-events-heading {
+    font-family: Trajan;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 33px;
+    color: #333333;
+  }
+  .mid-section-heading {
+    font-family: Trajan;
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: 500;
+  }
+  .image-about-left, .image-about-right{
+    padding: 15px;
+  }
+  .footer-link,.footer-h4, .footer-p{
+    text-align: center;
   }
 }

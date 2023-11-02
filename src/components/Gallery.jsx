@@ -28,11 +28,22 @@ function gallery(props) {
       <div className="swiper-button image-swiper-button-prev">
         <IoIosArrowBack />
       </div>
-            <Swiper spaceBetween={100} slidesPerView={2} loop={true} navigation={{
+            <Swiper  loop={true} navigation={{
           nextEl: ".image-swiper-button-next",
           prevEl: ".image-swiper-button-prev",
           disabledClass: "swiper-button-disabled"
-        }} modules={[Navigation]} className="mySwiper mb-5" centeredSlides={true} >
+        }} modules={[Navigation]} className="mySwiper mb-5" centeredSlides={true} 
+        breakpoints={{
+            600: {
+            slidesPerView: 1,
+            spaceBetween: 0,
+            },
+            1024: {
+            slidesPerView: 2,
+            spaceBetween: 100,
+            },
+        }} 
+        >
                 <SwiperSlide className='carousel  custom-carousel-one' 
                     onMouseEnter={() => (setHover1(true))}
                     onMouseLeave={() => (setHover1(false))}

@@ -20,11 +20,22 @@ function Slider_two(props) {
             <div className="swiper-button slick-prev">
                 <Image src = {button_prev} alt= ""/>                
             </div>
-            <Swiper spaceBetween={0} slidesPerView={4} loop={true} modules={[Navigation]} className="mySwiper" slidesPerGroup={1} centeredSlides={true} navigation={{
+            <Swiper loop={true} modules={[Navigation]} className="mySwiper" slidesPerGroup={1} centeredSlides={true} navigation={{
         nextEl: ".slick-next",
         prevEl: ".slick-prev",
         disabledClass: "swiper-button-disabled"
-    }}>
+    }}
+    breakpoints={{
+        600: {
+        slidesPerView: 1,
+        spaceBetween: 0
+        },
+        1024: {
+        slidesPerView: 4,
+        spaceBetween: 0,
+        },
+    }} 
+    >
                 <SwiperSlide className='carousel custom-carousel' >
                     <Image src={props.image1} alt='' className='img-fluid' ></Image>
                 </SwiperSlide>
