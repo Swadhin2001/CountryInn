@@ -15,7 +15,7 @@ function Footer(props) {
                     <h4 className='footer-h4'>QUICK LINKS</h4>
                     <div className='d-flex flex-column'>                        
                         <Link href = '/aboutus' className='footer-link'>About Us</Link>
-                        <Link href = '/hotel-developement' className='footer-link'>Hotel Developement</Link>
+                        <Link href = '/hotel-development' className='footer-link'>Hotel Developement</Link>
                         <Link href = '/contact' className='footer-link'>Contact Us</Link>
                         <Link href = '/gallery' className='footer-link'>Gallery</Link>
                         <Link href = '/petpolicy' className='footer-link'>Pet Policy</Link>

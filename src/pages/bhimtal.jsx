@@ -33,7 +33,7 @@ import slider_image13 from '@/assets/letsdine2.jpg'
 import slider_image14 from '@/assets/letsdine3.jpg'
 import slider_image15 from '@/assets/letsdine22.jpg'
 import Slider_1 from '@/components/Gallery'
-import Slider_2 from '@/components/Slider_2'
+import Slider_2 from '@/components/Slick_slider'
 import Slider_3 from '@/components/Slider_3'
 
 function bhimtal() {

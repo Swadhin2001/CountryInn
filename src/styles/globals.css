@@ -10,6 +10,79 @@
   font-family: 'Brandon';
   src: url('../fonts/BrandonGrotesque-Light.woff');
 }
+.gallery-image{
+  top:0px;
+}
+#gallery-footer {
+  background-color: #e0d3cb52;
+  padding: 60px 0;
+  overflow: hidden;
+}
+#grow-with-us{
+  padding: 60px 0;
+  overflow: hidden;
+}
+.our-story{
+  font-family: Trajan;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 45px;
+  color: #333333;
+}
+.our-story-h4{
+  font-family: 'EB Garamond', serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+  color: #212529;
+}
+.our-story-p{
+  font-family: 'EB Garamond', serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  color: #212529;
+}
+.our-portfolio{
+  font-family: Trajan;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 27px;
+  color: #333333;
+}
+.vertical-line-p{
+  font-family: 'EB Garamond', serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 27px;
+}
+.brand-logos {
+  height: 100px ;
+  width: auto;
+  margin: 10px 0 25px;
+}
+.horizontal-line.line3 {
+  width: 50%;
+  margin-right: auto;
+}
+.middle-line {
+  display: block !important;
+  margin: 0 auto;
+}
+.horizontal-line.line1 {
+  width: 50%;
+  margin-left: auto;
+}
+.horizontal-line {
+  height: 1px;
+  background: #000;
+}
+.vertical-line {
+  height: 60px;
+  width: 1px;
+  background: #000;
+  display: inline-block;
+}
 .color-gold{
   color: #98642d;
   font-family: Trajan;
@@ -1096,5 +1169,12 @@ border-radius: 4px;
   }
   .footer-link,.footer-h4, .footer-p{
     text-align: center;
+  }
+  .horizontal-line, .middle-line {
+    display: none !important;
+  }
+  .vertical-line {
+    height: 50px;
+    margin: 25px 0;
   }
 }

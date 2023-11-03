@@ -3,7 +3,7 @@ import Navbar from '@/components/Navbar'
 import React from 'react'
 import { motion } from 'framer'
 import Vrindavan_slider from '@/components/Slick_slider'
-import banner_image from '@/assets/lawn-VRINDAVAN.jpg'
+import banner_image from '@/assets/vrindavan-hero-5.jpg'
 import image1 from '@/assets/lounge.jpg'
 import image2 from '@/assets/panner.jpg'
 import Image_left from '@/components/Image_left'
@@ -34,7 +34,7 @@ function vrindavan() {
   return (
     <>
       <Navbar opacity= "0.6" ></Navbar>
-      <Herosection banner_heading= " " image= {banner_image} heading = "COUNTRY INN RESORT, VRINDAVAN" about = "In the sacred city of Vrindavan, at a 3-hour drive from New Delhi, Country Inn Resort, Vrindavan is located close to the key temples and tourist attractions. The resort features modern rooms, a multi-cuisine all-day dining restaurant, and an Indian specialty restaurant. It is your perfect base to explore the rich culture of the sacred city."/>
+      <Herosection banner_heading= " " backgroundPosition = "bottom center" image= {banner_image} heading = "COUNTRY INN RESORT, VRINDAVAN" about = "In the sacred city of Vrindavan, at a 3-hour drive from New Delhi, Country Inn Resort, Vrindavan is located close to the key temples and tourist attractions. The resort features modern rooms, a multi-cuisine all-day dining restaurant, and an Indian specialty restaurant. It is your perfect base to explore the rich culture of the sacred city."/>
 
       <Slider_3 heading = "STAY & REJUVENATE" image1 ={slider_image6}
       heading1 ="Nidhivan Rooms" about1 ="Located on the ground floor, Nidhivan Rooms feature modern interiors, wooden flooring, a king-size bed, and all the essential amenities that you require for a good night’s sleep." image2 ={slider_image7} heading2= "Madhuban Rooms" about2 ="Our tastefully designed Madhuban Rooms offer you an escape into a harmonious retreat. Located on the first and second floor, these garden-view rooms feature modern amenities and are ideal for your next weekend getaway." image3 ={slider_image8} heading3 ="Keshav Dham Rooms" about3= "Our thoughtfully designed Keshav Dham Rooms are the perfect choice for families, friends or small groups looking to stay together. These spacious rooms overlooking the manicured garden feature three bedrooms, a living area, and a dining area, and all essential amenities to make your stay comfortable. " image4 ={slider_image9} heading4 = "Nidhivan Rooms" about4 ="Located on the ground floor, Nidhivan Rooms feature modern interiors, wooden flooring, a king-size bed, and all the essential amenities that you require for a good night’s sleep." image5 ={slider_image10} heading5 = "Madhuban Rooms" about5 = "Our tastefully designed Madhuban Rooms offer you an escape into a harmonious retreat. Located on the first and second floor, these garden-view rooms feature modern amenities and are ideal for your next weekend getaway."/>
