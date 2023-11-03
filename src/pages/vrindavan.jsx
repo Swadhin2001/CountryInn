@@ -27,7 +27,7 @@ import slider_image12 from '@/assets/vrindavan-1.jpg'
 import slider_image13 from '@/assets/vrindavan-4.jpg'
 import slider_image14 from '@/assets/fettucine-polo-funghi-with-vegetable.jpg'
 import slider_image15 from '@/assets/letsdine7.jpg'
-import Slider_1 from '@/components/gallery'
+import Slider_1 from '@/components/Gallery'
 import Slider_3 from '@/components/Slider_3'
 
 function vrindavan() {
