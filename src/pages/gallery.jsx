@@ -35,7 +35,7 @@ import Gallery_image from '@/components/Gallery_image'
 function gallery() {
   return (
     <div >
-      <Navbar opacity = "0.6"></Navbar>
+      <Navbar opacity="0.6"></Navbar>
       <div style={{ "backgroundImage": `url(${banner_image.src})` }} className='hero-banner' />
       <h2 className='text-center pt-5 pb-4 policy-heading mt-5'>GALLERY</h2>
       <div className="container pb-5 mb-5">
@@ -43,111 +43,111 @@ function gallery() {
           <div className="col-md-6">
             <div className="row pb-3">
               <div className="col-md-6 col-sm-12">
-                <Gallery_image image = {image1} about = "country inn  tarika riverside resort, jim corbett"/>
+                <Gallery_image image={image1} about="country inn  tarika riverside resort, jim corbett" />
               </div>
               <div className="col-md-6 col-sm-12">
-              <Gallery_image image = {image2} about = "country inn  tarika riverside resort, jim corbett"/>
+                <Gallery_image image={image2} about="country inn  tarika riverside resort, jim corbett" />
               </div>
             </div>
             <div className="row pb-3">
               <div className="col-md-6 col-sm-12">
-                <Gallery_image image = {image3} about = "country inn  tarika riverside resort, jim corbett"/>
+                <Gallery_image image={image3} about="country inn  tarika riverside resort, jim corbett" />
               </div>
               <div className="col-md-6 col-sm-12">
-                <Gallery_image image = {image4} about = "country inn  tarika riverside resort, jim corbett"/>
+                <Gallery_image image={image4} about="country inn  tarika riverside resort, jim corbett" />
               </div>
             </div>
           </div>
           <div className="col-md-6 col-sm-12" >
-            <Gallery_image image = {image5} about = "country inn  tarika riverside resort, jim corbett"/>
+            <Gallery_image image={image5} about="country inn  tarika riverside resort, jim corbett" />
           </div>
         </div>
         <div className="row pb-3">
           <div className="col-md-3 col-sm-12">
-            <Image src={image6} alt="" className="img-fluid" />
+            <Gallery_image image={image6} about="country inn  tarika riverside resort, jim corbett" />
           </div>
           <div className="col-md-3 col-sm-12">
-            <Image src={image7} alt="" className="img-fluid" />
+            <Gallery_image image={image7} about="country inn  tarika riverside resort, jim corbett" />
           </div>
           <div className="col-md-3 col-sm-12">
-            <Image src={image8} alt="" className="img-fluid" />
+            <Gallery_image image={image8} about="country inn  tarika riverside resort, jim corbett" />
           </div>
           <div className="col-md-3 col-sm-12">
-            <Image src={image9} alt="" className="img-fluid" />
+            <Gallery_image image={image9} about="country inn  tarika riverside resort, jim corbett" />
           </div>
         </div>
         <div className="row">
           <div className="col-md-6 col-sm-12" >
-            <Image src={image10} alt="" className="img-fluid" />
+            <Gallery_image image={image10} about="Country Inn Resort, Bhimtal" />
           </div>
           <div className="col-md-6">
             <div className="row pb-3">
               <div className="col-md-6 col-sm-12">
-                <Image src={image11} alt="" className="img-fluid" />
+                <Gallery_image image={image11} about="Country Inn Resort, Bhimtal" />
               </div>
               <div className="col-md-6 col-sm-12">
-                <Image src={image12} alt="" className="img-fluid" />
+                <Gallery_image image={image12} about="Country Inn Resort, Bhimtal" />
               </div>
             </div>
             <div className="row pb-3">
               <div className="col-md-6 col-sm-12">
-                <Image src={image13} alt="" className="img-fluid" />
+                <Gallery_image image={image13} about="Country Inn Resort, Bhimtal" />
               </div>
               <div className="col-md-6 col-sm-12">
-                <Image src={image14} alt="" className="img-fluid" />
+                <Gallery_image image={image14} about="Country Inn Resort, Bhimtal" />
               </div>
             </div>
           </div>
         </div>
         <div className="row pb-3">
           <div className="col-md-3 col-sm-12">
-            <Image src={image15} alt="" className="img-fluid" />
+            <Gallery_image image={image15} about="Country Inn Resort, Bhimtal" />
           </div>
           <div className="col-md-3 col-sm-12">
-            <Image src={image16} alt="" className="img-fluid" />
+            <Gallery_image image={image16} about="Country Inn Resort, Bhimtal" />
           </div>
           <div className="col-md-3 col-sm-12">
-            <Image src={image17} alt="" className="img-fluid" />
+            <Gallery_image image={image17} about="Country Inn Resort, Bhimtal" />
           </div>
           <div className="col-md-3 col-sm-12">
-            <Image src={image18} alt="" className="img-fluid" />
+            <Gallery_image image={image18} about="Country Inn Resort, Bhimtal" />
           </div>
         </div>
         <div className="row">
           <div className="col-md-6">
             <div className="row pb-3">
               <div className="col-md-6 col-sm-12">
-                <Image src={image19} alt="" className="img-fluid" />
+                <Gallery_image image={image19} about="Country Inn Resort, Jim Corbett" />
               </div>
               <div className="col-md-6 col-sm-12">
-                <Image src={image20} alt="" className="img-fluid" />
+                <Gallery_image image={image20} about="Country Inn Resort, Jim Corbett" />
               </div>
             </div>
             <div className="row pb-3">
               <div className="col-md-6 col-sm-12">
-                <Image src={image21} alt="" className="img-fluid" />
+                <Gallery_image image={image21} about="Country Inn Resort, Jim Corbett" />
               </div>
               <div className="col-md-6 col-sm-12">
-                <Image src={image22} alt="" className="img-fluid" />
+                <Gallery_image image={image22} about="Country Inn Resort, Jim Corbett" />
               </div>
             </div>
           </div>
           <div className="col-md-6 col-sm-12" >
-            <Image src={image23} alt="" className="img-fluid" />
+            <Gallery_image image={image23} about="Country Inn Resort, Jim Corbett" />
           </div>
         </div>
         <div className="row pb-3">
           <div className="col-md-3 col-sm-12">
-            <Image src={image24} alt="" className="img-fluid" />
+            <Gallery_image image={image24} about="Country Inn Resort, Jim Corbett" />
           </div>
           <div className="col-md-3 col-sm-12">
-            <Image src={image25} alt="" className="img-fluid" />
+            <Gallery_image image={image25} about="Country Inn Resort, Jim Corbett" />
           </div>
           <div className="col-md-3 col-sm-12">
-            <Image src={image26} alt="" className="img-fluid" />
+            <Gallery_image image={image26} about="Country Inn Resort, Jim Corbett" />
           </div>
           <div className="col-md-3 col-sm-12">
-            <Image src={image27} alt="" className="img-fluid" />
+            <Gallery_image image={image27} about="Counrty Inn Resort, Jim Corbett" />
           </div>
         </div>
       </div>

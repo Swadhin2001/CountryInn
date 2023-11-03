@@ -12,6 +12,9 @@ import image3 from '@/assets/picnicbhimtal.jpg'
 import image4 from '@/assets/bhimtal-Adventure.jpg'
 import Image_left from '@/components/Image_left'
 import Image_right from '@/components/Image_right'
+import Slider_1 from '@/components/Gallery'
+import Slider_two from '@/components/Slider_2'
+import Slider_3 from '@/components/Slider_3'
 import Footer from '@/components/Footer'
 import Meeting_and_events_card from '@/components/Meeting_and_events_card'
 import card_image1 from '@/assets/mehfil-1-and-2.jpg'
@@ -32,9 +35,6 @@ import slider_image12 from '@/assets/letsdine1.jpg'
 import slider_image13 from '@/assets/letsdine2.jpg'
 import slider_image14 from '@/assets/letsdine3.jpg'
 import slider_image15 from '@/assets/letsdine22.jpg'
-import Slider_1 from '@/components/Gallery'
-import Slider_2 from '@/components/Slick_slider'
-import Slider_3 from '@/components/Slider_3'
 
 function bhimtal() {
   return (
@@ -75,7 +75,7 @@ function bhimtal() {
         </div>
       </div>
 
-      <Slider_2 image1 = {slider_image11} image2= {slider_image12} image_3 ={slider_image13} image4 ={slider_image14} image5 ={slider_image15}/>
+      <Slider_two image1 = {slider_image11} image2= {slider_image12} image3 ={slider_image13} image4 ={slider_image14} image5 ={slider_image15}/>
 
       <div className='hero-background d-flex justify-content-center'  style={{"height" : "275px"}}>
         <div className="container">

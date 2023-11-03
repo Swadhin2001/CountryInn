@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Oswald&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+
 @font-face {
   font-family: 'Trajan';
   src: url('../fonts/TrajanPro-Regular.woff');
@@ -10,86 +11,174 @@
   font-family: 'Brandon';
   src: url('../fonts/BrandonGrotesque-Light.woff');
 }
-.gallery-image{
-  top:0px;
+
+.booking-widget label {
+  color: #333;
+  font-weight: 600;
+  font-size: 16px;
+  padding-bottom: 5px;
 }
+
+.form-section-padding {
+  padding: 60px 0px;
+}
+
+.booking-widget {
+  display: flex;
+  background: #eee;
+  padding: 20px;
+  align-items: end;
+  flex-direction: row;
+}
+
+.booking-widget select {
+  max-width: 250px;
+}
+
+.booking-widget .book_btn {
+  flex: 1 1 50%;
+  background: #b62638;
+  border-radius: 0;
+  height: 45px;
+}
+
+.booking-widget .btn.btn-book {
+  width: 100%;
+  color: #fff;
+  font-weight: 600;
+  outline: none;
+  box-shadow: none;
+}
+
+.booking-widget input,
+.booking-widget select {
+  height: 45px;
+  border: 1px solid #c8c8c8;
+  border-radius: 0;
+  padding: 0 12px;
+  background: #fff !important;
+}
+
+.form-option {
+  font-weight: normal;
+  display: block;
+  white-space-collapse: collapse;
+  text-wrap: nowrap;
+  min-height: 1.2em;
+  padding: 0px 2px 1px;
+}
+
+.booking-widget .form-group {
+  display: flex;
+  flex: 1 1 100%;
+  max-width: 250px;
+  margin: 0 10px 10px 0;
+  position: relative;
+}
+
+.booking-widget .inner-addon.right-addon {
+  flex: 1 1 100%;
+  max-width: 250px;
+}
+
+.gallery-image-about {
+  font-family: Trajan !important;
+  font-size: 14px !important;
+  font-weight: 500;
+  line-height: 17px;
+}
+
 #gallery-footer {
   background-color: #e0d3cb52;
   padding: 60px 0;
   overflow: hidden;
 }
-#grow-with-us{
+
+#grow-with-us {
   padding: 60px 0;
   overflow: hidden;
 }
-.our-story{
+
+.our-story {
   font-family: Trajan;
   font-size: 30px;
   font-weight: 400;
   line-height: 45px;
   color: #333333;
 }
-.our-story-h4{
+
+.our-story-h4 {
   font-family: 'EB Garamond', serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 27px;
   color: #212529;
 }
-.our-story-p{
+
+.our-story-p {
   font-family: 'EB Garamond', serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 27px;
   color: #212529;
 }
-.our-portfolio{
+
+.our-portfolio {
   font-family: Trajan;
   font-size: 15px;
   font-weight: 400;
   line-height: 27px;
   color: #333333;
 }
-.vertical-line-p{
+
+.vertical-line-p {
   font-family: 'EB Garamond', serif;
   font-size: 15px;
   font-weight: 400;
   line-height: 27px;
 }
+
 .brand-logos {
-  height: 100px ;
+  height: 100px;
   width: auto;
   margin: 10px 0 25px;
 }
+
 .horizontal-line.line3 {
   width: 50%;
   margin-right: auto;
 }
+
 .middle-line {
   display: block !important;
   margin: 0 auto;
 }
+
 .horizontal-line.line1 {
   width: 50%;
   margin-left: auto;
 }
+
 .horizontal-line {
   height: 1px;
   background: #000;
 }
+
 .vertical-line {
   height: 60px;
   width: 1px;
   background: #000;
   display: inline-block;
 }
-.color-gold{
+
+.color-gold {
   color: #98642d;
   font-family: Trajan;
   font-size: 28px;
   font-weight: 500;
   line-height: 34px;
 }
+
 .color-gold-bg {
   background: #aa7c4a !important;
   font-family: 'EB Garamond', serif !important;
@@ -97,42 +186,52 @@
   font-weight: 400;
   line-height: 24px;
 }
-.form-padding{
+
+.form-padding {
   padding: 60px 0px;
 }
-.form-control-label{
+
+.form-control-label {
   font-family: 'EB Garamond', serif;
   color: #535150;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
 }
-input::placeholder, .form-control option{
+
+input::placeholder,
+.form-control option {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
 }
-input[type = date],.form-control{
+
+input[type=date],
+.form-control {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
   color: black;
 }
-.banquettable{
+
+.banquettable {
   padding: 60px 0;
 }
+
 .section-title {
   padding-bottom: 20px;
   font-family: 'Trajan', sans-serif;
   padding: 0 12px 20px;
 }
-.vrindavan-slick-slider{
-  height: 711px !important; 
+
+.vrindavan-slick-slider {
+  height: 711px !important;
   width: 100% !important;
   object-fit: cover !important;
 }
+
 .slick-next {
   position: absolute;
   top: 50%;
@@ -158,9 +257,11 @@ input[type = date],.form-control{
 a:hover {
   color: #d9ba85 !important;
 }
-a{
+
+a {
   --webkit-tap-highlight-color: transparent;
 }
+
 .contact-mail-heading {
   font-family: Brandon;
   font-weight: 700;
@@ -453,8 +554,7 @@ a{
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
-  /* background-position: bottom center; */
-  height: 102vh;
+  height: 110vh;
   position: relative;
   margin-top: -120px;
 }
@@ -479,25 +579,28 @@ a{
   vertical-align: -.125em;
 } */
 
-.dropdown-item{
+.dropdown-item {
   font-family: Trajan;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
   color: #333333;
 }
-.nav-link{
+
+.nav-link {
   font-family: Trajan;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
   color: #333333;
 }
-.navbar{
+
+.navbar {
   height: 110px;
   max-height: 500px;
 }
-.nav-icon{
+
+.nav-icon {
   font-size: 28px;
   margin: 0;
   padding: 0;
@@ -507,6 +610,7 @@ a{
   text-transform: uppercase;
   font-family: 'Trajan', sans-serif;
 }
+
 .nav-link {
   display: flex !important;
   align-items: center !important;
@@ -517,14 +621,17 @@ a{
   transition: 0.3s !important;
   font-size: 16px !important;
 }
-.nav-item{
+
+.nav-item {
   padding: 10px 0px 10px 30px !important;
 }
-.nav-link{
+
+.nav-link {
   margin: 0px !important;
   padding: 0px !important;
 }
-.dropdown-menu{
+
+.dropdown-menu {
   margin: 0;
   padding: 10px 0 !important;
   background: #fff;
@@ -532,45 +639,51 @@ a{
   transition: 0.3s;
   border-radius: 4px;
 }
+
 .ul-animation::after {
-content: "";
-position: absolute;
-width: 50%;
-transform: scaleX(0);
-height: 2px;
-bottom: 0;
-left: 10px;
-background-color: #cda45e;
-transform-origin: bottom center;
-transition: transform 0.25s ease-out;
+  content: "";
+  position: absolute;
+  width: 50%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 10px;
+  background-color: #cda45e;
+  transform-origin: bottom center;
+  transition: transform 0.25s ease-out;
 }
+
 .ul-animation:hover:after {
-transform: scaleX(1);
-transform-origin: bottom center;
+  transform: scaleX(1);
+  transform-origin: bottom center;
 }
-.dropdown-menu li{
-position: relative;
+
+.dropdown-menu li {
+  position: relative;
 }
-.dropdown-menu li a:hover{
-color:#cda45e;
+
+.dropdown-menu li a:hover {
+  color: #cda45e;
 }
+
 .navbar .dropdown ul {
-margin: 0;
-padding: 10px 0;
-background: #fff;
-box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
-transition: 0.3s;
-border-radius: 4px;
+  margin: 0;
+  padding: 10px 0;
+  background: #fff;
+  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+  transition: 0.3s;
+  border-radius: 4px;
 }
-.custom-dropdown{
+
+.custom-dropdown {
   width: 250px;
-  height : 45px;
-  background: white;  
+  height: 45px;
+  background: white;
 }
 
 
 /* Nav CSS ends */
-.dehradun-hero{
+.dehradun-hero {
   background-color: #00000054;
   padding-top: 30px;
 }
@@ -1021,15 +1134,17 @@ border-radius: 4px;
   .hero-banner {
     height: 70vh;
   }
+
   .form-section {
     width: 100%;
     height: auto;
     padding: 20px;
     /* height: 400px; */
   }
+
   /* Navbar CSS */
 
-  .navbar-mobile  {
+  .navbar-mobile {
     position: fixed;
     overflow: hidden;
     top: 0;
@@ -1040,6 +1155,7 @@ border-radius: 4px;
     transition: 0.3s;
     z-index: 999;
   }
+
   /* .navbar-toggler::before {
     content: "\f479";
     font-family: bootstrap-icons !important;
@@ -1079,33 +1195,42 @@ border-radius: 4px;
     width: auto !important;
     padding: 20px;
   }
+
   .swiper-data {
     left: 0px;
     position: relative;
   }
+
   .custom-carousel {
     min-width: auto !important;
   }
-  .image-swiper-button-next-autoslide{
+
+  .image-swiper-button-next-autoslide {
     left: 85%;
   }
-  .image-swiper-button-next{
+
+  .image-swiper-button-next {
     left: 85%;
     /* top: 46%; */
   }
-  .image-swiper-button-prev{
+
+  .image-swiper-button-prev {
     left: 0%;
     /* top: 30%; */
   }
-  .image-swiper-button-prev-autoslide{
+
+  .image-swiper-button-prev-autoslide {
     left: 0%;
   }
-  .panel-body-mobile{
+
+  .panel-body-mobile {
     overflow-x: hidden;
   }
-  .accordion_mobile_content_img{
+
+  .accordion_mobile_content_img {
     width: auto;
   }
+
   .navbar-nav-mobile {
     display: block;
     position: absolute;
@@ -1119,7 +1244,8 @@ border-radius: 4px;
     overflow-y: auto;
     transition: 0.3s;
   }
-  .navbar-mobile  {
+
+  .navbar-mobile {
     position: fixed;
     overflow: hidden;
     top: 0;
@@ -1130,51 +1256,81 @@ border-radius: 4px;
     transition: 0.3s;
     z-index: 999;
   }
+
   .mobile-nav-toggle {
     position: absolute;
     top: 15px;
     z-index: 99;
     right: 15px;
   }
-  .dropdown-item{
+
+  .dropdown-item {
     font-family: Trajan;
     font-size: 10px;
     font-weight: 400;
     line-height: 15px;
   }
-  .dropdown-menu .show{
+
+  .dropdown-menu .show {
     padding: 10px;
   }
-  .hero-heading{
+
+  .hero-heading {
     font-family: Trajan;
     font-weight: 400;
     font-size: 22px;
     line-height: 33px;
   }
-  .section-header, .slider-heading, .meeting-events-heading {
+
+  .section-header,
+  .slider-heading,
+  .meeting-events-heading {
     font-family: Trajan;
     font-size: 22px;
     font-weight: 400;
     line-height: 33px;
     color: #333333;
   }
+
   .mid-section-heading {
     font-family: Trajan;
     font-size: 25px;
     line-height: 30px;
     font-weight: 500;
   }
-  .image-about-left, .image-about-right{
+
+  .image-about-left,
+  .image-about-right {
     padding: 15px;
   }
-  .footer-link,.footer-h4, .footer-p{
+
+  .footer-link,
+  .footer-h4,
+  .footer-p {
     text-align: center;
   }
-  .horizontal-line, .middle-line {
+
+  .horizontal-line,
+  .middle-line {
     display: none !important;
   }
+
   .vertical-line {
     height: 50px;
     margin: 25px 0;
+  }
+
+  .booking-widget {
+    flex-direction: column;
+  }
+
+  .booking-widget .form-group,
+  .booking-widget .inner-addon.right-addon,
+  .booking-widget label,
+  .booking-widget input,
+  .booking-widget select {
+    max-width: 100%;
+    width: 100%;
+    margin-right: 0;
   }
 }
