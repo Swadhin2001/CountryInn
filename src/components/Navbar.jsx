@@ -33,7 +33,6 @@ function Navbar(props) {
           <CloseIcon/>
         </i>
       )
-      // <button  onClick={close_btn}>close</button>
     }
 
     if (typeof window !== "undefined") {
@@ -65,7 +64,7 @@ function Navbar(props) {
                                     <ul className="dropdown-menu">
                                         <li><Link className="dropdown-item ul-animation" href="/bhimtal">COUNTRY INN NATURE RESORT, BHIMTAL</Link></li>
                                         <li><a className="dropdown-item ul-animation" href="/tarika-riverside">COUNTRY INN TARIKA RIVERSIDE RESORT, JIM CORBETT</a></li>
-                                        <li><a className="dropdown-item ul-animation" href="/Jimcorbett">COUNTRY INN RESORT, JIM CORBETT</a></li>
+                                        {/* <li><a className="dropdown-item ul-animation" href="/Jimcorbett">COUNTRY INN RESORT, JIM CORBETT</a></li> */}
                                         <li><a className="dropdown-item ul-animation" href="/amritsar">COUNTRY INN HALL OF HERITAGE, AMRITSAR</a></li>
                                         <li><a className="dropdown-item ul-animation" href="/tarika-goa">COUNTRY INN TARIKA GOA, VARCA BEACH</a></li>
                                         <li><a className="dropdown-item ul-animation" href="/vrindavan">COUNTRY INN RESORT, VRINDAVAN</a></li>

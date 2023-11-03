@@ -12,8 +12,13 @@
   src: url('../fonts/BrandonGrotesque-Light.woff');
 }
 
+
+.react-datepicker-wrapper{
+  display: block !important;
+}
 .booking-widget label {
   color: #333;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 600;
   font-size: 16px;
   padding-bottom: 5px;

@@ -30,7 +30,7 @@ function Herosection(props) {
       animate="animate"
       variants={easeOutAnimationVariants}>{props.banner_heading}</motion.div>
       </div>
-      <Form></Form>
+      <Form/>
       <div className='d-flex justify-content-center hero-padding'>
         <div className='container'>
           <h1 className='text-center pb-3 section-header'>{props.heading}</h1>
