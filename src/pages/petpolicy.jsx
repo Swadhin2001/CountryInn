@@ -10,7 +10,7 @@ import Footer from '@/components/Footer'
 function bhimtal() {
   return (
     <>
-      <Navbar></Navbar>
+      <Navbar opacity = "0.6"></Navbar>
       <div style={{ "backgroundImage": `url(${banner_image.src})` }} className='hero-banner' />
 
       <div className='hero-background' style={{ "height": "218px" }}>

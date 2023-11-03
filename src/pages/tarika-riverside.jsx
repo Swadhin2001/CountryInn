@@ -13,7 +13,7 @@ import Image_left from '@/components/Image_left'
 import Image_right from '@/components/Image_right'
 import Footer from '@/components/Footer'
 import Meeting_and_events_card from '@/components/Meeting_and_events_card'
-import card_image1 from '@/assets/meetings.jpg'
+import card_image1 from '@/assets/tarika-ballroom.jpg'
 import card_image2 from '@/assets/tarika-lawn.jpg'
 import card_image3 from '@/assets/tarika-boardroom.jpg'
 import slider_image1 from '@/assets/tarika1.jpg'
@@ -36,7 +36,7 @@ import slider_image17 from '@/assets/letsdine25.jpg'
 import slider_image18 from '@/assets/letsdine7.jpg'
 import slider_image19 from '@/assets/letsdine4.jpg'
 import slider_image20 from '@/assets/letsdine2.jpg'
-import Slider_1 from '@/components/Slider_1'
+import Slider_1 from '@/components/Gallery'
 import Slider_2 from '@/components/Slider_2'
 import Slider_3 from '@/components/Slider_3'
 
@@ -75,10 +75,10 @@ function bhimtal() {
 
       <Slider_2 image1 = {slider_image16} image2 = {slider_image17} image3 = {slider_image18} image4 = {slider_image19} image5 = {slider_image20}/>
 
-      <div className='hero-background' style={{"height" : "275px"}}>
+      <div className='hero-background' style={{"height" : "255px"}}>
         <div className="container">
-          <h2 className='text-center mid-section-heading mb-3 pt-5'>COUNTRY INN TARIKA RIVERSIDE RESORT, JIM CORBETT</h2>
-          <p className='text-center mid-section-about'>Set in the natural surroundings of the forest, only 250 metres away from the pristine Kosi River and Himalayas framing the backdrop, Country Inn Tarika Riverside Resort, Jim Corbett is an ideal base to explore the rich diversity of Jim Corbett. With inspirational architecture and landscaped gardens, the resort features an outdoor swimming pool, game arcade, a unique bonfire area and two dining outlets including ‘The Courtyard’, a multi-cuisine restaurant and ‘The Kebab Factory’, an Indian specialty restaurant to relish an unlimited feast of some celebrated kebabs and curries of India.</p>
+          <h2 className='text-center mid-section-heading mb-3 pt-5'>CLASSIC EXPERIENCES</h2>
+          <p className='text-center mid-section-about'>What makes the resort different from others are the exclusive experiences that we have curated to make our guests’ stay engaging and adventurous. Taking a dip in the pool, rejuvenating with the peaceful spa treatment, bonding with friends and family over a game of billiards, velcro football or badminton, dining under the stars, indulging in long conversations over bonfire and grills, every experience at the resort has been set considering an ultimate retreat for our guests.</p>
         </div>
       </div>
 
@@ -136,7 +136,7 @@ function bhimtal() {
         </div>
     </motion.div>
       </div>
-      <Slider_1 heading = "GALLERY" image1 = {slider_image1} image2 = {slider_image2} image3 = {slider_image3} image4 = {slider_image4} image5 = {slider_image5}/>
+      <Slider_1 heading = "GALLERY" image1 = {slider_image1} about1 = "RESORT EXTERIOR" image2 = {slider_image2} image3 = {slider_image3} about2 = "AERIAL VIEW OF THE RESORT" about3 = "SWIMMING POOL" image4 = {slider_image4} about4 = "COTTAGE WITH PRIVATE GARDEN" image5 = {slider_image5} about5 = "PRIVATE GARDEN"/>
       {/* <Slider_2></Slider_2> */}
       <Footer phno ="+91 886 070 7273" email ="reservations@countryinn.in"/>
     </>

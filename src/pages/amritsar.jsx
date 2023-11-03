@@ -1,4 +1,4 @@
-import Herosection from '@/components/Herosection'
+import Herosection from '@/components/Amritsar_herosection'
 import Navbar from '@/components/Navbar'
 import React from 'react'
 import { motion } from 'framer'

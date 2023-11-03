@@ -99,7 +99,6 @@ const ContactForm = () => {
                   onChange={handleChange}
                   required
                 >
-                  <option value="">Select a resort</option>
                   <option value="Country Inn Resort, Bhimtal">Country Inn Resort, Bhimtal</option>
                   <option value="Country Inn Resort, Jim Corbett">Country Inn Resort, Jim Corbett</option>
                   <option value="Country Inn Tarika Riverside Resort, Jim Corbett">Country Inn Tarika Riverside Resort, Jim Corbett</option>

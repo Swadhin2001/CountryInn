@@ -70,6 +70,14 @@ function vrindavan() {
 
       <Vrindavan_slider image1 = {slider_image11} image2 = {slider_image12} image3 = {slider_image13} image4 = {slider_image14} image5 = {slider_image15}/>
 
+      <div className='hero-background d-flex justify-content-center' style={{"height" : "271px"}}>
+        <div className="container">
+          <h2 className='text-center mid-section-heading mb-3 pt-5'>CLASSIC EXPERIENCE</h2>
+          <p className='text-center vrindavan-mid-p'>EXPERIENCE VRINDAVAN</p>
+          <p className='text-center mid-section-about'>Vrindavan also known as Braj Bhoomi is home to many temples. It is said that the revered Hindu Lord Krishna spent most of his childhood days here. Our team will ensure that your trip to Vrindavan is not only comfortable but also experiential. Whether you plan to explore the famous temples or head out to explore other leisure destinations of the holy city, our team will guide you to make the most of your stay in Vrindavan.</p>
+        </div>
+      </div>
+
       {/* Meeting and Events Section */}
       <div className="my-5">
         <h4 className="text-center mb-4 meeting-events-heading">MEETINGS & EVENTS</h4>
