@@ -78,7 +78,7 @@ export default function Home() {
         </div>
         <br /> <br />
             <div className="text-end m-0 p-0">
-            <Link href="/" className="text-end btn-ind">
+            <Link href="/form" className="text-end btn-ind">
               <span>⧁</span>
               <span>GET QUOTE</span>
             </Link>
@@ -91,7 +91,7 @@ export default function Home() {
         </div>
         <br /> <br />
             <div className="text-end m-0 p-0">
-            <Link href="/" className="text-end btn-ind">
+            <Link href="/form" className="text-end btn-ind">
               <span>⧁</span>
               <span>GET QUOTE</span>
             </Link>
@@ -104,7 +104,7 @@ export default function Home() {
         </div>
         <br /> <br />
             <div className="text-end m-0 p-0">
-            <Link href="/" className="text-end btn-ind">
+            <Link href="/form" className="text-end btn-ind">
               <span>⧁</span>
               <span>GET QUOTE</span>
             </Link>

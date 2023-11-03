@@ -10,7 +10,7 @@ function Image_left(props) {
           <Image src= {props.image} alt='' className="img-fluid"/>
         </div>
         <div className="col-md-5 my-auto ">
-        <div className='image-about-left my-3'>
+        <div className='image-about-left m-3'>
             <h4 className='pb-3 body-image-h4-left image-heading' >{props.heading}</h4>
             <div className='pb-2 body-image-p image-about'>{props.about}</div>
             </div>

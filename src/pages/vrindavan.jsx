@@ -27,7 +27,7 @@ import slider_image12 from '@/assets/vrindavan-1.jpg'
 import slider_image13 from '@/assets/vrindavan-4.jpg'
 import slider_image14 from '@/assets/fettucine-polo-funghi-with-vegetable.jpg'
 import slider_image15 from '@/assets/letsdine7.jpg'
-import Slider_1 from '@/components/Slider_1'
+import Slider_1 from '@/components/gallery'
 import Slider_3 from '@/components/Slider_3'
 
 function vrindavan() {
@@ -87,7 +87,7 @@ function vrindavan() {
           </div>
         </motion.div>
       </div>
-      <Slider_1 heading = "GALLERY" image1 = {slider_image1} image2 = {slider_image2} image3 = {slider_image3} image4 = {slider_image4} image5 = {slider_image5}/>
+      <Slider_1 heading = "GALLERY" image1 = {slider_image1} about1 = "COUNTRY INN RESORT, VRINDAVAN" image2 = {slider_image2} about2 = "NIDHIVAN ROOMS" image3 = {slider_image3} about3 = "COUNTRY INN RESORT, VRINDAVAN" image4 = {slider_image4} about4 = "MADHUBAN ROOMS" image5 = {slider_image5} about5 = "KESHAB DHAM ROOMS"/>
       {/* <Slider_2></Slider_2> */}
       <Footer/>
     </>

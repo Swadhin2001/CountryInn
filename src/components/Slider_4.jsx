@@ -59,6 +59,9 @@ function Slider_one(props) {
                                 <SwiperSlide>
                                     <Image src={props.image3} alt='' className='img-fluid GB-image' ></Image>
                                 </SwiperSlide>
+                                <SwiperSlide>
+                                    <Image src={props.image3} alt='' className='img-fluid GB-image' ></Image>
+                                </SwiperSlide>
                             </Swiper>
                             <div className=" my-4">
                                 <Fragment>
@@ -92,6 +95,9 @@ function Slider_one(props) {
                                 </SwiperSlide>
                                 <SwiperSlide>
                                     <Image src={props.image5} alt='' className='img-fluid GB-image' ></Image>
+                                </SwiperSlide>
+                                <SwiperSlide>
+                                    <Image src={props.image6} alt='' className='img-fluid GB-image' ></Image>
                                 </SwiperSlide>
                                 <SwiperSlide>
                                     <Image src={props.image6} alt='' className='img-fluid GB-image' ></Image>
@@ -133,6 +139,9 @@ function Slider_one(props) {
                                 <SwiperSlide>
                                     <Image src={props.image9} alt='' className='img-fluid GB-image' ></Image>
                                 </SwiperSlide>
+                                <SwiperSlide>
+                                    <Image src={props.image9} alt='' className='img-fluid GB-image' ></Image>
+                                </SwiperSlide>
                             </Swiper>
                             <div className=" my-4">
                                 <Fragment>
@@ -166,6 +175,9 @@ function Slider_one(props) {
                                 </SwiperSlide>
                                 <SwiperSlide>
                                     <Image src={props.image11} alt='' className='img-fluid GB-image' ></Image>
+                                </SwiperSlide>
+                                <SwiperSlide>
+                                    <Image src={props.image12} alt='' className='img-fluid GB-image' ></Image>
                                 </SwiperSlide>
                                 <SwiperSlide>
                                     <Image src={props.image12} alt='' className='img-fluid GB-image' ></Image>

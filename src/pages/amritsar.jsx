@@ -29,7 +29,7 @@ import slider_image12 from '@/assets/1.jpg'
 import slider_image13 from '@/assets/3.jpg'
 import slider_image14 from '@/assets/4.jpg'
 import slider_image15 from '@/assets/5.jpg'
-import Slider_1 from '@/components/Slider_1'
+import Slider_1 from '@/components/Gallery'
 import Slider_3 from '@/components/Slider_3'
 
 function amritsar() {
@@ -72,7 +72,7 @@ function amritsar() {
                 <Meeting_and_events_card image={card_image1} card_heading="THE KITTY HALL" card_about={<fragment>
                   <div>With fresh interiors and contemporary décor, our intimate gathering venue Kitty Hall offers personalized services to host memorable celebrations and pleasant meetings. Our highly skilled team ensures that every detail is executed to perfection.</div>
                   <div className="text-end m-0 p-0">
-                    <Link href="/" className="text-end btn-ind">
+                    <Link href="/form" className="text-end btn-ind">
                       <span>⧁</span>
                       <span>GET QUOTE</span>
                     </Link>
@@ -83,7 +83,7 @@ function amritsar() {
                 <Meeting_and_events_card image={card_image2} card_heading="INTIMATE CELEBRATIONS" card_about={<fragment>
                   <div>Whether you're planning a birthday event, anniversary party, or an intimate gathering, we have the perfect venue for your celebrations. Our carefully curated menus and warm service will leave your guests delighted.</div>
                   <div className="text-end m-0 p-0">
-                    <Link href="/" className="text-end btn-ind">
+                    <Link href="/form" className="text-end btn-ind">
                       <span>⧁</span>
                       <span>GET QUOTE</span>
                     </Link>
@@ -94,7 +94,7 @@ function amritsar() {
                 <Meeting_and_events_card image={card_image3} card_heading="MEETINGS" card_about={<fragment>
                   <div>Small corporate get-togethers and business meetings find a new ideal venue in Amritsar. With a variety of packages to suit your requirement and a dedicated team, we will ensure that we meet all your business needs to deliver an extraordinary experience.</div>
                   <div className="text-end m-0 p-0">
-                    <Link href="/" className="text-end btn-ind">
+                    <Link href="/form" className="text-end btn-ind">
                       <span>⧁</span>
                       <span>GET QUOTE</span>
                     </Link>
@@ -105,7 +105,7 @@ function amritsar() {
           </div>
         </motion.div>
       </div>
-      <Slider_1 heading="GALLERY" image1={slider_image1} image2={slider_image2} image3={slider_image3} image4={slider_image4} image5={slider_image5} />
+      <Slider_1 heading="GALLERY" image1={slider_image1} about1 = "LOBBY" image2={slider_image2} about2 = "RECEPTION" image3={slider_image3} about3= "KITTY HALL"  image4={slider_image4} about4 = "HERITAGE SUITE" image5={slider_image5} about5 = "DELUXE ROOM"/>
       <Footer />
     </>
   )

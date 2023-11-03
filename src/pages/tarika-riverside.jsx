@@ -100,7 +100,7 @@ function bhimtal() {
               <Meeting_and_events_card image = {card_image1} card_heading ="THE BALL ROOM" card_about ={<fragment>
                 <div>Country Inn Tarika Riverside Resort, Jim Corbett is where elegance meets professional and warm service. The 2,200 sq. ft. Ballroom features elegant beige interiors that are perfect for a conference, event or a sophisticated social gathering with various on-site amenities and facilities.</div>
                 <div className="text-end m-0 p-0">
-                <Link href="/" className="text-end btn-ind">
+                <Link href="/form" className="text-end btn-ind">
                   <span>⧁</span>
                   <span>GET QUOTE</span>
                 </Link>
@@ -113,7 +113,7 @@ function bhimtal() {
                 The expansive 10,000 sq. ft. of lawn is an ideal venue for big celebrations and events. Beautifully adorned by long trees all around, The Lawn is the first choice of our guests planning their ultimate event in Jim Corbett. An elegant outdoor setup and expert support will ensure your event is a success.
                 </div>
                 <div className="text-end m-0 p-0">
-                <Link href="/" className="text-end btn-ind">
+                <Link href="/form" className="text-end btn-ind">
                   <span>⧁</span>
                   <span>GET QUOTE</span>
                 </Link>
@@ -125,7 +125,7 @@ function bhimtal() {
                 <div>
                 For small, intimate meetings and discussions, we have a comfortable Executive Boardroom that is equipped with advanced audio visual systems and technical support so you can complete your critical discussions with complete ease. Our expert team will enhance every element of your event.
                 </div><div className="text-end m-0 p-0">
-                <Link href="/" className="text-end btn-ind">
+                <Link href="/form" className="text-end btn-ind">
                   <span>⧁</span>
                   <span>GET QUOTE</span>
                 </Link>

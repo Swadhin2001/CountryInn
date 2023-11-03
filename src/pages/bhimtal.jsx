@@ -32,7 +32,7 @@ import slider_image12 from '@/assets/letsdine1.jpg'
 import slider_image13 from '@/assets/letsdine2.jpg'
 import slider_image14 from '@/assets/letsdine3.jpg'
 import slider_image15 from '@/assets/letsdine22.jpg'
-import Slider_1 from '@/components/Slider_1'
+import Slider_1 from '@/components/Gallery'
 import Slider_2 from '@/components/Slider_2'
 import Slider_3 from '@/components/Slider_3'
 
@@ -126,8 +126,9 @@ function bhimtal() {
                 <div>
                   Our 1500 sq. ft. ballroom with floor to ceiling windows offering green views is ideal for inspiring business conferences, weddings and events. Our team will ensure an elegant setup, state-of-the-art facilities and will extend every support to ensure your event is a successs.
                 </div>
+                <br />
                 <div className="text-end m-0 p-0">
-                <Link href="/" className="text-end btn-ind">
+                <Link href="/form" className="text-end btn-ind">
                   <span>⧁</span>
                   <span>GET QUOTE</span>
                 </Link>
@@ -141,7 +142,7 @@ function bhimtal() {
                 </div>
                 <br />
                 <div className="text-end m-0 p-0">
-                <Link href="/" className="text-end btn-ind">
+                <Link href="/form" className="text-end btn-ind">
                   <span>⧁</span>
                   <span>GET QUOTE</span>
                 </Link>
@@ -151,8 +152,9 @@ function bhimtal() {
             <div className="col-md-4">
               <Meeting_and_events_card image = {card_image3} card_heading ="LAWNS" card_about ={<fragment>
                 <div>We have multiple lawns with captivating views to accommodate your various functions and make them more lively with the natural décor of beautiful flora that surrounds the resort. Choose from the many outdoor venues and let the nature play its magic.</div>
+                <br />
                 <div className="text-end m-0 p-0">
-                <Link href="/" className="text-end btn-ind">
+                <Link href="/form" className="text-end btn-ind">
                   <span>⧁</span>
                   <span>GET QUOTE</span>
                 </Link>
@@ -163,7 +165,7 @@ function bhimtal() {
         </div>
     </motion.div>
       </div>
-      <Slider_1 heading = "GALLERY" image1 = {slider_image1} image2 = {slider_image2} image3 = {slider_image3} image4 = {slider_image4} image5 = {slider_image5}/>
+      <Slider_1 heading = "GALLERY" image1 = {slider_image1} about1= "RESORT EXTERIOR" image2 = {slider_image2} about2= "RESORT EXTERIOR" image3 = {slider_image3} about3 = "SERENE PATHWAY" image4 = {slider_image4} about4 = "SWIMMING POOL" image5 = {slider_image5} about5 = "BEDROOM, DELUXE SUITE"/>
       <Footer phno ="+91 886 070 7273" email ="reservations@countryinn.in"/>
     </>
   )

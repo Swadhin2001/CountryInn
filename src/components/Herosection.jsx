@@ -7,7 +7,7 @@ function Herosection(props) {
   return (
     <>
     {/* <Navbar/> */}
-      <div style={{ "backgroundImage": `url(${props.image.src})`, "backgroundPosition": `${props.backgroundPosition}` }} className='hero-banner'>
+      <div style={{ "backgroundImage": `url(${props.image.src})`, "backgroundPosition": `${props.backgroundPosition}`, "top":"0px" }} className='hero-banner'>
         <h4 className={`position-relative text-center hero-heading ${props.text_color}`}>{props.banner_heading}</h4>
       </div>
       <Form></Form>

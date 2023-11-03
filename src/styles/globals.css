@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Oswald&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
 @font-face {
   font-family: 'Trajan';
   src: url('../fonts/TrajanPro-Regular.woff');
@@ -9,6 +9,51 @@
 @font-face {
   font-family: 'Brandon';
   src: url('../fonts/BrandonGrotesque-Light.woff');
+}
+.color-gold{
+  color: #98642d;
+  font-family: Trajan;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 34px;
+}
+.color-gold-bg {
+  background: #aa7c4a !important;
+  font-family: 'EB Garamond', serif !important;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.form-padding{
+  padding: 60px 0px;
+}
+.form-control-label{
+  font-family: 'EB Garamond', serif;
+  color: #535150;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+input::placeholder, .form-control option{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}
+input[type = date],.form-control{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: black;
+}
+.banquettable{
+  padding: 60px 0;
+}
+.section-title {
+  padding-bottom: 20px;
+  font-family: 'Trajan', sans-serif;
+  padding: 0 12px 20px;
 }
 .vrindavan-slick-slider{
   height: 711px !important; 
@@ -336,9 +381,9 @@ a{
   background-repeat: no-repeat;
   background-size: cover;
   /* background-position: bottom center; */
-  height: 100vh;
+  height: 102vh;
   position: relative;
-  margin-top: -112px;
+  margin-top: -120px;
 }
 
 .our-brands-banner {
@@ -452,6 +497,10 @@ border-radius: 4px;
 
 
 /* Nav CSS ends */
+.dehradun-hero{
+  background-color: #00000054;
+  padding-top: 30px;
+}
 
 .hero-heading {
   position: absolute;

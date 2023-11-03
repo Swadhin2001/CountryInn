@@ -1,4 +1,4 @@
-import Herosection from '@/components/Herosection'
+import Herosection from '@/components/Herosection_dehradun'
 import Navbar from '@/components/Navbar'
 import React from 'react'
 import { motion } from 'framer'
@@ -48,7 +48,7 @@ function prominence_dehradun() {
   return (
     <>
       <Navbar opacity = "0.6"/>
-      <Herosection image = {banner_image} banner_heading = "COUNTRY INN PREMIER - THE PROMINENCE, DEHRADUN" about = {<fragment>
+      <Herosection image = {banner_image} backgroundPosition = "center center" banner_heading = "COUNTRY INN PREMIER - THE PROMINENCE, DEHRADUN" about = {<fragment>
         <div className="text-center">
           <Image src= {logo_image} alt= "" className='tarika-goa-header-image'/>
         </div>
@@ -56,7 +56,12 @@ function prominence_dehradun() {
       </fragment>} text_color="text-white"/>
 
       <Slider_4 heading= "STAY & REJUVENATE" image1 = {slider_image6} image2 = {slider_image7} image3 = {slider_image8} heading1 = "Pacific Mountain View Suite" about1= "The elegant Pacific Mountain View Suite. offers breath-taking views of the surrounding valley and spectacular hill scenery in the backdrop. The spacious living room with sofa and a dining area is ideal to witness fresh mornings and dreamy sunsets. The suite provides a serene and comfortable retreat for guests seeking a relaxing, upscale experience in the lap of nature" image4 = {slider_image9}  image5 = {slider_image10} image6 = {slider_image11} heading2 = "CLUB PREMIER ROOMS WITH BALCONY" about2 ="Indulge in the breathtaking beauty of Mussoorie with our meticulously designed Club Premier Rooms with Balcony and enjoy an elevated experience with club benefits. These rooms feature a seating area, work desk, LED TV, wooden closet and spacious interiors. With Club Premier Rooms, you will get an exclusive access to the ‘Club Premier’ benefits like welcome drink on arrival, early check-in and late check-out, buffet breakfast and dinner, daily hi-tea and much more, to enhance your stay experience.  " image7 = {slider_image12} image8 = {slider_image13} image9 = {slider_image14}  heading3 = "MOUNTAIN VIEW ROOMS" about3 = "These exquisitely designed rooms offer scenic views of the surrounding mountains. The rooms are comfortably designed with modern interiors, wooden flooring, a working desk, a seating area, LED TV, and a wooden closet to offer an unforgettable experience for guests seeking a peaceful retreat in the mountains." image10 = {slider_image15} image11 = {slider_image16} image12 = {slider_image17} heading4 = "PACIFIC ROOMS" about4 = "Thoughtfully designed with comfort in mind, Pacific Rooms feature tasteful interiors with wooden flooring, a working desk, a seating area, LED TV, and modern amenities for a comfortable stay. These rooms are an ideal abode to rest after a busy day of exploration."/> 
-
+      <div className='hero-background d-flex justify-content-center' style={{"height" : "275px"}}>
+        <div className="container">
+          <h2 className='text-center mid-section-heading mb-3 pt-5'>LET'S DINE</h2>
+          <p className='text-center mid-section-about mb-0'>Dining at Country Inn Premier – The Prominence, Dehradun is an experiential dining journey that transcends traditional expectations. From the moment you arrive, you'll be captivated by the warm and inviting ambiance, and a thoughtfully curated menu that reflects the essence of Dehradun while embracing global influences. Every dish narrates its own tale, taking you on a gastronomic adventure like no other.</p>
+        </div>
+      </div>
       <Small_slider image1 ={slider_image18} image2 ={slider_image19} image3 ={slider_image20} image4 ={slider_image21} image5 ={slider_image22}/>
       <Image_left_dehradun image = {image1} heading = {<fragment>
         <Image src= {heading_logo1} alt = "" className='heading-logo'/>

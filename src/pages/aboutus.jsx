@@ -1,17 +1,17 @@
 import React from 'react'
 import Navbar from '@/components/Navbar'
-import banner_image from '@/assets/chail-g-1.jpg'
+import banner_image from '@/assets/pacificmussoorie.jpg'
 import image1 from '@/assets/mrs_rai.jpg'
 import image2 from '@/assets/gallerypage1.jpg'
 import image3 from '@/assets/gallerypage2.jpg'
-import Image_left from '@/components/Image_left'
-import Image_right from '@/components/Image_right'
+import Image_left from '@/components/Image_left_pet_policy'
+import Image_right from '@/components/Image_right_pet_policy'
 import Footer from '@/components/Footer'
 
 function aboutus() {
   return (
     <>
-      <Navbar></Navbar>
+      <Navbar opacity = "0.6"></Navbar>
       <div style={{"backgroundImage" : `url(${banner_image.src})`}} className='hero-banner'/>
 
       <div className='hero-background' style={{"height" : "275px"}}>
