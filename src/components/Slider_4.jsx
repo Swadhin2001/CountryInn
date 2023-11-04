@@ -12,26 +12,26 @@ function Slider_one(props) {
         <div className='mt-5 pt-5 slider-1-background'>
             <h2 className='text-center slider-heading'>{props.heading}</h2>
             <div className="swiper-button image-swiper-button-next-autoslide">
-        <IoIosArrowForward />
-      </div>
-      <div className="swiper-button image-swiper-button-prev-autoslide">
-        <IoIosArrowBack />
-      </div>
-            <Swiper  loop={true} navigation={{
-          nextEl: ".image-swiper-button-next-autoslide",
-          prevEl: ".image-swiper-button-prev-autoslide",
-          disabledClass: "swiper-button-disabled"
-        }} modules={[Navigation, Pagination]} className="mySwiper mb-5" centeredSlides={true} 
-        breakpoints={{
-            600: {
-            slidesPerView: 1,
-            spaceBetween: 0,
-            },
-            1024: {
-            slidesPerView: 2,
-            spaceBetween: 80,
-            },
-        }} >
+                <IoIosArrowForward />
+            </div>
+            <div className="swiper-button image-swiper-button-prev-autoslide">
+                <IoIosArrowBack />
+            </div>
+            <Swiper loop={true} navigation={{
+                nextEl: ".image-swiper-button-next-autoslide",
+                prevEl: ".image-swiper-button-prev-autoslide",
+                disabledClass: "swiper-button-disabled"
+            }} modules={[Navigation, Pagination]} className="mySwiper mb-5" centeredSlides={true}
+                breakpoints={{
+                    600: {
+                        slidesPerView: 1,
+                        spaceBetween: 0,
+                    },
+                    1024: {
+                        slidesPerView: 2,
+                        spaceBetween: 80,
+                    },
+                }} >
                 <SwiperSlide className='carousel  custom-carousel-one' >
                     {({ isActive }) => (
                         <div>
@@ -39,16 +39,16 @@ function Slider_one(props) {
                                 slidesPerView={1} loop={true} modules={[Autoplay, Pagination]} centeredSlides={true} autoplay={{
                                     delay: 2000,
                                     disableOnInteraction: false
-                                }} pagination={{clickable: true}}
+                                }} pagination={{ clickable: true }}
                                 style={{
                                     "--swiper-pagination-color": "white",
                                     "--swiper-pagination-bullet-inactive-color": "#999999",
                                     "--swiper-pagination-bullet-inactive-opacity": "1",
                                     "--swiper-pagination-bullet-size": "10px",
                                     "--swiper-pagination-bullet-horizontal-gap": "5px",
-                                    "--swiper-pagination-bullet-width":" 30px",
+                                    "--swiper-pagination-bullet-width": " 30px",
                                     "--swiper-pagination-bullet-height": "3px"
-                                  }}
+                                }}
                                 className="mySwiper">
                                 <SwiperSlide>
                                     <Image src={props.image1} alt='' className='img-fluid GB-image' ></Image>
@@ -66,7 +66,11 @@ function Slider_one(props) {
                             <div className=" my-4">
                                 <Fragment>
                                     <h4 className='p-3 carousel-heading'>{isActive ? `${props.heading1}` : ' '}</h4>
-                                    <div className='px-3 carousel-about'>{isActive ? `${props.about1}` : ' '} </div>
+                                    <div
+                                        className='px-3 carousel-about'
+                                        dangerouslySetInnerHTML={{ __html: isActive ? props.about1 : '' }}
+                                    ></div>
+
                                 </Fragment>
                             </div>
                         </div>
@@ -77,18 +81,18 @@ function Slider_one(props) {
                     {({ isActive }) => (
                         <div>
                             <Swiper slidesPerView={1} loop={true} modules={[Autoplay, Pagination]} centeredSlides={true} autoplay={{
-                                    delay: 2000,
-                                    disableOnInteraction: false
-                                }} pagination={{clickable: true}}
+                                delay: 2000,
+                                disableOnInteraction: false
+                            }} pagination={{ clickable: true }}
                                 style={{
                                     "--swiper-pagination-color": "white",
                                     "--swiper-pagination-bullet-inactive-color": "#999999",
                                     "--swiper-pagination-bullet-inactive-opacity": "1",
                                     "--swiper-pagination-bullet-size": "10px",
                                     "--swiper-pagination-bullet-horizontal-gap": "5px",
-                                    "--swiper-pagination-bullet-width":" 30px",
+                                    "--swiper-pagination-bullet-width": " 30px",
                                     "--swiper-pagination-bullet-height": "3px"
-                                  }}
+                                }}
                                 className="mySwiper">
                                 <SwiperSlide>
                                     <Image src={props.image4} alt='' className='img-fluid GB-image' ></Image>
@@ -106,7 +110,10 @@ function Slider_one(props) {
                             <div className=" my-4">
                                 <Fragment>
                                     <h4 className='p-3 carousel-heading'>{isActive ? `${props.heading2}` : ' '}</h4>
-                                    <div className='px-3 carousel-about'>{isActive ? `${props.about2}` : ' '} </div>
+                                    <div
+                                        className='px-3 carousel-about'
+                                        dangerouslySetInnerHTML={{ __html: isActive ? props.about2 : '' }}
+                                    ></div>
                                 </Fragment>
                             </div>
                         </div>
@@ -117,18 +124,18 @@ function Slider_one(props) {
                     {({ isActive }) => (
                         <div>
                             <Swiper slidesPerView={1} loop={true} modules={[Autoplay, Pagination]} centeredSlides={true} autoplay={{
-                                    delay: 2000,
-                                    disableOnInteraction: false
-                                }} pagination={{clickable: true}}
+                                delay: 2000,
+                                disableOnInteraction: false
+                            }} pagination={{ clickable: true }}
                                 style={{
                                     "--swiper-pagination-color": "white",
                                     "--swiper-pagination-bullet-inactive-color": "#999999",
                                     "--swiper-pagination-bullet-inactive-opacity": "1",
                                     "--swiper-pagination-bullet-size": "10px",
                                     "--swiper-pagination-bullet-horizontal-gap": "5px",
-                                    "--swiper-pagination-bullet-width":" 30px",
+                                    "--swiper-pagination-bullet-width": " 30px",
                                     "--swiper-pagination-bullet-height": "3px"
-                                  }}
+                                }}
                                 className="mySwiper">
                                 <SwiperSlide>
                                     <Image src={props.image7} alt='' className='img-fluid GB-image' ></Image>
@@ -146,7 +153,10 @@ function Slider_one(props) {
                             <div className=" my-4">
                                 <Fragment>
                                     <h4 className='p-3 carousel-heading'>{isActive ? `${props.heading3}` : ' '}</h4>
-                                    <div className='px-3 carousel-about'>{isActive ? `${props.about3}` : ' '} </div>
+                                    <div
+                                        className='px-3 carousel-about'
+                                        dangerouslySetInnerHTML={{ __html: isActive ? props.about3 : '' }}
+                                    ></div>
                                 </Fragment>
                             </div>
                         </div>
@@ -157,18 +167,18 @@ function Slider_one(props) {
                     {({ isActive }) => (
                         <div>
                             <Swiper slidesPerView={1} loop={true} modules={[Autoplay, Pagination]} centeredSlides={true} autoplay={{
-                                    delay: 2000,
-                                    disableOnInteraction: false
-                                }} pagination={{clickable: true}}
+                                delay: 2000,
+                                disableOnInteraction: false
+                            }} pagination={{ clickable: true }}
                                 style={{
                                     "--swiper-pagination-color": "white",
                                     "--swiper-pagination-bullet-inactive-color": "#999999",
                                     "--swiper-pagination-bullet-inactive-opacity": "1",
                                     "--swiper-pagination-bullet-size": "10px",
                                     "--swiper-pagination-bullet-horizontal-gap": "5px",
-                                    "--swiper-pagination-bullet-width":" 30px",
+                                    "--swiper-pagination-bullet-width": " 30px",
                                     "--swiper-pagination-bullet-height": "3px"
-                                  }}
+                                }}
                                 className="mySwiper">
                                 <SwiperSlide>
                                     <Image src={props.image10} alt='' className='img-fluid GB-image' ></Image>
@@ -186,7 +196,10 @@ function Slider_one(props) {
                             <div className=" my-4">
                                 <Fragment>
                                     <h4 className='p-3 carousel-heading'>{isActive ? `${props.heading4}` : ' '}</h4>
-                                    <div className='px-3 carousel-about'>{isActive ? `${props.about4}` : ' '} </div>
+                                    <div
+                                        className='px-3 carousel-about'
+                                        dangerouslySetInnerHTML={{ __html: isActive ? props.about4 : '' }}
+                                    ></div>
                                 </Fragment>
                             </div>
                         </div>

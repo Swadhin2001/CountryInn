@@ -11,6 +11,15 @@
   font-family: 'Brandon';
   src: url('../fonts/BrandonGrotesque-Light.woff');
 }
+.f-s-16{
+  font-size: 16px;
+}
+.font-Brandon{
+  font-family: Brandon;
+}
+.color-black{
+  color: black;
+}
 .upcoming-hotel-heading{
   font-family: Trajan;
   font-size: 30px;
