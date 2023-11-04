@@ -1355,7 +1355,9 @@ a {
   .booking-widget {
     flex-direction: column;
   }
-
+  .swiper-data .room-info li {
+    display: grid;
+}
   .booking-widget .form-group,
   .booking-widget .inner-addon.right-addon,
   .booking-widget label,
