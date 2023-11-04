@@ -11,7 +11,19 @@
   font-family: 'Brandon';
   src: url('../fonts/BrandonGrotesque-Light.woff');
 }
-
+.upcoming-hotel-heading{
+  font-family: Trajan;
+  font-size: 30px;
+  line-height: 45px;
+  font-weight: 400;
+}
+.upcoming-hotels-p{
+  padding: 3px;
+  font-family: Trajan;
+  font-size: 12px;
+  line-height: 14px;
+  font-weight: 500;
+}
 .vrindavan-mid-p{
   font-family: Trajan;
   font-size: 16px;

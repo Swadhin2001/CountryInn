@@ -44,7 +44,7 @@ function bhimtal() {
   return (
     <>
       <Navbar opacity = "0.6"></Navbar>
-      <Herosection banner_heading= {<fragment>COUNTRY INN TARIKA RIVERSIDE RESORT, <br /> JIM CORBETT</fragment>}image= {banner_image} text_color="text-white" heading = "COUNTRY INN NATURE RESORT, BHIMTAL" about = {<fragment>
+      <Herosection banner_heading= {<fragment>COUNTRY INN TARIKA RIVERSIDE RESORT, <br /> JIM CORBETT</fragment>}image= {banner_image} text_color="text-white" heading = "COUNTRY INN TARIKA RIVERSIDE RESORT, JIM CORBETT" about = {<fragment>
         <div>
         Set in the natural surroundings of the forest, only 250 metres away from the pristine Kosi River and Himalayas framing the backdrop, Country Inn Tarika Riverside Resort, Jim Corbett is an ideal base to explore the rich diversity of Jim Corbett. With inspirational architecture and landscaped gardens, the resort features an outdoor swimming pool, game arcade, a unique bonfire area and two dining outlets including ‘The Courtyard’, a multi-cuisine restaurant and ‘The Kebab Factory’, an Indian specialty restaurant to relish an unlimited feast of some celebrated kebabs and curries of India.
         </div>

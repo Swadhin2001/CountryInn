@@ -11,16 +11,16 @@ function upcoming_hotels() {
     <div >
       <Navbar opacity= "0.6"></Navbar>
       <div style={{"backgroundImage" : `url(${banner_image.src})`}} className='hero-banner'/>
-            <h2 className='text-center pt-5 mt-5'>OUR UPCOMING HOTELS</h2>
+            <h2 className='text-center pt-5 mt-5 upcoming-hotel-heading'>OUR UPCOMING HOTELS</h2>
             <div className="container pb-5 my-5">
               <div className="row">
                 <div className="col-md-4">
                   <Image src= {image1} alt="" className='upcoming-hotel-image'/>
-                  <p>Corbett Patkot, April 2024</p>
+                  <p className='upcoming-hotels-p'>Corbett Patkot, April 2024</p>
                 </div>
                 <div className="col-md-4">
                   <Image src= {image2} alt="" className='upcoming-hotel-image'/>
-                  <p>RAIPUR, DECEMBER 2024</p>
+                  <p className='upcoming-hotels-p'>RAIPUR, DECEMBER 2024</p>
                 </div>
               </div>
             </div>
