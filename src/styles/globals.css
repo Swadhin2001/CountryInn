@@ -11,6 +11,7 @@
   font-family: 'Brandon';
   src: url('../fonts/BrandonGrotesque-Light.woff');
 }
+
 .f-s-16{
   font-size: 16px;
 }
@@ -616,7 +617,13 @@ a {
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
+  padding: 10px 20px !important;
   color: #333333;
+}
+
+.dropdown-toggle:focus {
+  border-color: transparent !important; /* Set border color to transparent */
+  box-shadow: none !important; /* Remove box shadow */
 }
 
 .nav-link {
@@ -1366,5 +1373,14 @@ a {
     max-width: 100%;
     width: 100%;
     margin-right: 0;
+  }
+  .dropdown-menu{
+    position: relative !important;
+    top:0 !important;
+    left: -12px !important;
+  }
+  .dropdown-item{
+    padding: 10px 10px !important;
+    margin: 0px !important;
   }
 }

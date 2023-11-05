@@ -1,6 +1,7 @@
 import Herosection from '@/components/Herosection'
 import Navbar from '@/components/Navbar'
 import React from 'react'
+import Head from 'next/head'
 import { motion } from 'framer'
 import logo_image from '@/assets/tarika-goa-logo.png'
 import Image from 'next/image'
@@ -43,6 +44,10 @@ import slider_image17 from '@/assets/GoaClassicRoom1.jpg'
 function tarika_goa() {
   return (
     <>
+      <Head>
+        <title>COUNTRY INN TARIKA GOA, VARCA BEACH</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
       <Navbar opacity ="0.6"/>
       <Herosection image = {banner_image} banner_heading = "Country Inn Tarika Goa, Varca Beach" text_color ="text-white" about = {<fragment>
         <div className='section-title text-center mb-2'>

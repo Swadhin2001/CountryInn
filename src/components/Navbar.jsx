@@ -10,7 +10,7 @@ function Navbar(props) {
     const [opacity, setOpacity] = useState(`${props.opacity}`);
     const [shadow, setShadow] = useState('');
     const [nav_mobile, setNav_mobile] = useState('');
-    const [btn, setBtn] = useState ();
+    const [btn, setBtn] = useState();
     const Scroll = () => {
         if (scrollY >= 100) {
             setOpacity("1");
@@ -21,18 +21,18 @@ function Navbar(props) {
             setShadow("");
         }
     }
-    const close_btn =()=>{
-      setNav_mobile ('');
-      setBtn ();
+    const close_btn = () => {
+        setNav_mobile('');
+        setBtn();
     }
-    const click_btn =()=>{
-      setNav_mobile ('navbar-mobile');
-      setOpacity ("1");
-      setBtn (
-        <i className='mobile-nav-toggle' onClick={close_btn}>
-          <CloseIcon/>
-        </i>
-      )
+    const click_btn = () => {
+        setNav_mobile('navbar-mobile');
+        setOpacity("1");
+        setBtn(
+            <i className='mobile-nav-toggle' onClick={close_btn}>
+                <CloseIcon />
+            </i>
+        )
     }
 
     if (typeof window !== "undefined") {
@@ -53,11 +53,14 @@ function Navbar(props) {
                             <span className="navbar-toggler-icon" onClick={click_btn}> </span>
                         </button>
                         <div className={`collapse navbar-collapse ${nav_mobile}`} id="navbarNavDropdown">
-                          <div className='navbar-toggler'>
-                            {btn}
-                          </div>
+                            <div className='navbar-toggler'>
+                                {btn}
+                            </div>
                             <ul className="navbar-nav navbar-nav-mobile">
-                                <li className="nav-item dropdown ">
+                                <li className="nav-item dropdown " onMouseEnter={() => {
+                                    const dropdown = document.querySelector('.dropdown-toggle');
+                                    dropdown.click();
+                                }}>
                                     <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                         RESORTS
                                     </a>
@@ -89,14 +92,14 @@ function Navbar(props) {
                                 <li className="nav-item">
                                     <a className="nav-link" href="/contact">CONTACT US</a>
                                 </li>
-                            
+
                             </ul>
                         </div>
                     </div>
 
                 </div>
             </nav>
-            </>
+        </>
     )
 }
 

@@ -1,6 +1,7 @@
 import Herosection from '@/components/Herosection'
 import Navbar from '@/components/Navbar'
 import React from 'react'
+import Head from 'next/head'
 import { motion } from 'framer'
 import Vrindavan_slider from '@/components/Slick_slider'
 import banner_image from '@/assets/vrindavan-hero-5.jpg'
@@ -33,6 +34,10 @@ import Slider_3 from '@/components/Slider_3'
 function vrindavan() {
   return (
     <>
+      <Head>
+        <title>COUNTRY INN RESORT, VRINDAVAN</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
       <Navbar opacity= "0.6" ></Navbar>
       <Herosection banner_heading= " " backgroundPosition = "bottom center" image= {banner_image} heading = "COUNTRY INN RESORT, VRINDAVAN" about = "In the sacred city of Vrindavan, at a 3-hour drive from New Delhi, Country Inn Resort, Vrindavan is located close to the key temples and tourist attractions. The resort features modern rooms, a multi-cuisine all-day dining restaurant, and an Indian specialty restaurant. It is your perfect base to explore the rich culture of the sacred city."/>
 

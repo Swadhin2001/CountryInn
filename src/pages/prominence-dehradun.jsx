@@ -1,6 +1,7 @@
 import Herosection from '@/components/Herosection_dehradun'
 import Navbar from '@/components/Navbar'
 import React from 'react'
+import Head from 'next/head'
 import { motion } from 'framer'
 import Meeting_and_events_card from '@/components/Meeting_and_events_card'
 import banner_image from '@/assets/Facade_Deharadun-banner.jpg'
@@ -47,6 +48,10 @@ import slider_image22 from '@/assets/D-Restaurant-6.jpg'
 function prominence_dehradun() {
   return (
     <>
+      <Head>
+        <title>COUNTRY INN PREMIER – THE PROMINENCE, DEHRADUN</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
       <Navbar opacity = "0.6"/>
       <Herosection image = {banner_image} backgroundPosition = "center center" banner_heading = "COUNTRY INN PREMIER - THE PROMINENCE, DEHRADUN" about = {<fragment>
         <div className="text-center">

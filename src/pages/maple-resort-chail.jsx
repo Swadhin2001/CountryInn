@@ -1,6 +1,7 @@
 import Herosection from '@/components/Herosection'
 import Navbar from '@/components/Navbar'
 import React from 'react'
+import Head from 'next/head'
 import Slider_4 from '@/components/Slider_4'
 import banner_image from '@/assets/chail-hero-new.jpg'
 import image1 from '@/assets/ma-dine.jpg'
@@ -37,6 +38,10 @@ import Gallery from '@/components/Gallery'
 function maple() {
   return (
     <>
+      <Head>
+        <title>COUNTRY INN MAPLE RESORT, CHAIL</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
       <Navbar opacity = "0.6"></Navbar>
       <Herosection banner_heading= "COUNTRY INN MAPLE RESORT, CHAIL" image= {banner_image} backgroundPosition= "bottom center" text_color = "text-white" heading = "COUNTRY INN MAPLE RESORT, CHAIL" about = "Country Inn Maple Resort, Chail is conveniently located on Kandaghat Chail Road, amidst snow-clad mountains and picturesque landscapes to become your perfect home in the hills. With 30 spacious rooms, tranquil views, lush green lawns, and excellent cuisine, the resort is a tasteful amalgamation of sublime nature and modern aesthetics. A contemporary take to immerse travellers in the local beauty and distinct character of the destination."/>
 

@@ -1,6 +1,7 @@
 import Herosection from '@/components/Amritsar_herosection'
 import Navbar from '@/components/Navbar'
 import React from 'react'
+import Head from 'next/head'
 import { motion } from 'framer'
 import Link from 'next/link'
 import Slider_2 from '@/components/Slick_slider'
@@ -35,6 +36,10 @@ import Slider_3 from '@/components/Slider_3'
 function amritsar() {
   return (
     <>
+      <Head>
+        <title>COUNTRY INN HALL OF HERITAGE, AMRITSAR</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
       <Navbar opacity="0.6"></Navbar>
       <Herosection banner_heading="COUNTRY INN HALL OF HERITAGE, AMRITSAR" text_color="text-white" image={banner_image} heading="COUNTRY INN HALL OF HERITAGE, AMRITSAR" about="Located only 800 meters away from the holy shrine, the stunning Golden Temple, Country Inn Hall of Heritage, Amritsar welcomes you to the city draped in rich history, culture, and traditions. The moment you step into the lively by-lanes of Amritsar, you're embraced by the bustling streets, aroma of the local cuisine, and the strain of devotional music. In addition to spiritual enrichment, witness the fervour of the Wagah border, located at a short drive from the hotel. After an unforgettable day of sightseeing, satiate your desire for a wholesome meal, with flavourful cuisine at our multi-cuisine restaurant - Heritage." />
 

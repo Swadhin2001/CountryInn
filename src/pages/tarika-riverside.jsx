@@ -1,6 +1,7 @@
 import Herosection from '@/components/Herosection'
 import Navbar from '@/components/Navbar'
 import React from 'react'
+import Head from 'next/head'
 import { motion } from 'framer'
 import Image from 'next/image'
 import Link from 'next/link'
@@ -43,6 +44,10 @@ import Slider_3 from '@/components/Slider_3'
 function bhimtal() {
   return (
     <>
+      <Head>
+        <title>COUNTRY INN TARIKA RIVERSIDE RESORT,JIM CORBETT</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
       <Navbar opacity = "0.6"></Navbar>
       <Herosection banner_heading= {<fragment>COUNTRY INN TARIKA RIVERSIDE RESORT, <br /> JIM CORBETT</fragment>}image= {banner_image} text_color="text-white" heading = "COUNTRY INN TARIKA RIVERSIDE RESORT, JIM CORBETT" about = {<fragment>
         <div>

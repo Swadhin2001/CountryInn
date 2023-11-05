@@ -2,6 +2,7 @@ import Herosection from '@/components/Herosection'
 import Navbar from '@/components/Navbar'
 import React from 'react'
 import Link from 'next/link'
+import Head from 'next/head'
 import Slider_2 from '@/components/Slider_2'
 import banner_image from '@/assets/mussorie-hero-1.jpg'
 import image1 from '@/assets/junglesetup2.jpg'
@@ -43,6 +44,10 @@ import Mussoorie_card from '@/components/Mussoorie_card'
 function mussoorie() {
   return (
     <>
+      <Head>
+        <title>COUNTRY INN PREMIER PACIFIC RESORT, MUSSOORIE</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
       <Navbar opacity = "0.6"></Navbar>
       <Herosection banner_heading= {<fragment>COUNTRY INN PREMIER PACIFIC RESORT, <br /> MUSSOORIE</fragment>} backgroundPosition = "center center" text_color = "text-white" image= {banner_image} heading = "COUNTRY INN PREMIER PACIFIC RESORT, MUSSOORIE" about = "Nestled amidst the picturesque hills, Country Inn Premier - Pacific, Mussoorie is conveniently located at a walking distance of 500 meters from the heart of the town Mall Road and close to the attractions like Gun Hill and Kempty Falls, offering an ease to explore the destination. The mountain resort boasts of 48 well-appointed rooms, awe-inspiring views eliciting a restful state of mind and delightful experiences, promising guests a rejuvenating and soul-filling stay."/>
 

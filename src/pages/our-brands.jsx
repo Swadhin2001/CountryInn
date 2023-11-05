@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import banner_image from '@/assets/ourgetwaysbhimtal.jpg'
 import Navbar from '@/components/Navbar'
 import Image from 'next/image'
+import Head from 'next/head'
 import logo_image1 from '@/assets/cihr.jpg'
 import logo_image2 from '@/assets/ciphr.jpg'
 import logo_image3 from '@/assets/ciehr.jpg'
@@ -258,6 +259,10 @@ function our_brands() {
 
   return (
     <>
+      <Head>
+        <title>COUNTRY INN - Our Brand</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
       <Navbar></Navbar>
       <div style={{ "backgroundImage": `url(${banner_image.src})` }} className='hero-banner our-brands-banner'  />
       <div className="bg-light pb-5 mb-4">

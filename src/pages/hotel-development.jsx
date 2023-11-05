@@ -1,4 +1,5 @@
 import React from 'react'
+import Head from 'next/head'
 import Navbar from '@/components/Navbar'
 import banner_image from '@/assets/hotel-developement-banner.jpg'
 import Footer from '@/components/Footer'
@@ -15,7 +16,11 @@ import image2 from '@/assets/sushil_amlani.jpg'
 
 function hotel_developement() {
   return (
-    <div >
+    <>
+      <Head>
+        <title>Country Inn Resorts | Hotel Development</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
       <Navbar opacity="0.6"></Navbar>
       <div style={{ "backgroundImage": `url(${banner_image.src})` }} className='hero-banner' />
       <div className='d-flex justify-content-center hero-padding'>
@@ -159,7 +164,7 @@ function hotel_developement() {
         </section>
 
       <Footer />
-    </div>
+    </>
   )
 }
 
