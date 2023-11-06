@@ -1,9 +1,9 @@
 import React, { useState } from 'react'
-import DatePicker from "react-datepicker";
 import 'bootstrap/dist/css/bootstrap.css'
 import "bootstrap/dist/css/bootstrap.min.css"
 import "react-datepicker/dist/react-datepicker.css";
 import { addDays } from "date-fns";
+import DatePicker from "react-datepicker";
 
 
 function Form() {

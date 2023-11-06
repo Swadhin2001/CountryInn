@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import emailjs from "emailjs-com";
 
+
 const ContactForm = () => {
   const [formData, setFormData] = useState({
     firstName: "",
@@ -12,6 +13,7 @@ const ContactForm = () => {
     contactNo: "",
     details: "",
   });
+
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -29,10 +31,13 @@ const ContactForm = () => {
 
     const templateId = "template_8l2uvhd";
 
+    const publicKey = "7kBtHv_JINa7tjd65";
+
     emailjs
-      .send(serviceId, templateId, templateParams)
+      .send(serviceId, templateId, templateParams, publicKey)
       .then(
         (response) => {
+          alert ("Email sent Successfully!");
           console.log("Email sent:", response);
         },
         (error) => {
@@ -60,7 +65,7 @@ const ContactForm = () => {
           SUBMIT DETAILS
         </h3>
         <div className="container">
-          <form className="form-card" onSubmit={handleSubmit}>
+          <form className="form-card" >
             <div className="row justify-content-between text-start my-3">
               <div className="form-group col-sm-6 flex-column d-flex">
                 <label className="form-control-label">
@@ -165,7 +170,6 @@ const ContactForm = () => {
                   name="details"
                   rows={4}
                   cols={50}
-                  // placeholder="Enter your message here..."
                   value={formData.details}
                   onChange={handleChange}
                 />
@@ -173,7 +177,7 @@ const ContactForm = () => {
             </div>
             <div className="row justify-content-center text-center my-3">
               <div className="form-group col-sm-6">
-                <button type="submit" className="btn submit-btn color-gold-bg text-white">
+                <button type="submit" className="btn submit-btn color-gold-bg text-white" onClick={handleSubmit}>
                   SUBMIT
                 </button>
               </div>
