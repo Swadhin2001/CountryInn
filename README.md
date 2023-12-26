@@ -23,7 +23,13 @@ This Next.js application serves as a guide for exploring a beautiful city, provi
 
 ## Home Page
 <img width="1710" alt="Screenshot 2023-12-26 at 11 58 01 PM" src="https://github.com/Swadhin2001/CountryInn/assets/95471286/8f406ecb-c3ed-4663-848d-b752b427a4fb">
+
+
+
 <img width="1710" alt="Screenshot 2023-12-27 at 12 01 57 AM" src="https://github.com/Swadhin2001/CountryInn/assets/95471286/ed3eaac0-d185-47a5-9347-6b5cb6af8d44">
+
+
+
 <img width="1710" alt="Screenshot 2023-12-26 at 11 58 31 PM" src="https://github.com/Swadhin2001/CountryInn/assets/95471286/8e8c0e27-72cc-4f77-9900-4e8ed088057e">
 
 
